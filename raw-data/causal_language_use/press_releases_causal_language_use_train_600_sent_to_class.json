@@ -1,0 +1,2402 @@
+[
+  {
+    "question": "Nudging doctors in intensive care unit reduces deaths",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "Successful solo rock pop stars twice as likely to die early as those in a band",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Caesarean section delivery may double the risk of subsequent childhood obesity, finds research published online in the Archives of Disease in Childhood.",
+    "gold_answer": "Conditional causal"
+  },
+  {
+    "question": "Concern over  excessive  doses of thyroid drugs for older patients",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "Study  Repeated surgeries appear to extend life of patients with deadliest of brain cancers",
+    "gold_answer": "Conditional causal"
+  },
+  {
+    "question": "Current UK procedures to screen new immigrants for tuberculosis (TB) fail to detect more than 70 per cent of cases of latent infection, according to a new study published in The Lancet Infectious Diseases.",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "The authors of the review concluded that most individual red flags were poor at diagnosing spinal malignancies and call for further studies focused on combinations of red flags.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "A new study, conducted by researchers in the Center for Injury Research and Policy of The Research Institute at Nationwide Children's Hospital, examined boxing injuries among participants 6 years of age and older from 1990 to 2008.",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "The success of procedures, such as angioplasty or stent placement, in treating women with leg PAD was revealed in a Journal of the American College of Cardiology study.",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "High dietary salt may worsen multiple sclerosis symptoms",
+    "gold_answer": "Conditional causal"
+  },
+  {
+    "question": "The study is published in the August 2, 2011, print issue of Neurology&reg;, the medical journal of the American Academy of Neurology.",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "This is the key finding from new research, published in PLoS Medicine, which evaluated the causal relationship between BMI and heart disease in 76,000 individuals.",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "Researchers from the University of Leicester Departments of Health Sciences and Cardiovascular Sciences revealed that women who are sedentary for most of the day were at a greater risk from exhibiting the early metabolic defects that act as a precursor to developing type 2 diabetes than people who tend to sit less.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Lifelong brain stimulating habits linked to lower Alzheimer s protein levels",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "The U.S. Food and Drug Administration approved PCV13 for use beginning in 2010 after a series of trials.",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "A Kansas State University epidemiologist is helping cats, pet owners and soldiers stay healthy by studying feline tularemia and the factors that influence its prevalence.",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "While the exact cause for this phenomenon is unknown, the human papillomavirus (HPV) may be to blame.",
+    "gold_answer": "Conditional causal"
+  },
+  {
+    "question": "Breast feeding okay for mothers taking immunosuppressant drug",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "Getting vaccinated against the flu lowers kidney transplant recipients' risk of organ loss and death, according to a study appearing in an upcoming issue of the Clinical Journal of the American Society Nephrology (CJASN).",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "In fact, a new study by this BYU professor concludes that improvements in U.S. air quality since 1990 have sparked a 35 percent reduction in deaths and disability specifically attributable to air pollution.",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "Drugs warning    check the label",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "Insurance status may influence transfer decisions in trauma cases  Stanford study reveals",
+    "gold_answer": "Conditional causal"
+  },
+  {
+    "question": "The lifetime risk for rupture of a brain aneurysm depends heavily on the patient's overall load of risk factors.",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "A screening program for abdominal aortic aneurysms, integrated into an electronic health record,  dramatically reduced the number of unscreened at-risk men by more than 50 percent within 15 months, according to a Kaiser Permanente study published today in the Journal of Vascular Surgery.",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "In fact, for women and African Americans, it more than doubles the risk.",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "The team is the first in the world to use patients' own cells to build tailor-made urinary tubes and successfully replace damaged tissue.",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "Iodine is absorbed from food and plays a key role in brain development.",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "Total sleep duration is shorter and punctuated by more frequent waking at night, the research shows.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Thousands of patients prescribed high risk drugs",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "Better use of lighting in hospital rooms may improve patients  health",
+    "gold_answer": "Conditional causal"
+  },
+  {
+    "question": "Men have borne the brunt of worsening mental health across the population of England since the start of the economic downturn in 2008, reveals research published in the online journal BMJ Open.",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "Their findings, published today in the online edition of Journal of the American Geriatrics Society, suggests that \"nature\" (in the form of protective longevity genes) may be more important than \"nurture\" (lifestyle behaviors) when it comes to living an exceptionally long life.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Higher flu vaccination rates for health care personnel can dramatically reduce the threat of flu outbreak among nursing home residents, according to a study published in the October issue of Infection Control and Hospital Epidemiology, the journal of the Society for Healthcare Epidemiology of America.",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "The authors say their findings require confirmation, but add to a growing body of evidence suggesting a possible link between long term cardiovascular risks and certain antibiotics, known as macrolides.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Yet true traumatic brain injury is uncommon.",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "The study found that the level of urinary eosinophil protein-X (u-EPX), a marker of inflammatory cells, in newborn babies was linked to higher risk of allergic sensitization, nasal eosinophilia and eczema at six years.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Mining information contained in clinical notes could yield early signs of harmful drug reactions",
+    "gold_answer": "Conditional causal"
+  },
+  {
+    "question": "Heart disease patients with positive attitudes are more likely to exercise and live longer, according to new research in the American Heart Association journal Circulation: Cardiovascular Quality and Outcomes.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "The study, published in the journal Respirology, found that patients with the condition who also cough are more likely to develop advanced forms of the disease that may be life threatening.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Difficult to diagnose cases of infectious endocarditis solved with SPECT CT imaging agent",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "A new study published in the international Nordic journal Acta Obstetricia et Gynecologica Scandinavica (AOGS) reveals that inducing labor in the weeks around term, or from week 39 to week 41, is not connected with higher rates of cesarean section compared with waiting for a later spontaneous or induced labor.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Though the displacement may have occurred over time, a UT Southwestern Medical Center researcher suggests that routine sonograms after IUD placement would in the least confirm proper initial positioning.",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "But with the first day of school just passed, many children are at increased risk for sleep breathing disorders that can impair their mental and physical development and hurt their academic performance.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "People who stop using smokeless tobacco after a heart attack may extend their life expectancy similar to people who stop smoking, according to new research in the American Heart Association journal Circulation.",
+    "gold_answer": "Conditional causal"
+  },
+  {
+    "question": "Can poor sleep lead to dementia",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "As reported in the August issue of The Journal of Nuclear Medicine, this treatment may assist in bringing nuclear medicine to the forefront of clinical management.",
+    "gold_answer": "Conditional causal"
+  },
+  {
+    "question": "Pioneering biophotonics technology developed at Northwestern University is the first screening method to detect the early presence of ovarian cancer in humans by examining cells easily brushed from the neighboring cervix or uterus, not the ovaries themselves.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Stopping statin therapy increases risk of death for rheumatoid arthritis patients",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "Several types of job carried out by future fathers may be linked to an increased risk of birth defects in their babies, suggests research published online in Occupational and Environmental Medicine.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Flame retardants linked to lower birth weight babies",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Traffic noise increases the risk of having a stroke",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "A genetic defect in sex cells may predispose to childhood leukemia",
+    "gold_answer": "Conditional causal"
+  },
+  {
+    "question": "Increasing severity of erectile dysfunction is a marker for increasing risk of cardiovascular disease and death",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "The study, led by the University of Dundee, also found a combination of statins and the drug ezetimibe showed no improved survival rate, although researchers caution this finding needs further testing.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Patients with severe non inflammatory respiratory disease face anemia risk",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Wet wraps cut need for drugs in kids with eczema",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "Such early assessments, they say, may minimize complications associated with the sometimes hazelnut-sized tumors, called vestibular schwannomas.",
+    "gold_answer": "Conditional causal"
+  },
+  {
+    "question": "A new study finds patients placed in Contact Precautions (Contact Isolation) were twice as likely to report perceived problems with care compared to patients without Contact Precautions, placing the common infection control practice at odds with hospital interests.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Referral to high volume hospitals for operations fails to improve outcomes statewide",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "A case-control study Online First doi 10.1136/jnnp-2012-302420] Chronic stress, prompted by major life stressors and type A personality traits, is linked to a high risk of stroke, finds research published online in the Journal of Neurology Neurosurgery and Psychiatry.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Penn study finds living kidney donation does not increase risk of death or heart disease for older",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "Published in the journal Pediatric Emergency Care (Epub ahead of print), the study found externalizing symptoms, such as severe behaviors tied to aggression, were the leading cause of ED visits among children with ASD.",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "The fungal infection invasive aspergillosis (IA) can be life threatening, especially in patients whose immune systems are weakened by chemotherapy or immunosuppressive drugs.",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "Previous studies in Japan suggested smoking reduced life expectancy by only a few years compared with about ten years in Britain and the USA.",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "A report on the research, published online Oct. 16 in the World Journal of Surgery, highlights not only an opportunity for U.S. hospitals to help relieve the global burden of surgically treatable diseases, but also a means of reducing the cost and environmental impact of medical waste disposal at home.",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "Split liver transplantation carries no increased risk of failure in either recipient, allowing surgeons to safely save two lives from a single donated organ (graft), according to new research from Boston Children's Hospital published online in the Journal of the American College of Surgeons.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Concern about overexposure to radiation due to excessive use of medical imaging has come to the fore in recent years.",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "Research has established that taking folic acid supplements during pregnancy reduces the risk of bearing a child with neural tube defects, but little is known about the relationship between prenatal folic acid and neurodevelopment after birth.",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "The study also shows that, while survival of patients with early onset type 1 diabetes (age 0-14 years) has improved with time, survival of patients with late onset type 1 diabetes (age 15-29 years) has deteriorated since the 1980s.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Hip impingement (femoracetabular impingement) may be a risk factor of osteoarthritis (OA) of the hip.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Study  Standardized child booster seat laws would save lives",
+    "gold_answer": "Conditional causal"
+  },
+  {
+    "question": "It's not how old but how frail patients are that can predict how well they will fare after a melanoma diagnosis.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Prehospital stroke alerts by emergency medical services (EMS) personnel can shorten the time to effective treatment with \"clot-busting\" drugs for patients with stroke, according to a report in the March issue of Neurosurgery, official journal of the Congress of Neurological Surgeons.",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "For the research, scientists analyzed all of the studies that have looked at antidepressant use and stroke, which included 16 studies with more than 500,000 total participants.",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "Islet cell transplantation after pancreas removal may help preserve normal blood sugar",
+    "gold_answer": "Conditional causal"
+  },
+  {
+    "question": "Mammography benefits women over 75",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "Obesity drops among children  enrolled in NY state WIC nutrition program",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Mothers with asthma may be more vulnerable, the findings indicate.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Generic medications currently account for over 70 percent of prescriptions dispensed.",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "This time of year many people make resolutions to live a healthier lifestyle, exercise more, lose weight and eat better.",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "Why that is the case, and which consequences egg donation may have for women is the subject of a review article by Ulrich Pecks and co-authors from the University Hospital Aachen in the current issue of Deutsches &#196;rzteblatt International (Dtsch Arztebl In 2011; 1083]: 23-31).",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "Coronary artery stenting viable palliative option for infants and toddlers",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "Studies have shown that bariatric operations can alleviate chronic health issues like diabetes and arthritis for extremely obese people.",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "It also describes some of the first evidence from humans that certain flame retardants may interfere with thyroid hormone signaling during pregnancy, which is critical to fetal brain development.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Women with polycystic ovary syndrome are more likely to have problems with pregnancy regardless of whether they are undergoing fertility treatment, claims new research published on bmj.com today.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "The H1N1 virus was new, and most of the cases occurred among young people.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "In an analysis of nearly 2,500 Latino and African-American children with asthma, the researchers found that children between age 8 and 17 with acute asthma symptoms were far more likely to have had mothers who smoked during pregnancy, even when the team controlled for elements such as education, socioeconomic level and childhood exposure to tobacco smoke.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Mayo Clinic  Common blood pressure drug linked to severe GI problems",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "A new study suggests that colds and other minor infections may temporarily increase stroke risk in children.",
+    "gold_answer": "Conditional causal"
+  },
+  {
+    "question": "Initial diagnostic test in ED for chest pain did not affect low rate of heart attack",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "Tuberculosis s genetic  family tree  may hold the key to tackling outbreaks quickly and effectively",
+    "gold_answer": "Conditional causal"
+  },
+  {
+    "question": "Breaking the fracture cycle through effective and coordinated models of care",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "Willi syndrome may receive relief from sleep disorders after undergoing an adenotonsillectomy, suggests a new study from Nationwide Children's Hospital published in the November print issue of the Archives of Otolaryngology-Head and Neck Surgery.",
+    "gold_answer": "Conditional causal"
+  },
+  {
+    "question": "New flooring in the living environment of pregnant women significantly increases the risk of infants to suffer from respiratory diseases in their first year of life.",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "Women s height linked to cancer risk",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "American researchers spoke to 77 Illinois hospitalists - doctors who provide care tailored to the needs of hospitalized patients as a general internist, rather than focusing on an organ, disease or a specific patient age-group.",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "Medical advances mean that more underweight and very small babies will survive into adulthood, which might therefore increase the prevalence of fertility problems, say the authors.",
+    "gold_answer": "Conditional causal"
+  },
+  {
+    "question": "However, some previous studies led to a concern that vitamin D supplementation could increase an individual's risk of developing kidney stones.",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "Poor sleep quality increases suicide risk for older adults  Stanford researcher finds",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "In a large analysis led by Dr Wei Gao and Professor Irene Higginson from King's College London, the authors used death registration data collected by the Office of National Statistics to identify all 2.28 million adult cancer deaths in England between 1993 and 2010.",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "Mayo study  Common diabetes drug may treat ovarian cancer",
+    "gold_answer": "Conditional causal"
+  },
+  {
+    "question": "An abdominal aortic aneurysm is a balloon-like bulge in the aorta, which - if ruptured - can result in death.",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "New method to restore skull after brain surgery appears to reduce complication rates",
+    "gold_answer": "Conditional causal"
+  },
+  {
+    "question": "But when combined together, the danger of dying from cardiovascular disease is magnified, a new study finds.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Women win out in gastrointestinal surgery",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Liver stiffness predicts liver failure  cancer and mortality in cirrhotic patients",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Researchers link age, general health and antidepressant use with eye disorders",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Chronic stress linked to high risk of stroke",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Most  locked in syndrome  patients say they are happy",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "New research confirms that a variant on the patatin-like phospholipase-3 (PNPLA3) gene increases risk of steatosis and fibrosis progression in patients with chronic hepatitis C virus (HCV).",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "High blood pressure in pregnancy may spell hot flashes later",
+    "gold_answer": "Conditional causal"
+  },
+  {
+    "question": "\"The study showed that not only exercise but also activities such as cooking, washing the dishes and cleaning are associated with a reduced risk of Alzheimer's disease,\" said study author Aron S. Buchman, MD, with Rush University Medical Center in Chicago and a member of the American Academy of Neurology.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "A new study suggests more than half of people who develop Alzheimer's disease before the age of 60 are initially misdiagnosed as having other kinds of brain disease when they do not have memory problems.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Many patients with rheumatoid arthritis, a crippling disease that causes pain, swelling and eats away at the joints, aren't receiving the much-needed, low-cost medications that can prevent deformity.",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "The research, reported  online in the journal Magnetic Resonance Imaging, is preliminary, involving a small sample of athletes, but nonetheless raises powerful questions about the consequences of the mildest head injury among youths with developing brains, said lead author Jeffrey Bazarian, M.D., M.P.H., associate professor of Emergency Medicine at URMC with a special interest in sports concussions.",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "\"Children whose families engaged with each other over a 20-minute meal four times a week weighed significantly less than kids who left the table after 15 to 17 minutes.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Being overweight or obese does not lead to improved survival among patients with type 2 diabetes.",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "Green light for flu vaccine in transplant recipients",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "Aspirin taken within five days of cardiac surgery is associated with a significant decrease in the risk of major postoperative complications, including renal failure, a lengthy intensive care unit stay and even early death (30-day mortality), according to a study by researchers at Thomas Jefferson University and UC Davis Medical Center set to appear in the journal Annals of Surgery.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "In the first study of its kind, Dr Richard Pinder and colleagues at Imperial found that hospitals in England with lower mortality rates were more likely to have members of staff satisfied with the quality of care they provide.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Temporary staff members working in a hospital's fast-paced emergency department are twice as likely as permanent employees to be involved in medication errors that harm patients, new Johns Hopkins research suggests.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Published in the January-February issue of the Annals of Family Medicine, the research is the first to link the availability of three specific attributes of primary care with reduced risk of death.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Diabetic patients with ovarian cancer who took the drug metformin for their diabetes had a better survival rate than patients who did not take it, a study headed by Mayo Clinic shows.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "That is the finding of a study published early online in Cancer, a peer-reviewed journal of the American Cancer Society.",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "Diaphragm pacing in spinal cord injury successful in weaning patients from ventilators",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "Some men voice complaints of shortened penis following prostate cancer treatment",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Patients with a diagnosis of dementia have approximately three times the rate of diagnosis of urinary incontinence, and more than four times the rate of fecal incontinence, compared with those without a diagnosis of dementia, according to a study in this week's issue of PLOS Medicine by Robert Grant (Kingston University and St. George's, University of London) and colleagues.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Overweight children are far more likely to take prescription medications than children of a normal weight--a trend that adds to already higher health-care costs for treating childhood obesity, according to new research from the University of Alberta.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Standing for long periods during pregnancy may curb fetal growth",
+    "gold_answer": "Conditional causal"
+  },
+  {
+    "question": "Splitting donated livers shown to be safe  allowing doctors to save 2 lives from single organ",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "New research reveals that transplantation of partial livers from deceased adult and teen donors has become less risky for infants and young children, helping to save these young lives.",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "Study finds diagnosing physicians influence therapy decisions for prostate cancer patients",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "While moderate amounts of calcium (around 700 mg a day) are vital for maintaining healthy bones, there is no need to start increasing calcium intake in order to reduce the risk of fractures or osteoporosis in later life, finds a paper published on bmj.com today.",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "UEA research shows gastric surgery halves risk of heart attack in obese people",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "But a new study has found that infection rates can be reduced dramatically by giving patients antibiotics within the first hour of injury.",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "Junk  blood tests may offer life saving information",
+    "gold_answer": "Conditional causal"
+  },
+  {
+    "question": "The study, led by Saad B. Omer from the Emory University Rollins School of Public Health in Atlanta, Georgia, used a large surveillance dataset (the Georgia Pregnancy Risk Assessment Monitoring System) to analyze the relationship between receipt of inactivated influenza vaccine during any trimester of pregnancy by mothers of infants born between June 1, 2004 and September 30, 2006 and their baby being premature and small for gestational age: 4,168 mother-baby pairs were included in the analysis.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Because of this, they may be at higher risk for premature renal failure, according to a study published in Cancer Epidemiology, Biomarkers & Prevention, a journal of the American Association for Cancer Research.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Egg consumption may reduce the risk of type 2 diabetes, according to new research from the University of Eastern Finland.",
+    "gold_answer": "Conditional causal"
+  },
+  {
+    "question": "When cytotoxic T cells are activated, they produce TNF alpha that helps mediate immune responses.",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "Women who were born premature are more likely to have pregnancy complications than women who weren't, according to data analyzed by a team lead by Dr. Anne Monique Nuyt, a neonatal specialist and researcher at the Sainte-Justine Mother and Child University Hospital Center and University of Montreal.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "The new technique, they say, appears to result in fewer complications than standard restoration, which has changed little since its development in the 1890s.",
+    "gold_answer": "Conditional causal"
+  },
+  {
+    "question": "Study shows that women who smoke during pregnancy increase the risk of both obesity and gestational diabetes in their daughters",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "A new study suggests that changing the lighting patterns in hospital rooms so that they're more aligned with normal sleep-wake cycles could help patients feel better with less fatigue and pain.",
+    "gold_answer": "Conditional causal"
+  },
+  {
+    "question": "The cautionary note from researchers at the University of Texas Medical Branch at Galveston is that screening women in this category could subject them \"to greater risks of physical, emotional and economic suffering.\"",
+    "gold_answer": "Conditional causal"
+  },
+  {
+    "question": "New study finds increase in nonfatal food related choking among children in the US",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "The number of Americans with a history of cancer, currently estimated to be 13.7 million, will grow to almost 18 million by 2022, according to a first-ever report by the American Cancer Society in collaboration with the National Cancer Institute (NCI).",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "A new study focusing on how people with dementia become lost while driving, how missing drivers are found, and the role of public notification systems like Silver Alert in these discoveries suggests techniques that may help recover drivers with dementia and prevent potentially harmful incidents.",
+    "gold_answer": "Conditional causal"
+  },
+  {
+    "question": "Unplanned births out of hospital increases risk of infant mortality",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "FATE results prove to be useful in end of life care",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "Multiple sclerosis patients have lower risk of cancer  UBC VCH research",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "A retrospective study of women who became pregnant while using intrauterine devices shows that more than half of the IUDs were malpositioned.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Heart disease patients with positive attitudes likely to exercise  live longer",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Improved glucose control slows progression to end stage renal disease in type 1 diabetes",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "DNA found outside genes plays largely unknown  potentially vital roles",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "Furthermore, patients with dementia and incontinence were more likely to receive incontinence medications and indwelling catheters than those with incontinence but without dementia, the authors state.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Depressed women may face an increased risk of stroke, according to new research reported in Stroke: Journal of the American Heart Association.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Higher surgical costs for adult congenital heart patients is associated with higher rates of inpatient death compared to surgical admissions that incur lower costs, according to a study in Circulation: Quality and Outcomes, a journal of the American Heart Association.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Parental phobia of TCS is widespread and leads to poorly managed eczema in children.",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "This is the conclusion arrived at by Ingrid Schubert, Peter Ihle, and Rainer Sabatowski, whose study of a sample of inhabitants of the state of Hesse with health insurance from a large statutory provider is published in the latest issue of Deutsches &#196;rzteblatt International (Dtsch Arztebl Int 2013; 110(4): 45-51).",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "Diet could combat adverse side effects of quinine",
+    "gold_answer": "Conditional causal"
+  },
+  {
+    "question": "This presents tremendous opportunities for explicitly geographical analyses of all kinds of data.'",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "Test increases odds of correct surgery for thyroid cancer patients",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "Off label marketing of medicines in the US is rife but difficult to control",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "Privately insured surgical patients who had a complication provided hospitals with a 330% higher profit margin than those without a complication, according to new research from Ariadne Labs, a joint center for health system innovation at Brigham and Women's Hospital (BWH) and Harvard School of Public Health (HSPH), Boston Consulting Group, Texas Health Resources, and Massachusetts Eye and Ear Infirmary.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Researchers at  Albert Einstein College of Medicine of Yeshiva University have shown that close supervision by rheumatologists and the use of immunosuppressant drugs improve the survival of lupus patients with end-stage kidney disease--a finding that could reverse long-standing clinical practice.",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "Children exposed to two or more anesthetics before age 3 had more than double the incidence of ADHD than children who had no exposure, says David Warner, M.D., a Mayo Clinic pediatric anesthesiologist and investigator on the observational study.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Published in the June 17, 2014, issue of Circulation, the journal of the American Heart Association, these findings indicate that healthcare reform in Massachusetts has not yet impacted the likelihood of receiving coronary interventions by gender, race/ethnicity or socioeconomic status.",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "Mayo Clinic study suggests coronary stents not harmful to patients with history of metal allergy",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "Women who smoke during pregnancy increase the risk of both obesity and gestational diabetes, in their daughters, concludes research published in Diabetologia, the journal of the European Association for the Study of Diabetes.",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "Widely used sedatives sleeping pills linked to increased fatal pneumonia risk",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "The method, published online in the Lancet Infectious Diseases (15.112) Whole-genome sequencing to delineate Mycobacterium tuberculosis outbreaks: a retrospective observational study compares the genetic information from the TB germs of each patient to determine with a high degree of accuracy whether cases are isolated, or if there is an outbreak of the potentially fatal disease.",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "Improved techniques may help recovery and prevent incidents of missing drivers with dementia",
+    "gold_answer": "Conditional causal"
+  },
+  {
+    "question": "Several studies have shown a relatively consistent relation between shorter sleep duration and increased body weight in children, but doctors are still not sure how sleep and body composition interact in early childhood and whether this shows cause and effect.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Chewing gum is often the culprit for migraine headaches in teens",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "Increased vitamin D levels may prevent a wide range of diseases, according to recent studies.",
+    "gold_answer": "Conditional causal"
+  },
+  {
+    "question": "IPF is the most common of the pneumonias that happen without an apparent cause and previous studies have shown that incidence and deaths from the disease are rising in the UK and the USA.",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "Planning for bacteria in cancer patients may help hospitals fight infections",
+    "gold_answer": "Conditional causal"
+  },
+  {
+    "question": "Parabens are commonly used as preservatives in cosmetics, food products and pharmaceuticals.",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "People with HIV have a 15 years longer life expectancy thanks to improved treatments over the past 13 years, according to a new study published on http://www.bmj.com today.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "The new approach would potentially reduce the number of surgeries the patients have to undergo in the first six months of life from two to just one.",
+    "gold_answer": "Conditional causal"
+  },
+  {
+    "question": "Serious infection can easily be missed in young children and making a diagnosis has been described as \"like finding a needle in a haystack\".",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "In a national study of chicken pox admissions at four participating Australian children's hospitals, researchers found the number of children hospitalized with chicken pox or shingles had dropped by 68% since 2006.",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "But unemployment and a falling household income don't seem to be the culprits, prompting the authors to suggest that it is the threat of losing their jobs that has affected men's mental health.",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "IPF lung disease numbers are rising quickly to become a significant cause of mortality in UK",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "A new study from Rhode Island Hospital shows that guidelines concerning testing patients for possible community-acquired pneumonia due to Legionella may underestimate the number of cases being seen by clinicians.",
+    "gold_answer": "Conditional causal"
+  },
+  {
+    "question": "lung support technology, the University of Michigan's Transplant Center was able to increase the number of kidneys, livers and pancreases available for transplant by about 20 percent.",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "Imaging of the coronary arteries with computed tomography (CT) angiography provides an accurate assessment of arterial plaque and could have a dramatic impact on the management of diabetic patients who face a high risk of heart attacks and other cardiovascular events, according to a new multicenter study published online in the journal Radiology.",
+    "gold_answer": "Conditional causal"
+  },
+  {
+    "question": "Does soy in the diet help with hot flashes?",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "Study examines cognitive and psychosocial function of retired professional hockey players",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "Mining the records of routine interactions between patients and their care providers can detect drug side effects a couple of years before an official alert from the U.S. Food and Drug Administration, a Stanford University School of Medicine study has found.",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "Physicians  belief about obesity causes impacts advice and care",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "African Americans have more severe complications from systemic sclerosis, also known as scleroderma, than Caucasians.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "New studies support limiting daily sodium consumption to less than 1,500 milligrams, according to a new American Heart Association presidential advisory.",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "According to new research published in the August issue of The Journal of Nuclear Medicine, single photon emission computed tomography (SPECT)/computed tomography (CT) with 99mTc-hexamethylpropleneamine oxime-labeled white blood cells (99mTc-HMPAO-WBC) can improve the diagnosis of infectious endocarditis in hard-to-diagnose cases.",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "High triglyceride levels found to predict stroke in older women",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Systemic sclerosis complications more severe in African Americans than Caucasians",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Study shows long term success rates for eradication of Barrett s esophagus after endoluminal therapies",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "\"Poor financial outcomes for hospitals] could lead to poor care,\" said Naleef Fareed, assistant professor of health policy and administration, Penn State.",
+    "gold_answer": "Conditional causal"
+  },
+  {
+    "question": "Lessening the dangers of radiation",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "Gurion University of the Negev (BGU) researchers have determined that preeclampsia is a significant risk factor for long-term health issues, such as chronic hypertension and hospitalizations later in life.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "But new Johns Hopkins research, published in the Journal of the American Medical Association, shows that younger blacks -- those under the age of 50 -- actually do much worse on dialysis than equally sick whites who undergo the same blood-filtering process.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Men who can t produce sperm face increased cancer risk  Stanford led study finds",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "The findings add to a growing body of evidence and suggest that the first trimester of pregnancy may be a critical period for cardiovascular health in later life.",
+    "gold_answer": "Conditional causal"
+  },
+  {
+    "question": "The results reveal that the fatality rate among consumers of both drugs is 14.3 times higher than for the general population, while among those only using cocaine, it is 5.1 times higher.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "The Centers for Disease Control and Prevention estimate that about 1 in 88 children in the U.S. have been identified with an Autism Spectrum Disorder (ASD).",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "Cigarette smoking after cancer diagnosis increases risk of death",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "\"We wanted to learn about possible explanations as to why women with pregnancy complications tend to have more heart disease later in life,\" said Abigail Fraser, M.P.H., Ph.D., School of Social and Community Medicine at the University of Bristol, United Kingdom.",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "Coffee drinking linked to reduced stroke risk in women",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Outpatient electronic prescribing systems don't cut out the common mistakes made in manual systems, suggests research published online in the Journal of the American Medical Informatics Association (JAMIA).",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "Antibiotic therapy reduces mortality by 68 percent in hemodialysis patients",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "For children aged 14 and under, delaying reconstructive surgery for anterior cruciate ligament (ACL) injuries may raise their risk of further injury, according to a new study by pediatric orthopaedic surgeons.",
+    "gold_answer": "Conditional causal"
+  },
+  {
+    "question": "In fact, the reverse may be true, the figures suggest.",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "The study raises concern that treatment targets may need to be modified in the elderly and that regular dose monitoring remains essential even into older age.",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "Frequent arguments with partners, relatives, or neighbours may boost the risk of death from any cause in middle age, suggests research published online in the Journal of Epidemiology & Community Health.",
+    "gold_answer": "Conditional causal"
+  },
+  {
+    "question": "Iodine may alleviate swelling in retinitis pigmentosa patients  retinas",
+    "gold_answer": "Conditional causal"
+  },
+  {
+    "question": "\"It is my impression that patients often ask themselves a range of questions: 'What are my long-term prospects?",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "A study led by researchers at Boston University School of Medicine (BUSM) provides new insight into the impact that pro-inflammatory molecules have on early death in HIV patients who abuse alcohol.",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "Los Angeles, CA (September 18, 2014) Cardiovascular disease is the leading causes of death worldwide and high cholesterol plays a major role in accelerating its progression.",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "A new study finds that people 75 years old or older are less likely to receive any pain medication in hospital emergency departments than middle aged people - those between 35 and 54 years old.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Diabetes  Good self management helps to reduce mortality",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "Around 210,000 children attend hospital every year with a head injury and around 34,500 are admitted.",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "Maternal liver grafts more tolerable for children with rare disease",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Acute kidney injury in hospitalized diabetic patients linked to chronic kidney disease",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Two common conditions in pregnancy may be risk factors for future diabetes according to a Canadian study of over one million women published in this week's PLOS Medicine.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Vaccination of adults with chronic liver disease may prevent infection with hepatitis A and the need for hospitalization.",
+    "gold_answer": "Conditional causal"
+  },
+  {
+    "question": "Worse outcomes for older breast cancer patients with other health problems",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Prenatal exposure to tetrachloroethylene (PCE) in drinking water may increase the risk of stillbirth and placental abruption, according to a new study led by a Boston University School of Public Health researcher.",
+    "gold_answer": "Conditional causal"
+  },
+  {
+    "question": "Smoking was the only known risk factor previously associated with both diseases.",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "Men who are diagnosed as azoospermic -- infertile because of an absence of sperm in their ejaculate -- are more prone to developing cancer than the general population, a study led by a Stanford University School of Medicine urologist has found.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Older people with Alzheimer's disease are less likely to also have cancer, and older people with cancer are less likely to also have Alzheimer's disease, according to the largest study to date on the topic, which appears in the July 10, 2013, online issue of Neurology&reg;, the medical journal of the American Academy of Neurology.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Hyperemesis gravidarum during the second trimester is more likely to cause placental complications",
+    "gold_answer": "Conditional causal"
+  },
+  {
+    "question": "But new research conducted at UC Davis Health System published in The Journal of Clinical Endocrinology and Metabolism provides further evidence that the protective benefits of having a pear-body shape may be more myth than reality.",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "Slim women have a greater risk of developing endometriosis than obese women",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Combined use of recommended heart failure therapies significantly boosts survival odds",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "Delay in surgery can cause irreparable meniscus tears in children with ACL injuries",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "UC Davis cancer researchers have found that older men with early-stage testicular cancer who opt for surveillance with regular CT scans over lymph node removal are at greater risk for secondary cancers.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Of 180 patients in this study in whom a reference committee later identified coronary heart disease (CHD), 37% had originally been misdiagnosed by their family doctors as not having CHD (\"false negative\").",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "Young children exposed to anesthesia multiple times show elevated rates of ADHD",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Transmission of HCV from an infected partner during sex is rare according to new research published in the March issue of Hepatology, a journal published by Wiley on behalf of the American Association for the Study of Liver Diseases (AASLD).",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Abortions are safe when performed by advanced practice nurses and physician assistants  study shows",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "Christine Bouchardy, M.D., Ph.D., professor at the University of Geneva and head of the Geneva Cancer Registry, and colleagues analyzed data from 7,360 women who had breast cancer between 1980 and 2005.",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "Previous research has indicated that salt may alter the autoimmune response, which is implicated in the development of multiple sclerosis (MS), but it is not clear if it has any direct effect on the course of the disease itself.",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "Child ADHD stimulant medication use leads to BMI rebound in late adolescence",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "People with severe psoriasis nearly twice at risk for diabetes",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Regional forms of anesthesia - spinal or epidural (neuraxial) anesthesia and peripheral nerve blocks (PNB) - which only numb the area of the body that requires surgery, provide better pain control and faster rehabilitation and fewer complications than general anesthesia, research shows.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "A team of researchers based in Japan discovered that the trunk angle of inclination -- the angle between the true vertical and a straight line from the first thoracic vertebra to the first sacral vertebra (view image) -- is associated with becoming dependent on help for activities of daily living (ADL).",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Laboratory grown urethras implanted in patients  scientists report",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "Biologic agents provide relief for children newly diagnosed with Crohn s disease",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "Gastric band surgery has big impact on heart disease and stroke risk factors",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "The retrospective study examined the electronic health records of nearly 220,000 men ages 45 and older over a 10-year period who had at least one PSA measurement and no previous diagnosis of prostate cancer.",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "Previous research has indicated that long working hours may increase the risk of birth defects, premature birth, stillbirth and low birthweight.",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "Rate of women with pregnancy associated cancer on the increase",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Osteoarthritis incidence significantly higher among US military personnel",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "NYU Steinhardt researcher pinpoints biological risk factor in obesity related cancers",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "While previous studies have shown an association between ED and CVD risk, this study finds that the severity of ED corresponds to the increased risk of CVD hospitalization and all-cause mortality.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Although prior research showed a major reduction in central-line related bloodstream infections at hospitals using the checklist, the new study is the first to show its use directly lowered mortality.",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "Smartphones are increasingly becoming part of everyday life, but questions remain about the effects of frequent use on sleep.",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "Mothers' vitamin D levels at a gestation of 26 weeks or less were positively related to birth weight and head circumference, and, in the first trimester were negatively associated with risk of a baby being born small for gestational age, according to a recent study accepted for publication in The Endocrine Society's Journal of Clinical Endocrinology & Metabolism (JCEM).",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Chest pain is the most common reason people go to the emergency room in developed countries and accounts for more than 5 million ER visits each year in the United States.",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "The more you sit, the higher your risk of chronic diseases.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Recurrence risk of autism in younger siblings higher than thought",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "St  John s wort can cause dangerous interactions with many common medications",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "Increasing daily calcium will not reduce the risk of fractures in later life",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "And not all systems are the same: some perform worse than others, the study shows.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Skimmed semi skimmed milk does not curb excess toddler weight gain",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "Scientists know that Vitamin D deficiency is not healthy.",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "\"Patients with Prader-Willi syndrome are at risk for sleep disordered breathing as growth hormone commonly used to treat their condition can cause the tonsils and adenoids to enlarge,\" said the study's lead author Kris Jatana, MD, FAAP, with Otolaryngology Head & Neck Surgery at Nationwide Children's.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Canadian researchers have found that maternal multiple sclerosis (MS) is generally not associated with adverse delivery outcomes or risk to their offspring.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Surgery complications linked to chemotherapy delay  U M study finds",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Researchers have found that antiviral therapy may be successful in preventing hepatitis B virus from developing into the most common form of liver cancer, hepatocellular carcinoma (HCC).",
+    "gold_answer": "Conditional causal"
+  },
+  {
+    "question": "Researchers conducted a molecular genetic evaluation (referred to as a postmortem cardiac channel molecular autopsy) in 91 cases of unexplained fetal death (stillbirths) from 2006-2012.",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "Researchers at the Kaiser Permanente Division of Research in Oakland, Calif., studied 580 ethnically diverse women who took part in a multiphasic health checkup at Kaiser Permanente Northern California between1984 and 1996.",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "Shave biopsy is a safe and acceptable method for initial evaluation of melanoma",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "In the United States, older patients with advanced lung cancer make much less use of hospital and emergency room services at the end of life than their counterparts in Ontario but use far more chemotherapy, according to a study published  May 18th online in the Journal of the National Cancer Institute.",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "Even after successful treatment, patients with Cushing's disease  who were older when diagnosed or had prolonged exposure to excess cortisol face a greater risk of dying or developing cardiovascular disease, according to a recent study accepted for publication in The Endocrine Society's Journal of Clinical Endocrinology & Metabolism (JCEM).",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "The surgeons - who studied data from the Kids' Inpatient Database - found spine-related injuries from all-terrain vehicles (ATVs) in the United States are more common in older children and in females, unlike males in most trauma studies.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Drugs that are used for treating Alzheimer's disease in its early stages are linked to a reduced risk of heart attacks and death, according to a large study of over 7,000 people with Alzheimer's disease in Sweden.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Biological agents for rheumatoid arthritis associated with increased skin cancer risk",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Doctors   gut feeling  should not be ignored",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "Bonding and empathy are essential to the patient-physician relationship.",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "Selective serotonin reuptake inhibitor (SSRI) antidepressants taken by a woman during pregnancy do not impact her infant's growth over the first year, reports a new study from a Northwestern Medicine scientist.",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "This is creating significant costs for healthcare providers and causing unnecessary disruptions to patients' lives.",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "This press release is available in French.",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "Nursing leaders from 38 children's hospitals, led by Patricia Hickey, PhD, MBA, RN, FAAN, vice president of critical care and cardiovascular services at Boston Children's Hospital, demonstrated that nursing education and experience significantly impact outcomes for patients who underwent cardiac surgery.",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "In the study, researchers reviewed all pediatric liver transplants nationwide from 1996 to 2010, and compared the outcomes for patients who received liver grafts from their mothers with those for patients who received livers from their fathers.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "The results, based on recent nationwide surveys of nearly 120,000 U.S. adolescents, suggest prevention programs may need to be introduced earlier, in childhood and early adolescence, said James C. Anthony of MSU's Department of Epidemiology and Biostatistics.",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "A new study from researchers at the Hospital of the University of Pennsylvania reports that endoluminal (endoscopic) therapies, combining resection and ablation techniques, for patients with Barrett's esophagus and high-grade dysplasia or early mucosal cancer have a high success rate, with durable results and a low risk of complications.",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "Integrated health care delivery system and electronic health records support medication adherence",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "Identifying risk factors in hospital readmissions could help improve patient care and hospital bottom lines, according to a study recently completed by Georgia State University's Experimental Economics Center and a team from the Emory University School of Medicine.",
+    "gold_answer": "Conditional causal"
+  },
+  {
+    "question": "A computerized checklist system designed to help physicians identify and use the best methods of preventing potentially deadly blood clots in hospitalized trauma patients dramatically reduced the number of these dangerous venous thromboembolisms (VTEs), new Johns Hopkins research suggests.",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "Combination therapy shows promise for rare  deadly cancer caused by asbestos",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "Researchers analyzed the duration of prescription non-steroidal anti-inflammatory drugs (NSAIDs) treatment and cardiovascular risk in a nationwide Danish cohort of patients with prior heart attack.",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "Previous research has linked certain occupations with a higher risk of birth defects in offspring.",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "Green spaces found to increase birth weight    Ben Gurion U  researcher",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "Measurements taken over time of prostate specific antigen, the most commonly used screening test for prostate cancer in men, improve the accuracy of aggressive prostate cancer detection when compared to a single measurement of PSA, according to a Kaiser Permanente study published today in the British Journal of Urology International.",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "Continuous EEG better at identifying oxygen-deprived newborns most at risk",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Some recent studies have found that starting highly active antiretroviral therapy earlier is better.",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "Nearly 55 percent of U.S. infants are placed to sleep with bedding that increases the risk of sudden infant death syndrome, or SIDS, despite recommendations against the practice, report researchers at the National Institutes of Health, the Centers for Disease Control and Prevention, and other institutions.",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "Rare  gene is common in african descendants and may contribute to risk of heart disease",
+    "gold_answer": "Conditional causal"
+  },
+  {
+    "question": "Baldness linked to increased risk of coronary heart disease",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "eclampsia during their first pregnancy (known as preterm pre-eclampsia) - and who don't go on to have any more children - are at greater risk of dying from heart disease in later life than women who have subsequent children, finds a study published on bmj.com today.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "When combined with standard diagnostic tests, functional imaging procedures have been shown to reduce the rate of misdiagnosed cases of infectious endocarditis.",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "The findings from the retrospective cohort study were just published in the Journal of Maternal-Fetal and Neonatal Medicine.",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "More than 87 percent of those homicides are due to firearms, according to the Centers for Disease Control and Prevention.",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "Findings published in Liver Transplantation, a journal of the American Association for the Study of Liver Diseases and the International Liver Transplantation Society, indicate that the recipients' return to normal weight post-transplant was due to an increase in fat mass as body cell mass remained low, indicating a slim body composition with little lean muscle mass or \"skinny fat.\"",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "\"This adds both risk to the patient and significant extra cost,\" said first author of the study Ronald Witteles, MD, assistant professor of cardiovascular medicine and program director of Stanford's internal medicine residency training program, who called the rates of unnecessary use \"shockingly high.\"",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "\"The eye is the window into the brain and by measuring how healthy the eye is, we can determine how healthy the rest of the brain is,\" says Peter A. Calabresi, M.D., a professor of neurology at the Johns Hopkins University School of Medicine, and leader of the studies described in recent issues of The Lancet Neurology and the Archives of Neurology.",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "In fact, the study funded in part by grants from the National Institutes of Health (NIH) and published in the American College of Rheumatology (ACR) journal, Arthritis Care & Research, suggests that walking 6,000 or more steps per day may protect those with or at risk of knee of OA from developing mobility issues, such as difficulty getting up from a chair and climbing stairs.",
+    "gold_answer": "Conditional causal"
+  },
+  {
+    "question": "With the deficiencies in knowledge of tuberculosis--as well as in the practices, programs and strategies used to combat the disease and co-infection with human immunodeficiency virus (HIV)--the spread of multidrug-resistant (MDR) tuberculosis poses a major problem for the health care community.",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "According to the researchers, the method for diagnosis could save lives by getting patients treatment earlier, when the infection is most treatable.",
+    "gold_answer": "Conditional causal"
+  },
+  {
+    "question": "Identifying these conditions early in pregnancy could potentially help reduce complications and manage any difficulties, although more work is needed before the findings can be translated to clinical settings.",
+    "gold_answer": "Conditional causal"
+  },
+  {
+    "question": "The findings are published in the April 19, 2012 online issue of The Journal of Hepatology.",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "The results show that women who regularly consume more than three alcoholic drinks a week for at least 10 years have about half the risk of developing rheumatoid arthritis compared with non-drinkers.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Study finds high levels of flame retardant chemicals in California pregnant women",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "In addition, patients with complications were more than twice as likely to have their chemotherapy delayed for more than 120 days after diagnosis or two months after surgery, which is considered the appropriate timeframe for receiving chemotherapy.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Arrhythmia drug may increase cancer risk",
+    "gold_answer": "Conditional causal"
+  },
+  {
+    "question": "A new study published today in the Journal of Hospital Medicine suggests that \"smoothing\" occupancy over the course of a week could help hospitals reduce crowding and protect patients from crowded conditions.",
+    "gold_answer": "Conditional causal"
+  },
+  {
+    "question": "This press release is available in French.",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "Suicide risk greater for people living at higher elevations",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "A higher proportion of female nurses among intensive care teams may decrease individuals' risk of professional burnout, according to Swiss researchers who studied the factors related to burnout in the high-stress setting of the intensive care unit (ICU).",
+    "gold_answer": "Conditional causal"
+  },
+  {
+    "question": "Results of the research raise serious issues related to temporary nursing staff in particular because they already are a substantial and growing part of the health care workforce owing to the national nursing shortage.",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "Study  Physicians less likely to  bond  with overweight patients",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "The findings underscore the need for effective infection control measures at deployed hospitals where both soldiers and local patients are treated, the study's authors say.",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "Ambulatory monitoring reveals many patients have  white coat  hypertension",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "Illicit drug overdose deaths in Vancouver's Downtown Eastside dropped by 35 per cent after the establishment of Insite, North America's first supervised injection facility, according a new study by researchers at the University of British Columbia and the British Columbia Centre for Excellence in HIV/AIDS.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Sudden allergic reactions can be fatal.",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "Antidepressants linked with increased risks after surgery",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Reducing hospital admissions for asthmatics",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "U.S. sleep specialists from the Mayo Clinic found that the fall rate among the 4,962 patients who took zolpidem during their hospital stay was more than four times as high as the 11,358 who did not take the drug.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "A new analysis has found that coughing may signal trouble for patients with the lung-scarring disease known as idiopathic pulmonary fibrosis.",
+    "gold_answer": "Conditional causal"
+  },
+  {
+    "question": "Make life jackets compulsory for all recreational boaters to save lives, urge experts",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "Adjuvant therapy perhaps not necessary for older breast cancer patients",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "Open operations for gallbladder removal drop 90 percent at 1 institution over 30 years",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "The research is published in the May 3, 2011, print issue of Neurology&reg;, the medical journal of the American Academy of Neurology.",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "Early menopause linked to higher risk of osteoporosis  fracture and mortality",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Immunosuppressive drugs called thiopurines have been found to increase the risk of myeloid disorders, such as acute myeloid leukemia and myelodysplastic syndrome, a rare bone marrow disorder, seven-fold among inflammatory bowel disease (IBD) patients.",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "The more likely culprits include French fries, soda and the occasional box of Crackerjacks.",
+    "gold_answer": "Conditional causal"
+  },
+  {
+    "question": "New data suggest that this difference may be explained by a higher risk of early deaths among patients undergoing HD with central venous catheters, according to a study appearing in an upcoming issue of the Journal of the American Society of Nephrology (JASN).",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "The full results are reported in the Jan. 25 issue of the online journal PLoS ONE.",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "More doesn't mean better when it comes to trauma centers",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Making small lifestyle changes could reduce your risk of having a stroke, according to a new study in the American Heart Association journal Stroke.",
+    "gold_answer": "Conditional causal"
+  },
+  {
+    "question": "When a doctor enters medical orders for such patients, the automated checklist recommends evidence-based best treatments for each patient's needs, usually the regular administration of low-dose blood thinners or the use of compression devices to keep blood flowing in the legs.",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "Women who drink 15 grams or less of alcohol a day (the equivalent of one drink of any alcoholic beverage) at midlife may be healthier when older than women who do not drink at all, who consume more than two drinks a day, or who consume four drinks or more at the one time.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Pre pregnancy body weight affects early development of human embryos",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "Two types of regional anesthesia do not make patients more prone to falls in the first days after having knee replacement surgery as some have previously suggested, according to a study based on nearly 200,000 patient records in the March issue of Anesthesiology.",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "Patients infected with HIV have higher drop out rate for liver transplantation",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Why do people with apple shaped bodies have an increased risk of kidney disease",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Scientists have been investigating this phenomenon for decades, with the topic of spreading depolarizations now of keen interest to the U.S. military because head injuries have emerged as the signature wound of the wars in Iraq and Afghanistan.",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "UK researchers found that the life expectancy of these patients improved significantly between 1996 and 2008, and that earlier diagnosis and timely treatment can increase life expectancy.",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "Lymph node dissection is not essential in small screen detected lung cancers  new research shows",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "Placing children into a mixed reality--part virtual environment and part real world--has great potential for increasing their physical activity and decreasing their risk of obesity, according to University of Georgia researchers.",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "The risk seems to be greatest among those aged between 15 and 44 when first admitted  to hospital for an epileptic seizure, the findings show.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "CT (computed tomography) scans have great medical benefits, but their increasing use since the 1980s has raised some concerns about possible cancer risks, particularly following exposures in childhood.",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "Deformed limbs one of several birth defects linked to smoking in pregnancy",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "You wouldn't brake your car while stepping on the gas--or wash down a sleeping pill with espresso.",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "No difference in death rates among patients exposed to common rheumatoid arthritis drugs",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Findings available in the July issue of Hepatology, a journal published by Wiley on behalf of the American Association for the Study of Liver Diseases, also show that measurement of liver stiffness predicts potential recovery and survival in patients with cirrhosis, adding to the prognosis value provided by the Child-Turcotte-Pugh (CTP) or model for end-stage liver disease (MELD) scores.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Asthmatics at increased risk of pulmonary embolism",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "In a sample of 8,834 patients from across the United States, the researchers looked at how out-of-pocket medication costs affect health outcomes for children.",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "In poorer countries, young children are more likely to die in the months before their mother's death, when she is seriously ill, and also in the period after her death, according to a study by international researchers published in this week's PLOS Medicine.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "A European study investigating the links between diet and disease has found that people who consume more fruit and vegetables have a lower risk of dying from ischaemic heart disease - the most common form of heart disease and one of the leading causes of death in Europe.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "However, there has been very little evidence about how these practices are disseminated in hospitals and whether they are associated with better performance.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Transferring care of HIV patients from doctors in hospitals to nurses in primary health clinics is both clinically successful and cost effective Health outcomes for stable patients with HIV on antiretroviral (anti-HIV) therapy 12 months after their care was transferred to a primary health clinic (a community clinic) where they were managed by nurses were equivalent, or even better, than the outcomes of similar patients on antiretroviral therapy who remained at a hospital-based, doctor-managed outpatient clinic.",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "Migraine associated brain changes not related to impaired cognition",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Simple test in the ambulance saves lives after heart attack  new study finds",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "Better scheduling of admissions can reduce crowding at children s hospitals",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "Patients with longer-lasting chest pain are more likely having a heart attack than those with pain of a shorter duration, according to a study by researchers at Henry Ford Hospital.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Increased risk for cardiac ischemia in patients with PTSD",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "The study, led by Nigam Shah, MBBS, PhD, assistant professor of medicine, will be published online April 10 in Nature Clinical Pharmacology and Therapeutics.",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "Sequencing works in clinical setting to help    finally    get a diagnosis",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "Selective Serotonin Reuptake Inhibitors (SSRIs), the most widely used drugs for the treatment of depression, have been reported to reduce bone formation and increase the risk of bone fracture.",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "New research appearing in the August issue of The Journal of Clinical Psychiatry adds to the growing work linking an infection caused by the Toxoplasma gondii parasite to suicide attempts.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Study maps how city neighborhoods affect diabetes risk",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "Heart surgery increases death risk for cancer survivors who had radiation",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "Findings in the December issue of Liver Transplantation, a journal published by Wiley on behalf of the American Association for the Study of Liver Diseases (AASLD), suggest that continuing increased demand for transplantation is driven by the development of liver cancer in baby boomers with HCV, but that the demand may decrease as patients born in this time period continue to grow older.",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "Referring patients to hospitals that have the largest volume of surgical procedures does not necessarily lead to improved outcomes for the overall population, according to the results of a new study in the February issue of the Journal of the American College of Surgeons.",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "Diet and physical activity may affect one s risk of developing kidney stones",
+    "gold_answer": "Conditional causal"
+  },
+  {
+    "question": "Radiotherapy (RT) after breast conserving surgery (BCS) has been shown to reduce the risk of breast cancer (BC) recurrence.",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "A new study has found that women who stay seated for long periods of time every day are more prone to developing type 2 diabetes, but that a similar link wasn't found in men.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Women who go through the menopause early are nearly twice as likely to suffer from osteoporosis in later life, suggests new research published today (25 April) in BJOG: An International Journal of Obstetrics and Gynaecology.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "The research is published in the September 11, 2012, print issue of Neurology&reg;, the medical journal of the American Academy of Neurology.",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "New research from the UC Davis Comprehensive Cancer Center, published in the Journal of Surgical Research, may help clinicians determine which patients are at highest risk for post-surgical blood clots in the legs or lungs.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "This population-based study of RA patients in Sweden--the first to compare mortality rates among patients treated with individual TNF inhibitors--is now available in Arthritis & Rheumatism, a journal published by Wiley on behalf of the American College of Rheumatology (ACR).",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "Daily walk of just 3km can reduce risk of hospitalization for respiratory problems",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "Longer stay in hospital ICU has lasting impact on quality of life",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "Small lifestyle changes may have big impact on reducing stroke risk",
+    "gold_answer": "Conditional causal"
+  },
+  {
+    "question": "The widely held belief that the UK supply of innovative new medicines has conspicuously dwindled in recent decades, is not borne out by the evidence, reveals research published in the online journal BMJ Open.",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "A new Penn Medicine study shows that remote consultations from dermatologists using a secure smart phone app are reliable at prioritizing care for hospitalized patients with skin conditions.",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "Early age at the onset of seizures and delayed global development were associated with a higher frequency of resistance to antiepileptic drugs (AEDs).",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Eating more fruit and vegetables is linked to a lower risk of dying from ischemic heart disease",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "The restricted availability of defibrillators, and poor understanding of how to use them, are helping to boost the number of deaths from heart attacks occurring outside hospitals, suggests a study of one English county, published online in the journal Heart.",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "Diabetes, donor age, and body mass index (BMI) were also linked to a decrease in use of organs.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "More than 2 million Americans live with atrial fibrillation (AF), an irregular heart rhythm that occurs when the heart's two upper chambers beat erratically, causing the chambers to pump blood rapidly, unevenly and inefficiently.",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "In a large-scale analysis, women who ate the most baked/broiled fish (five or more servings/week) had a 30 percent lower risk of heart failure compared to women who seldom ate it (less than one serving/month).",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "And these differences remained even after researchers took into account how much pain the patients were having, said Timothy F. Platts-Mills, MD, lead author of the study and assistant professor of emergency medicine at the University of North Carolina at Chapel Hill School of Medicine.",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "Between 5 and 20% of pregnant women have a fear of childbirth.",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "In the first study to consider the impact of gender on patient outcomes in major gastrointestinal surgeries, researchers at UC San Diego Health System have found that women are more likely to survive after the procedure than men.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "A mosquito-borne virus that has spread to the Caribbean and Central and South America and has caused isolated infections in Florida often causes joint pain and swelling similar to that seen in patients with rheumatoid arthritis.",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "A study by Columbia University Medical Center (CUMC) researchers has found that the introduction of generic aromatase inhibitors (the most common type of hormone therapy), which are considerably less expensive than their brand-name counterparts, increased treatment adherence by 50 percent.",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "There is growing concern that long-term untreated posttraumatic stress disorder (PTSD) symptoms may increase the risk of developing a number of medical problems, particularly compromised cardiovascular health.",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "Researchers found that from 1991 to 2010, an estimated 45,398 children younger than three years of age were treated in U.S. emergency departments for injuries related to the use of these products.",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "Reduced kidney function may increase the risk of developing kidney and urothelial cancers, according to a study appearing in an upcoming issue of the Journal of the American Society of Nephrology (JASN).",
+    "gold_answer": "Conditional causal"
+  },
+  {
+    "question": "Cam type deformities linked to MRI detected hip damage in asymptomatic young men",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Fluoridating water does not lower IQ  New Zealand research",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "The new study, published in the July 2013 edition of the journal SLEEP, found that pre-existing insomnia symptoms conferred almost as a large of a risk for those mental disorders as combat exposure.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Study finds gout drug may reduce risk of death",
+    "gold_answer": "Conditional causal"
+  },
+  {
+    "question": "A common approach to treating kidney failure by removing waste products from the blood did not improve survival chances for people who suddenly developed the condition, in an analysis led by experts at the University of Pittsburgh School of Medicine.",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "The pattern is even more pronounced when comparing women before menopause with men of the same age.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "A new program designed to increase the overall satisfaction of patients undergoing esophageal surgery has resulted in lower patient costs and reduced times on both the operating table and in the hospital.",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "UCLA researchers develop new tool to predict postoperative liver cancer recurrence after transplant",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Smoking reduces life expectancy by ten years in Japan, but much of the risk can be avoided by giving up smoking, a paper published on bmj.com today shows.",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "Despite Federal Drug Administration regulation of the approval and use of pharmaceutical products, \"off-label\" marketing of drugs (for purposes other than those for which the drug was approved) has occurred in all aspects of the US health care system.",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "In the most comprehensive study of its kind in the world, researchers from the University's Robinson Institute have compared the risk of major birth defects for each of the reproductive therapies commonly available internationally, such as: IVF (in vitro fertilization), ICSI (intracytoplasmic sperm injection) and ovulation induction.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "New initiative could help improve surgical outcomes in children  study suggests",
+    "gold_answer": "Conditional causal"
+  },
+  {
+    "question": "Lower risk of death linked with access to key attributes of primary care  UC Davis study shows",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "New floor covering can lead to breathing problems in babies",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "As people age, their bones lose calcium and they are more at risk of fractures and osteoporosis - this is especially the case for women.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Researchers from Norway found that women with a pre-pregnancy body mass index (BMI) of 40 had an increased risk of vacuum extraction delivery or Cesarean section (C-section).",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Women with a fear of childbirth endure a longer labor finds new research",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Millions of teenagers suffer from acne, and they deal with the embarrassing skin blemishes by taking popular prescription medications such as Accutane or Roaccutane.",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "Could restless sleep cause widespread pain in older folks",
+    "gold_answer": "Conditional causal"
+  },
+  {
+    "question": "Study  Afghan patients a common source of drug resistant bacteria",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "Smoking cessation drug not boosting number of smokers who quit",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "A Clostridium difficile (C. diff) infection is one that can affect the digestive system and most commonly affects people staying in hospital.",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "Mind wandering and driving: responsibility case-control study People whose minds wander whilst driving, especially when intense, are significantly more likely to be responsible for a crash and are threatening safety on the roads, warns a study in the Christmas issue published on bmj.com today.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "A new study suggests that the common diabetes medication metformin may be considered for use in the prevention or treatment of ovarian cancer.",
+    "gold_answer": "Conditional causal"
+  },
+  {
+    "question": "In the past, some physicians have criticized shave biopsies for not providing accurate T (tumor) stage information, thereby complicating treatment planning.",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "Sunbed users are at a 20% increased relative risk of skin cancer compared with those who have never used a sunbed.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "In the study, researchers sought to understand resource use by adults undergoing congenital heart surgery in pediatric hospitals, analyze the association between high resource use and inpatient death, and identify risk factors for high resource use.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "B and risk of developing rheumatoid arthritis among women in the Nurses' Health Study Online First doi 10.1136/annrheumdis-2012-202302] Regular exposure to sunlight--specifically ultraviolet B (UVB)--may reduce the risk of developing rheumatoid arthritis, indicates a large long term study published online in the Annals of the Rheumatic Diseases.",
+    "gold_answer": "Conditional causal"
+  },
+  {
+    "question": "Obese people who have stomach surgery to help them lose weight will halve their risk of heart attack according to new research from a team of doctors at the University of East Anglia, University of Manchester and University of Aberdeen.",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "Otolaryngologists have a wide range of techniques available to them, including CT or \"CAT\" scans, MRI and ultrasound.",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "Study finds strong link between income inequality and readmission risk  but not mortality",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Stefan B&#246;sner and his colleagues present the results of their cross-sectional study in the current edition of Deutsches &#196;rzteblatt International (Dtsch Arztebl Int 2011; 10826]: 445-51).",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "Findings from a recent University of Cincinnati (UC) and Cincinnati Department of Veterans Affairs (VA) Medical Center study show that multiple episodes of acute kidney injury during hospital stays for patients with diabetes are associated with a risk for developing chronic kidney disease.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Cannabis use doubles chances of vehicle crash",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "Receiving the herpes zoster vaccine was associated with a 55 percent reduced risk of developing shingles, according to a Kaiser Permanente study of 300,000 people that appears in the current issue of the Journal of the American Medical Association.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Location of body fat can increase hypertension risk",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "The impact of benzodiazepines on occurrence of pneumonia and mortality from pneumonia: a nested case-control and survival analysis in a population cohort Online First doi 10.1136/thoraxjnl-2012-202374] Commonly prescribed sleeping pills/sedatives may increase the risk of contracting pneumonia by as much as 50% and increase the risk of dying from it, suggests research published online in the journal Thorax.",
+    "gold_answer": "Conditional causal"
+  },
+  {
+    "question": "No increase in commonest preventable cause of intellectual disability over 20 years",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "Findings from a 15-year study published in Acta Obstetricia et Gynecologica Scandinavica, a journal of the Nordic Federation of Societies of Obstetrics and Gynecology, indicate that human error is the most common cause of infant asphyxiation at birth.",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "\"It's reasonable to assume that cerebrovascular damage in the head caused by a traumatic brain injury can trigger either a hemorrhagic stroke when a blood vessel bursts inside the brain] or an ischemic stroke when an artery in the brain is blocked],\" said Herng-Ching Lin, Ph.D., senior study author and professor at the School of Health Care Administration, College of Medicine, Taipei Medical University in Taiwan.",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "Depression is a common problem in patients with chronic rhinosinusitis (CRS) and negatively impacts patients' symptom burden, ability to function, and quality of life (QOL), according to new research published in the March 2011 issue of Otolaryngology - Head and Neck Surgery.",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "The report, Cancer Treatment and Survivorship Facts and Figures, and accompanying journal article published in CA: A Cancer Journal for Clinicians, used data from the NCI-funded Surveillance, Epidemiology, and End Results (SEER) Program to generate brand new estimates of cancer survivor prevalence in the U.S.",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "Longest and largest study of insulin pumps to treat type 1 diabetes in children shows they control blood sugar more effectively and with fewer complications than injections",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "An international multicenter study reports that over-the-scope clip (OTSC) placement is a safe and effective therapy for the closure of gastrointestinal (GI) defects, which includes anastomotic leaks, fistulae and perforations.",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "H1N1 study shows closing schools  other measures effective",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "Type 2 diabetics who have severe hypoglycaemia are at higher risk of cardiovascular disease, a paper published today on bmj.com suggests.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "The study appears online at JAMA Pediatrics.",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "Study examines impact of Massachusetts health law on emergency department visits",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "These results do not support a direct (causal) association between benzodiazepine use and dementia, say the researchers.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Ocular trauma causing open globe injury, or a breach in the wall of the eye, remains an important cause of vision loss, with more than 200,000 open globe injuries occurring worldwide each year.",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "Proponents argue that this approach promotes doctor-patient communication, enhances patient satisfaction, improves health outcomes, and even may lower cost.",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "Egg donation  The way to happy motherhood  with risks and side effects",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "In the first study to compare mental health-related emergency department (ED) visits between children with and without autism spectrum disorders (ASD), researchers found that ED visits are nine times more likely to be for psychiatric reasons if a child has an ASD diagnosis.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Study finds new pneumococcal vaccine appears to be as safe as previously used vaccine",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "There had been concern that antidepressant treatment during pregnancy reduced growth during the first year.",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "A Wayne State University School of Medicine study has found that an overwhelming majority of African-American patients with hypertension also suffered hidden heart disease caused by high blood pressure even though they displayed no symptoms.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Long term use of prescription based painkillers increases the risk of depression  SLU researcher finds",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "Asking patients if a suspicious skin lesion is painful or itchy may help doctors decide whether the spot is likely to be cancerous, according to a new study headed by Gil Yosipovitch, MD, Chairman of the Department of Dermatology at Temple University School of Medicine.",
+    "gold_answer": "Conditional causal"
+  },
+  {
+    "question": "The flu jab seems to almost halve the risk of heart attacks in middle aged people with narrowed arteries, finds research published in the journal Heart.",
+    "gold_answer": "Conditional causal"
+  },
+  {
+    "question": "Now, newly published research confirms that coffee caffeine consumption reduces the risk of advanced fibrosis in those with nonalcoholic fatty liver disease (NAFLD).",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "Researchers, led by the NIHR Oxford Biomedical Research Centre, the Health Protection Agency in Birmingham and the Wellcome Trust Sanger Institute in Cambridge, have pioneered the whole genome sequencing (WGS) method through a study of 254 TB cases in the Midlands.",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "The use of injection drugs is a main route of transmission for HCV infection.",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "The resting pulse rate of UK pre-teens may have risen by up to two beats a minute during the past 30 years.",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "It has been suggested that ART slows hepatitis C-associated liver fibrosis; however, whether rates of severe liver complications in patients co-infected with HIV and hepatitis C receiving ART were similar to those with just hepatitis C remained unclear.",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "Previous work had investigated that combined effects of both noise and air pollution caused by traffic, but the results were inconsistent.",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "More than just a \"cosmetic issue,\" breast asymmetry can have negative psychological and emotional effects, according to the study by ASPS Member Surgeon Dr. Brian I. Labow and colleagues of Boston Children's Hospital.",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "Mother s vitamin D level linked to birth weight",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Speed bumps could be a new way to help diagnose appendicitis",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "One drink a day may be related to good overall health in women when older",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Get moving  Daily exercise may reduce Alzheimer s disease risk at any age",
+    "gold_answer": "Conditional causal"
+  },
+  {
+    "question": "The study reveals that between 2007 and 2009, alcohol was a 'necessary' cause of death (i.e., death would not have occurred in the absence of alcohol consumption) in an average of 79,456 cases per year.",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "Intensive dialysis treatments in pregnant women with kidney failure lead to a higher proportion of live births than standard dialysis care, according to a study appearing in an upcoming issue of the Journal of the American Society of Nephrology (JASN).",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "Despite their overall low risk, procedures to treat kidney stones lead to complications that require hospitalization or emergency care for one in seven patients, according to researchers at Duke Medicine.",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "Scientists have thought that this kidney disease is driven by damage to the glomeruli, blood vessels in the kidney, which spill the protein albumin into the urine.",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "Cardiovascular risk in type 2 diabetics with dangerously low blood sugar levels",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Mental illness heightens early death risk in people with epilepsy",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "A cerebral aneurysm refers to an abnormal bulging of one of the arteries in the brain, which is often only discovered when it ruptures, causing a potentially fatal and/or disabling bleed.",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "Vitamin D does not contribute to kidney stones  study asserts",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "The major source of vitamin D for children and adults is exposure to natural sunlight.",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "Using a laser to remove wires connecting implanted pacemakers and defibrillators to the heart is as safe in people age 80 or older as it is in younger patients, according to research reported in Circulation: Arrhythmia & Electrophysiology, an American Heart Association journal.",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "A TBI is a blow to the head that leads to a skull fracture, internal bleeding, loss of consciousness for longer than an hour or a combination of these symptoms.",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "Have a brain injury  You may be at higher risk for stroke",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Metabolic syndrome increases risk of both major types of primary liver cancer",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "Snack attack  Eating unhealthy snack foods may affect cancer risk in patients with Lynch syndrome",
+    "gold_answer": "Conditional causal"
+  },
+  {
+    "question": "A type of blood clot in the eye, the disease causes reduced vision, and people with the disease also typically have an increased risk of hypertension, diabetes and other serious conditions.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Medicare patients with a complication produced a 190% higher margin.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Research shows that use of popular antidepressants is linked to an increased risk of some strokes caused by bleeding in the brain, but that the risk is low, according to a multi-study analysis published in the October 17, 2012, online issue of Neurology&reg;, the medical journal of the American Academy of Neurology.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Antibiotic use to treat catheter associated bacteriuria futile in decreasing risk of mortality",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "This risk translates to more than 700,000 potentially avoidable illnesses each year, costing more than $490 million annually.",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "Outpatient electronic prescribing systems don t cut out common mistakes",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "Atrial fibrillation, or AF for short, describes abnormal heart rhythms.",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "A good night's sleep is important to our children's development.",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "Children who did not receive enough iodine in the womb performed worse on literacy tests as 9-year-olds than their peers, according to a recent study accepted for publication in The Endocrine Society's Journal of Clinical Endocrinology & Metabolism (JCEM).",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "In a small study of 39 primary care doctors and 208 of their patients, Johns Hopkins researchers have found that physicians built much less of an emotional rapport with their overweight and obese patients than with their patients of normal weight.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "This press release is available in French.A study published in Pediatrics this morning by researchers at the University of Montreal offers positive news for Wii-loving teenagers and their parents: games such as Wii Sports and Dance Dance Revolution can bring them closer to recommended physical activity levels.",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "This in turn leads to a significant increase in overall survival.",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "Kaiser Permanente study  Change in PSA levels over time can help predict aggressive prostate cancer",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "A new study highlights inconsistencies in black box warnings - medication-related safety warnings on a drug's label - and argues for a more transparent and systematic approach to ensure these warnings are consistent across all drugs within a same category, and any additions to warnings, on the back of a drug withdrawal for example, are done within a reasonable and uniform time period.",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "People are often told to reduce their cholesterol to improve their heart health, but new research suggests that low cholesterol may increase kidney cancer patients' risk of dying from their disease.",
+    "gold_answer": "Conditional causal"
+  },
+  {
+    "question": "The study, which was published in the journal Respirology, indicates that heart-related treatments may improve the wellbeing of some individuals with COPD.",
+    "gold_answer": "Conditional causal"
+  },
+  {
+    "question": "A new risk calculator can predict the risk of postoperative complications occurring for individual bariatric surgery patients, according to a study published in the March issue of the Journal of the American College of Surgeons.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "As discussed in this study, the United States Department of Veterans Affairs group has developed the Family Assessment of Treatment at the End of life (FATE) survey, which is administered to families of deceased veterans.",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "Study finds up to half of gestational diabetes patients will develop type 2 diabetes",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "The relationship between executive dysfunction and post-stroke mortality: a population-based cohort study doi 10.1136/bmjopen-2011-000458 A simple drawing test can predict the long-term risk of dying after a first stroke among older men, finds research published in the online journal BMJ Open.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "This release is available in French.",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "Aortic valve replacement appears safe  effective in very elderly patients",
+    "gold_answer": "Conditional causal"
+  },
+  {
+    "question": "The findings suggest that patients with kidney disease may benefit from more intensive screenings for these types of cancer.",
+    "gold_answer": "Conditional causal"
+  },
+  {
+    "question": "Constipation is often the culprit; and if it isn't diagnosed, children and their parents must endure an unnecessarily long, costly and difficult quest to cure nighttime wetting.",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "The RAND study found that from 2000 to 2010, the proportion of Americans who were severely obese rose from 3.9 percent of the population to 6.6 percent -- an increase of about 70 percent.",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "The research is published in the June 2011 issue of the Annals of Thoracic Surgery.",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "Preoperative aspirin therapy can benefit cardiac surgery patients",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "Risk factors in hospital readmissions among general surgery patients identified in study",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "The contribution of H. pylori and smoking trends to the decline in gastric cancer in US men.",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "Health insurance policies that shift costs to patients through higher co-payments may have serious unintended consequences for children, including less use of effective treatments and an increased number of hospitalizations, according to a new study in JAMA by researchers from the Schaeffer Center for Health Policy and Economics at USC.",
+    "gold_answer": "Conditional causal"
+  },
+  {
+    "question": "Rates of reported neonaticide have more than halved following the implementation of a unique 'anonymous delivery' law in Austria, finds a new study published today (05 December) in BJOG: An International Journal of Obstetrics and Gynaecology.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Treatment resistant epilepsy common in idiopathic autism",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Rate of chronic health problems for low birth weight children does not increase in adolescence",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Race or ethnicity can be a significant clue in the United States as to who will survive a kind of stroke known as a subarachnoid hemorrhage and who will be discharged to institutional care, a new study has found.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Surge in parents taking kids with common medical problems to emergency care",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "In a report on research published online Jan. 30 in the Annals of Surgery, the Johns Hopkins scientists say that lifesaving trauma care is succeeding in extending the lives of many of the most severely injured, regardless of cause.",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "Decline in available liver transplants expected",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "What cancerous conditions lead to what kinds of bacterial infections?",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "A new study published on bmj.com today adds to mounting evidence that rosiglitazone -  a drug used to treat type 2 diabetes - is associated with an increased risk of major heart problems.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Cocaine consumption quadruples the risk of sudden death in people between 19 and 49",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "Statistically significant differences in race, public versus tertiary-care hospital, disability and medications were found between depressed and non-depressed patients.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "The mantra for treatment for high blood pressure has been \"the lower, the better,\" but that goal can potentially put patients at risk of kidney failure or death, according to a Kaiser Permanente study published today in the Journal of the American College of Cardiology.",
+    "gold_answer": "Conditional causal"
+  },
+  {
+    "question": "In low income, urban populations, this rate was stereotypically thought to be higher due to a number of factors, including a perceived lack of access to health care and higher rates of crime and drug abuse.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "PCOS affects about 10 percent of women and is characterized by excess male hormone, irregular ovulation and menstruation as well as increased risk of metabolic diseases often associated with being overweight.",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "Age of onset of first seizure is a significant predictor of cognitive impairment according to this study--the first to evaluate cognitive impairment in children age three to six.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "The other health problems, or 'comorbidities', include heart attack and other heart-related problems, chronic obstructive pulmonary disease, diabetes, and others.",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "Use of sunbeds leads to 3000  cases of melanoma a year in Europe and  tougher actions  are needed",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "The risk that an infant with an older sibling with autism also will develop the disorder, previously estimated at between 3 and 10 percent, is substantially higher at approximately 19 percent, a large, international, multi-site study led by researchers at the UC Davis MIND Institute has found.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Research in the June issue of The Journal of Nuclear Medicine, however, shows that the use of 18F-FDG positron emission tomography (PET) scans can help to determine earlier if treatment for tuberculosis is working or if the disease is MDR.",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "Short courses of antibiotics appear just as effective as longer ones - and a great deal safer - in treating respiratory infections that might cause pneumonia in children on temporary breathing devices, according to a Johns Hopkins Children's Center study published online May 3 in Clinical Infectious Diseases.",
+    "gold_answer": "Conditional causal"
+  },
+  {
+    "question": "Lack of sleep is linked to obesity  new evidence shows",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "In the first population-based study in women of childbearing age, those who rarely or never ate fish had 50 percent more cardiovascular problems over eight years than those who ate fish regularly.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Older grandfathers pass on autism risk through generations",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Certain jobs dads do linked to higher risk of birth defects",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "HIV patient care by clinic nurses rather than hospital doctors clinically successful  cost effective",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "The findings, published online in the journal Pediatrics, provide the first analysis of such events in a large population of children and adolescents receiving ADHD medications compared to non-users.",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "New evidence shows increase in obesity may be slowing  but not by much",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "Arsenic exposure and smoking each elevate the risk of disease.",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "New research indicates cholesterol lowering drugs known as statins may help prevent future strokes among young people who have already had a stroke.",
+    "gold_answer": "Conditional causal"
+  },
+  {
+    "question": "Paradox lost  Speedier heart attack treatment saves more lives after all  study suggests",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "Women with a lean body shape have a greater risk of developing endometriosis than women who are morbidly obese, according to the largest prospective study to investigate the link.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Hepatitis B virus reemerges with long term nucleoside analog treatment",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "One of the largest studies to look at the effect of induced abortions on a subsequent first birth has found that women who have had three or more abortions have a higher risk of some adverse birth outcomes, such as delivering a baby prematurely and with a low birth weight.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Posture provides clue for future disability",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "For years, medical studies have reached the same conclusion: African-American patients do better on kidney dialysis than their white counterparts.",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "Low sodium levels increases liver transplant survival benefit in the sickest patients",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "Hopkins researchers find  Google Flu Trends  a powerful early warning system for emergency departments",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "Although numbers were small, they also appear more likely to commit suicide and are often incarcerated as adults.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Common herbal supplement can cause dangerous interactions",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "Traffic noise exposure associated with higher risk of heart attack",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Chicken pox vaccine saving children s lives",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "Study finds socio economic status impact mortality rates for certain stroke in US",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "Caffeine consumption has long been associated with decreased risk of liver disease and reduced fibrosis in patients with chronic liver disease.",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "A new study by researchers at NYU Langone Medical Center and colleagues found that traditional risk factors for stroke - such as high cholesterol - are not as accurate at predicting risk in postmenopausal women as previously thought.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Pregnancy complications up to twice higher in women born preterm",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "ACE inhibitors, commonly used to control high blood pressure and heart failure in women, may be associated with an increased risk of recurrence in women who have had breast cancer, according to a study by researchers at UCLA's Jonsson Comprehensive Cancer Center.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "The new data show eating a typical American diet, which is high in fat, decreases blood flow from the mother to the placenta, the temporary organ that nourishes the unborn fetus.",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "Postmenopausal women may be at higher risk of having a stroke than they think.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Occupational therapy may have the potential to slow down functional decline and reduce behavioral troubles",
+    "gold_answer": "Conditional causal"
+  },
+  {
+    "question": "Migraine may double risk for facial paralysis",
+    "gold_answer": "Conditional causal"
+  },
+  {
+    "question": "People with more years of education may be better able to recover from a traumatic brain injury, according to a study published in the April 23, 2014, online issue of Neurology&reg;, the medical journal of the American Academy of Neurology.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Smokers who have tried to quit and failed may be tempted to just give up, particularly if they hear statistics like the fact that most quit attempts will be unsuccessful.",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "A new 17 year follow-up study of 37,000 Israeli teenagers found that diabetes risk is mainly associated with increased body mass index (BMI) close to the time of diagnosis at early adulthood, while coronary heart disease risk is associated with elevated BMI both at adolescence and adulthood.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "No increase in severe cardiovascular events for children  adolescents taking ADHD medications",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Helicopters save lives",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "Researchers from University Hospitals (UH) Case Medical Center and Case Western Reserve University School of Medicine have published new findings in the February issue of American Journal of Roentgenology that mammography remains beneficial for women in their 40s.",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "However, the authors stress that the risk may still be overestimated, and they call for longer term monitoring of the cohort of children and adolescents exposed to Pandemrix to evaluate the exact level of risk.",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "Heart transplant patients at risk for serious skin cancers",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Patients who see preferred doctor less likely to go for emergency hospital admission",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "The study is the first of its kind.",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "Triglyceride levels predict stroke risk in postmenopausal women",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Which factors influence the use of these important tests that can help doctors ensure that high-risk drugs are prescribed safely?",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "One of the key decisions faced by people living with HIV, and by their health-care providers, is when to start treatment.",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "New aggression tool predicted violent patients in medical and surgical wards",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "An expected growth in the number of patients requiring critical care resources combined with a projected shortage in critical care providers will likely result in ICUs operating under conditions of increasing strain, leading to increased competition for ICU beds among greater numbers of more seriously ill patients.",
+    "gold_answer": "Conditional causal"
+  },
+  {
+    "question": "IU study  Higher mercury levels in humans associated with increased risk for diabetes",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "A small percentage of men in a prostate cancer study complained that their penis seemed shorter following treatment, with some saying that it interfered with intimate relationships and caused them to regret the type of treatment they chose.",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "Depression was linked with an increased risk of peripheral artery disease (PAD) in a study of more than one thousand men and women with heart disease conducted by researchers at the San Francisco VA Medical Center and the University of California, San Francisco.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "University of Missouri study finds risk factors for cat cancer  could have human implications",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "Painkillers taken before marathons linked to potentially serious side effects",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Using the eye as a  window into the brain",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "Sports medicine physical of the future could help athletes  ESCAPE  sudden cardiac death",
+    "gold_answer": "Conditional causal"
+  },
+  {
+    "question": "A study published online in the International Journal of Cancer earlier this month describes a novel approach to preventing cervical cancer based on findings showing successful reduction in the risk of cervical cancer after removal of a discrete population of cells in the cervix.",
+    "gold_answer": "Direct causal"
+  },
+  {
+    "question": "New research from Wake Forest Baptist Medical Center uses a simple assessment tool to determine how well older adults diagnosed with acute myelogenous leukemia (AML) can handle treatment.",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "How much will I be charged",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "Summary of a study being published online November 13, 2012 in the Journal of Clinical Oncology, reporting that earlier discussions about end of life (EOL) care preferences are strongly associated with less aggressive care in the last days of life and increased use of hospice care for patients with advanced cancer.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Biological agents used to treat rheumatoid arthritis seem to be associated with an increased risk of skin cancer, indicates a systematic review of published research in the Annals of the Rheumatic Diseases.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "The study is the first performed outside a sleep laboratory to show that sleep duration is directly tied to vaccine immune response, the authors said.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "Antibody response may lead to narrowed arteries and organ rejection",
+    "gold_answer": "Conditional causal"
+  },
+  {
+    "question": "Middle-aged athletes at low risk for sudden cardiac arrest while exercising",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "However, while generic drugs are clinically bioequivalent to the brand-name version, they often differ in their physical characteristics, such as color and shape.",
+    "gold_answer": "No claim"
+  },
+  {
+    "question": "Older bikers are up to three times as likely to be seriously injured in a crash as younger motor bike enthusiasts, indicates US research published online in Injury Prevention.",
+    "gold_answer": "Correlational"
+  },
+  {
+    "question": "A prospective study by researchers at Brigham and Women's Hospital (BWH) observed an association between risk of second primary cancer and history of non-melanoma skin cancer in white men and women.",
+    "gold_answer": "Correlational"
+  }
+]

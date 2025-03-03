@@ -1,0 +1,2402 @@
+[
+    {
+        "question": "What is the causal relation in the following sentence? \" In patients with DM and chronic angina with incomplete revascularization after percutaneous coronary intervention, ranolazines effect on glucose control and angina at 6 months was proportionate to baseline HbA1c, but the\\\\xa0effect on angina dissipated by 12 months.\"",
+        "gold_answer": "Direct causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? In the Hispanic/Latino population, dulaglutide efficacy and safety was consistent with that of the overall population.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? NFB appears to be effective at reducing CIPN symptoms.",
+        "gold_answer": "Direct causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? GISTs may represent another example of the obesity paradox in which obesity\\\\xa0seemingly provides a protective effect.",
+        "gold_answer": "Direct causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? The study findings suggest that although WV nutrition interventions  have shown impact, there is also a nonnutritional pathway of child stunting in rural Armenia.",
+        "gold_answer": "Direct causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Systematic Review Registration: PROSPERO CRD42013004608.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Difference in strength of association between isolated diastolic high blood pressure and isolated systolic high blood pressure with body mass index was also found.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? BC risk in female HL survivors increases linearly with radiation dose.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? These observational data show the progress made in the treatment of ACS from the acute phase up to 3 months, and highlight key areas for improvement  in the prevention of recurrent events in patients with CHD in France.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? An intervention for parents and children to improve HS preschoolers emotional and behavioral self-regulation in combination with an obesity-prevention curriculum did not reduce obesity prevalence or most obesity-related behaviors.",
+        "gold_answer": "Direct causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? These findings are important to support the formulation and implementation of NCD-related polices and plan of actions that recognize urban slum populations in  Bangladesh as a priority sub-population.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? \"The prevalence of overweight and obesity is about 70% among Chinese adults.\"",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Clinicians should recognize that an array of factors may contribute to gait and physical dysfunction in older adults with type 2 diabetes, and be prepared to assess and intervene appropriately.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Aflibercept and ranibizumab both appear to be effective for patients  showing no initial response to bevacizumab.",
+        "gold_answer": "Conditional causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? The use of an ACE inhibitor and a statin did not change the albumin-to-creatinine ratio over time.",
+        "gold_answer": "Direct causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? To our knowledge, these data provide the first  evidence of the role of serum ferritin as a risk factor for hard CHD in African-American and white postmenopausal women in the USA.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? In a large population of critically ill adults, an association exists between nutrition status and mortality.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Topical insulin 0.5 units QID is most effective for healing corneal  epithelial defect in diabetic patients after vitrectomy surgery compared with placebo and higher concentrations.",
+        "gold_answer": "Direct causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? The association of afternoon napping and diabetes was not consistent and definite, we clarified this association in a large prospective study.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Women with newly diagnosed breast cancer from mainland China demonstrated particularly low resilience level, which was predicted by hope educational level, avoidance, confrontation, and age.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? This appeared mediated by reduced tolerance of adverse symptoms.",
+        "gold_answer": "Conditional causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Consumption of minimally processed food is inversely associated with  excess weight in adolescents.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? The results may be inflated by selection bias, bias in diet reporting, or residual confounding.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? \" Success of dental implant is significantly affected by bruxism.\"",
+        "gold_answer": "Direct causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? LAGB was associated with poor short and long-term weight loss outcomes and a high failure rate.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? \" Our findings suggest that tension and post-surgical factors play a causal role in this hitherto undescribed entity: post-reconstruction dermatitis  of the breast.",
+        "gold_answer": "Direct causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Our results indicate that there is an increase in resistin concentrations and a decrease in visfatin concentrations in maternal serum and cord blood serum with GDM.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Insulin resistance seems to exist in individuals with both migraine and prediabetes, and there is a possible negative association between DM and migraine.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? The study showed associations between miRNA polymorphisms (miR-27a rs895819 and miR-449b rs10061133) and RPL development, and between the miRNA polymorphism (miR-27a rs895819) and plasma folate levels.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Given the insulation properties of the breast gland, aggressive CA protocols are required.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? The prevalence of elevated blood lead levels among tested US-bound Burmese refugee children was higher than the current US prevalence, and was especially high among children <2 years old.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? The renal and cardiac TOD evolution, as well as the PAIx and CAIx, did not change in either group.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Detrimental safety profile in pooled analysis supports current warnings.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Furthermore, this technique is associated with high morbidity and reoperation rates.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? In a phase 2B randomized trial of patients with moderate to severe DG, relamorelin significantly reduced core symptoms of DG and overall composite score compared with placebo, accelerated GE, and was generally safe and well tolerated.",
+        "gold_answer": "Direct causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Independent of known cardiovascular risk factors, HDL was found to be positively associated with hypertension in subjects with a high level of circulating CD34-positive cells but not for subjects with low circulating CD34-positive cells.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? The RPL patients and controls had a similar proportion of women with  elevated fructosamine considered diagnostic of diabetes.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Further studies are needed to replicate these results and characterize rate of change in serum lipids as a potential biomarker of impending acute cerebral injury.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? \"This study supports the use of intensive care unit bedside PDT in the obese population.\"",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? The efficacy and safety of everolimus plus trastuzumab and paclitaxel as first-line treatment for HER2+ advanced breast cancer in the Asian  subset was consistent with that reported previously in the overall population.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? In T2DM patients, non-surgical periodontal treatment improved systemic oxidative stress balance and QOL, but did not decrease HbA1c levels at 3 months follow-up.",
+        "gold_answer": "Direct causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? \" Multiple epidemiologic, geographic, clinical, and immunologic factors are involved in the etiology of AP.",
+        "gold_answer": "Direct causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Registered on 2 April 2009.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Aggressive treatment of lipid abnormalities in these patients may be warranted.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Also, the relationships between these factors and the childs SSB intake differed for children with distinct ethnic backgrounds.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? \"Further research may identify relationships between disease-related weight loss and currently used prognostic factors in MM, further  defining the role of this clinical factor in prognostic stratification.\"",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Habitual consumption of sugar sweetened beverages was associated with a greater incidence of type 2 diabetes, independently of adiposity.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Analyses by time to diagnosis indicated that citrulline may be a marker of subclinical prostate cancer, while other metabolites might be related to aetiology.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Some subjects were diagnosed with CD within a decade of serum collection, indicating that although most cases of undiagnosed CD are clinically  silent, some result in symptoms.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? %TWL places the 3\\\\xa0cm group in higher percentile than 8\\\\xa0cm group.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Obese patients in this retrospective study had significantly improved survival relative to normal weight patients.",
+        "gold_answer": "Direct causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? MT significantly lowered patient anxiety and distress during the simulation procedure on the basis of the STAI-S questionnaire and SDT.",
+        "gold_answer": "Direct causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Loneliness is associated with poorer physical and mental health and unhealthy lifestyle, modified by age, but not by sex.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? This time-varying effect violated the Cox proportionality assumption, indicating that feeding trials in similar populations should extend beyond 7 d and use time-varying statistical methods.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? TRIAL REGISTRATION: Clinical Trial Registration: NCT01931111 (Date of trial registration: July 19, 2013).",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? SPONSORSHIP: National Heart, Lung and Blood Institute, National Institutes of Health, USA.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Future work will focus on evaluating  the mechanism of this outcome and documenting improvement in an objective, prospective manner.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Patients who are super obese are at increased risk for serious complications compared with patients with morbid obesity, whose risks are elevated relative to patients whose BMI is less than 40 kg/m2.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? This trial was registered at the London-based Current Controlled Trials register as ISRCTN35739639.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Molecular tests are likely to be cost-effective, but an optimal test is yet to be identified.",
+        "gold_answer": "Conditional causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? These may represent a precursor or forme fruste of the  osteosarcopenic obesity phenotype in young healthy overweight/obese subjects, who may progressively develop osteosarcopenia in its full form at an older age.",
+        "gold_answer": "Conditional causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Interventions aimed at reducing weight and treating dyslipidaemia should be instituted early in order to reduce this risk.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Obesity is increasingly prevalent and associated with a high incidence of co-morbidity and complications.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Health practitioners are keen to provide preconception counselling and reported knowledge of evidence-based guidelines.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Our data suggest that higher than while sedentary behavior is related to worse fasting glucose, this relationship is attenuated when PA is taken into account.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Despite statin therapy, high LDL-C levels and rates of possible and  probable FH were observed in some countries.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Therefore, serious attempt  should be made to correct risk factors before an ablation therapy is proposed.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? A simultaneous integrated boost strategy could benefit from adaptive planning during the course.",
+        "gold_answer": "Conditional causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? A more aggressive management and diagnostic strategy may identify those in need of early operative intervention and provide robust rehabilitation programmes.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? IM-SLNB has a high successful rate and good safety.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Furthermore, these findings reveal that the benefits of  physical activity to improvements in cognitive function are particularly evident  among children who are obese.",
+        "gold_answer": "Direct causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Statistically, it has not been possible to demonstrate its relation with the number of analytical tests.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? These changes in serum TC and LDL trends suggest a biological pathway that precipitates ICH occurrence.",
+        "gold_answer": "Direct causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? In ATARAO and ANRS, malnutrition was common across all indicators (BMI, hemoglobin, albumin) and persisted despite treatment.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? All patients who undergo BCS should receive RT, even with complete pathologic response.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Breakfast frequency could be negatively associated with abdominal obesity, especially among smokers.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? In addition, it  provides patients with more realistic assessment of potential outcome of the procedure.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? These findings imply that it is not useful to perform a meal challenge in cardiovascular risk stratification.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Our results show the existence of a low prevalence of peripheral artery disease in a population aged 45-74 years.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? These associations were not impacted by menopausal status.",
+        "gold_answer": "Direct causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? In addition, all strains of E.\u00a0faecalis and 10.8% of E.\u00a0faecium strains were susceptible to ampicillin.",
+        "gold_answer": "Direct causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? The body dimension data in such magazines should be treated with circumspection.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? In our study, the OS-MRS is not correlated with the appearance of early complications or mortality.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Eyes with better vision at baseline had a more favorable prognosis, whereas eyes with initial macular detachment, intraoperative iatrogenic break, or heavy SO showed more unfavorable outcomes.",
+        "gold_answer": "Direct causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? TRIAL REGISTRATION: Australian New Zealand Clinical Trials Registry ACTRN12616000350426 .",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Maintained HDL in OH probably reflects reduced CETP activity, which was not observed in SCH.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? If  this association is replicated across larger studies with serial Mg and vascular  calcification measurements, interventions that increase serum Mg and their effect on vascular calcification warrant further investigation in the PD population.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? The association of resistin with PA was stronger than the association of HDL cholesterol with PA, making resistin a potentially useful biomarker of PA.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? TRIAL REGISTRATION: ClinicalTrials.gov: NCT00197730 and NCT00421668.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? In regions with adequate infrastructure for surveillance and management of complications, health care facilities could consider eliminating the routine use  of antibiotics in protocols for the treatment of uncomplicated severe acute malnutrition.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? (2) It shows that DBT can improve conspicuity of ILC.",
+        "gold_answer": "Direct causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? LGP has the potential of being an ideal weight loss surgery for adolescents, resulting in excellent weight loss and minimal psychological disruption.",
+        "gold_answer": "Direct causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Many metals, including manganese, copper, zinc, arsenic, selenium, and cadmium in plasma, are associated with the morbidity of diabetes.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Six months after RYGB, systemic inflammation was reduced in both supplementation schemes.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Thus, antistunting interventions should include sanitation and hygienic measures along with adequate perinatal care and maternal and child nutrition to further reduce childhood stunting, ensuring long-term health benefits for children not only in rural Armenia but also in rural communities in  other low/middle-income countries.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? CNBS may be the more appropriate specimen type for immunohistochemical examination of phosphoprotein expression in invasive breast cancer.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? These findings strongly suggest that screening of non-communicable diseases should be integrated into routine HIV care in Cambodia.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? \" Our study suggests that osteosarcopenic elements exist even in very young populations.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? The findings suggest that a feeding trial in participants with asthma is feasible.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Copyright \u00a9 2016 John Wiley & Sons, Ltd.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? The study has enhanced our understanding of the determinants of underweight in the prison population.",
+        "gold_answer": "Direct causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? One out of 7 patients was scored as undernourished.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Both the simulation study and the analysis of the Nursess Health Study, a case-control study of type 2 diabetes data with high dimensional SNP measurements, demonstrate the advantage of the network based approach over the competing alternatives.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? These data suggest that patients with psoriasis are more susceptible to vascular diseases.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Elevated OxPL-apoB levels predicted recurrent stroke and first major coronary events in patients with prior stroke or transient ischemic attack.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Alternative dosing strategies in the obese patient population should be examined in rigorous clinical trials.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Among middle-aged and elderly women in rural China, the nutrition status of anaemic cases is far below that of controls.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? CD40L, more than IL-6, or TNF-\u00ce\u00b1, constitutes a predictor to explain PCOS and associated features.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? To our knowledge, this is the first account of clozapine treatment in patients with ASPD and high psychopathy.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? However, the same digital image type and assessment method should be used when examining mammographic density across populations, or longitudinal changes in density within a single population.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? In selected cases, extending the time  of SO use did not worsen the prognosis.",
+        "gold_answer": "Direct causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? A MNA score of less than 8 performed better than the SGA, Braden Scale, and  plasma arginine levels in predicting PU development.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Levels of cholesterol fractions in patients with JIA were found within the normal range.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Women with previous hypertensive pregnancy disorders have higher glucose, insulin, triglycerides, total cholesterol, high-density lipoprotein cholesterol, and low-density lipoprotein cholesterol levels measured after pregnancy compared with women with previous normotensive pregnancies.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? With the exception of reduced bone health, older adults with undiagnosed CD had limited comorbidity and no increase in mortality compared with controls.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? This study provides comprehensive and strong evidence that there are  a number of protective and risk factors for gastric cancer in diet.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? The strong and independent association of CMI with ischemic stroke in females, in comparison with the much lesser degree in males, provides further insight to better stratify by sex in investigations of ischemic stroke and solidly corroborates the potential role of ischemic stroke prevention targeted at CMI.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Both COC use and higher BMI increase risk for VTE, and the greatest relative risks are for those with both risk factors based on a body of evidence graded as Level II-2, fair to poor  quality.",
+        "gold_answer": "Direct causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? This approach may, however, be difficult to implement on a large scale.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Our findings support a significant association between the high level of HDL-C, triglyceride and depression in large sample data.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? \"Pregnancies in youth with type 2 diabetes may be especially prone to result in congenital anomalies.\"",
+        "gold_answer": "Conditional causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? LOS of stroke patients in Nigeria was shown to be prolonged especially when compared to similar settings in West Africa.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? This study demonstrated the work of a hospital, a reference in the treatment of leishmaniasis, which has many patients demanding its services in this area.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? This review included a majority of low-level evidence studies that limit extrapolability of the results.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Interventions targeting replacing sedentary behavior with PA may improve metabolic risk.",
+        "gold_answer": "Conditional causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Future research could investigate how to  improve engagement at initial invitations.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Long-term intervention-effect was not observed in the postpartum period.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Small LSG  at baseline is at higher risk of dilatation.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Nutrition education should be part of programs in food insecure settings aiming at ameliorating food insecurity among communities.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Prepectoral reconstruction can be safely performed in patients with a BMI < 40 and in patients having postmastectomy radiation therapy.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? The association between RBP4 rs3758539 polymorphism and GDM risk was not confirmed.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Longer follow up will be necessary to evaluate long-term efficacy  and toxicity of 3D-CRT APBI.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Among individuals with a history of SAMS, most will tolerate statin  therapy.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? This study shows heterogeneity in patterns of growth trajectories.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? However, bigger studies with longer-term follow-up are needed to confirm these findings.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? After accounting for confounding by indication, metformin was associated with a lower risk of subsequent dementia than sulfonylurea use in veterans <75 years of age.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Pre-operative malnutrition is an independent risk factor for readmission within 30 days of discharge after elective spine surgery.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Longitudinal lipid levels differ between ICH cases and non-ICH controls, most notably for a decline in serum TC and LDL levels within 6 months preceding primary ICH, independent of statin or alcohol use.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? However, poor developmental outcomes were observed, despite increasing the intake of natural proteins.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? In gastrointestinal metastases, size (<35\\\\xa0mm) could be used to select patients.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Coronary artery disease negatively influences the cumulative patency of vascular access.",
+        "gold_answer": "Direct causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Metabolic disorders in this population may be due to HIV infection or lifestyle (smoking, sedentary lifestyle and inadequate diet).",
+        "gold_answer": "Conditional causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? \"However, this risk is independent of body mass index.\"",
+        "gold_answer": "Direct causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Routine  ultrasound is not indicated when an experienced examiner can assess uterine size.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? The findings of this study showed that breast cancer is common and mostly affected women.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? \"Fast track does enhance recovery and is suitable for unselected patients.\"",
+        "gold_answer": "Direct causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Serum triglyceride, HDL-C, and apoB levels were independently associated with CHD in a Chinese population undergoing coronary angiography with  a relatively low level of LDL-C and a high prevalence of hypertriglyceridemia and low HDL-C.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? These patients have experienced a focal, microvascular central nervous system ischemic event at a relatively young  age.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? However, a careful gross description is still necessary in certain cases for potential future medicolegal implications.\"",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? An early increase in repeat  visits indicates a need for the establishment of evidence-based guidelines and caution with systematic prescribing of MMN.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Relative low prevalence of pfcrt-SVMNT in Africa may result from genetic or other factors rendering P. falciparum less supportive of this haplotype than in South America or other regions.",
+        "gold_answer": "Conditional causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Among HIV-exposed uninfected infants, cCMV infection was associated with adverse perinatal outcomes.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? The results of this study, while not clearly supporting associations with these obesity-related hormones, suggest that the association between obesity and RCC may be partially modified through mechanisms related to elevated IGFBP-3.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? \" We confirmed the robust association of MTNR1B rs10830963/G variant with GDM binary and glycemic traits in this Caucasian case-control study.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Thus, clinicians might be able to monitor PCa patients who have a high risk of development of arterial stiffness after ADT administration by referring to LDL-C/HDL-C levels.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? TRIAL REGISTRATION IDENTIFIER: NCT01816594.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? There was greater adverse influence of NAFLD per se on triglyceride,  and triglyceride/HDL-cholesterol in men compared with women.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Future studies with larger numbers of patients, limited to HCC and liver resections, are needed to verify our results.\"",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Strategies to encourage weight loss may need to be considered seriously prior to open ventral hernia repair, especially for patients with body mass index >40\\\\xa0kg/m2.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Hence, incorporation of metformin into standard clinical  care would offer a therapeutic option for the prevention of TB.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? We show replication of 5 Caucasian genome-wide association studies lipid associations in Mexicans.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Established measures of T2D risk remain the best predictor of T2D risk in this population.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? High-risk populations may accept CESM as a screening exam and may prefer it over screening MRI if ongoing trials demonstrate screening CESM to be clinically non-inferior MRI.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Collectively, these findings indicate that energy-matched high intensity and moderate intensity exercise are effective at decreasing IHL and NAFLD risk that is not contingent upon reductions in abdominal adiposity or body  mass.",
+        "gold_answer": "Direct causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Severe childhood diarrhea is mostly caused by rotavirus infection.",
+        "gold_answer": "Direct causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Intervention with a fiber-rich diet with brown rice effectively improved endothelial function, without changes in HbA1c levels, possibly through  reducing glucose excursions.",
+        "gold_answer": "Direct causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Substantial WL may predict for poor overall survival.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? OSA is frequently found in the acute phase of ischaemic heart disease and its presence is associated with more severe ACS and a poorer left ventricle systolic function.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? One year after the diet therapy intervention, the beneficial effect  of the LCD on reduction of HbA1c and BMI did not persist in comparison with CRD.",
+        "gold_answer": "Direct causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? The Pilates method could be used as an alternative to improve mood disorders in overweight/obese individuals.",
+        "gold_answer": "Conditional causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Children who were severely wasted and had uneducated caretakers had higher odds of malarial attack.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Our results further indicate that the model of care may have an impact on families daily living, not only during the initial period of care but for a longer period of time.",
+        "gold_answer": "Conditional causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? This study demonstrated that similar to subjects with DM, subjects with IFG also have IOP levels that are higher than those with normal serum glucose.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? The risk factors identified were similar to other series.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? \"Additional studies are needed to determine appropriate insulin adjustments based on glucose trend data.\"",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Our intervention did not result in a significant improvement in our primary outcome, the proportion of obese and overweight women who had gestational weight gain within IOM guidelines.",
+        "gold_answer": "Direct causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? More extensive treatment was not associated with lower risk, which may be due to confounding by indication, or indicate that  some DCIS has an inherent potential for metastatic spread.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? When comparing with Traditional Chinese Medicine (TCM) syndromes of asthenia nature, such as YDS, QYDS, and heart qi deficiency syndrome), the levels of TG, TC, and LDL-C were higher in phlegm turbidity syndrome.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? TRIAL REGISTRATION: ClinicalTrials.gov: NCT01562392.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Vitamin K insufficiency was present in 40% and not related to deficiencies in other vitamins or micronutrients.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? \"Stressing the use of modified criteria more universally to classify obesity among South Asian Indians may be optimal to identify obesity  and help appropriately risk stratify for intervention to prevent chronic diseases.\"",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? (Funded by M\u00c3\u00a9decins sans Fronti\u00c3\u00a8res Operational Center Paris; ClinicalTrials.gov number, NCT01613547.)",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Initiatives including best practice interprofessional diabetic foot care pathways are recommended with timely vascular management of ischemia, treatment of deep and surrounding infection as well as the availability of foot care and footwear.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Serum linoleic acid and very-long-chain n-3 PUFAs, partly reflecting vegetable oil and fish intake, respectively, were inversely associated with all-cause mortality.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? In this prospective study, a higher baseline dietary energy density  was associated with higher incidence of type 2 diabetes among postmenopausal women, both overall, and in women with elevated waist circumference.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Patients with FPG-CV higher than 34.6% or HbA1c-CV higher than 8.4%  exhibited an increased risk of COPD.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? \"Decreased LMW, total, and HMW adiponectin levels are associated with diabetes.\"",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Further research to identify effective maintenance strategies is required to maximize the benefits of telephone-based interventions on child diet.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? A higher BMI and a greater prevalence of comorbidities had driven patients to seek a more radical solution for their obesity, i.e., surgery.",
+        "gold_answer": "Direct causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? According to our findings, high dietary intakes of saturated fatty acids and cholesterol were associated with low serum albumin and Hb A1C concentration.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? The findings call for more aggressive screening and intervention of microalbuminuria in diabetic patients.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? The effects of TRT on cardiovascular risk markers were ambiguous.",
+        "gold_answer": "Direct causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Although further research from controlled studies is needed and despite the presence of other possible confounding factors, monitoring for neuropathy and vitamin B12 and folate levels merits consideration in patients on  long-term treatment with new AEDs.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? This pilot study found that teenagers complicated with preeclampsia living at higher altitude displayed lower erythrocyte folate content in addition to higher serum Hcy levels.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Continuing efforts are needed to fully understand the important dynamics of diabetes, adolescence, diet, emotion, and how these factors affect long term outcomes in those with T1DM.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Doses of 300 mg or more (in single or multiple doses) significantly reduced levels of PCSK9 and LDL cholesterol for at least 6 months.",
+        "gold_answer": "Direct causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Long sleep duration and afternoon napping were independently and jointly associated with higher risk of incident diabetes.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? The total CBI-BA and the FACT-BA scales have adequate internal consistency reliability estimates.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Results are encouraging and demonstrate that  exercise was popular and conveyed benefit to participants.",
+        "gold_answer": "Direct causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Further assessment could delineate relationship between serum lipid levels and depression with suicidality in other ethnic groups.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? The high cost of revision surgery highlights the importance of appropriate indications to avoid the need for subsequent procedures.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? \"Hence weight-focused treatment approaches can help reduce the economic burden for patients with T2DM.\"",
+        "gold_answer": "Direct causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Reproductive factors were to some extent associated with all subtypes; the strongest trends were with luminal-like subtypes.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? A carefully integrated diabetic retinopathy screening service is needed, particularly in remote areas, to improve adherence rates.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? This provides the potential management guidelines  for a NML\\\\xa0in screening patients and further prospective studies in a large, multicenter screening population are required.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Rates of PTMS were comparable between EVR-containing and TAC control regimens.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? This study is the first to contrast the associations of HDL-2 and HDL-3 with CAAD.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? These findings indicate that clinical care and programs aimed at improving birth outcomes will have the greatest impact if they address maternal nutrition both before and during pregnancy.",
+        "gold_answer": "Direct causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Future trials are required for corroboration.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Middle-age adult Asians with the ADRB3 rs4994 minor alleles are at increased risk of T2DM.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? They also indicate that LIBRA may provide a valid fully automated alternative to the more labour-intensive Cumulus.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? \"There were no statistically significant differences in measured variables found between the two study groups.\"",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? It was apparent that the majority of users were satisfied with herbal remedies use.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? CLINICAL TRIAL REGISTRATION: URL: https://www.clinicaltrials.gov.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Applying the description of the meso-oesophagus will create a better understanding of the oesophageal anatomy, leading to more adequate and reproducible surgery.",
+        "gold_answer": "Direct causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? \"Hyperammonemic encephalopathy after Roux-en-Y gastric bypass surgery is a newly recognized, potentially fatal syndrome with diverse pathophysiologic mechanisms encompassing genetic and nongenetic causes.\"",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Low socioeconomic status is associated with higher levels of mortality and morbidity for adults with type 1 diabetes even amongst those with access to a universal healthcare system.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? 3D laparoscopic surgical skills showed superior to 2D, with higher percentages of tasks completion, less time in performing them, and a shorter learning curve.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Improving African womens knowledge and understanding will improve behaviors related to breast cancer and facilitate early presentation and detection and enhance proper management and treatment of breast cancer.",
+        "gold_answer": "Direct causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? \"Strategies to find individuals with impaired glucose tolerance for implementation of lifestyle changes in primary care should therefore be developed further.\"",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Higher intake of polyunsaturated fatty acid might be inversely associated with PD risk.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Before applying this test in clinical practice, it needs to be validated in a larger population.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? In multiple regression the combined factors that remained associated with lymphocyte count were NRS and triceps skinfold thickness.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Postoperative SRS was associated with the highest rate of RN.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? \"Further studies are needed to examine the impact of reproductive factors on early-onset BC in African women.\"",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? KEYWORDS Pre-eclampsia, toxemia of pregnancy, pregnancy outcome, environment, genetics, genome-environment interaction, genetic epidemiology, Cuba.\"",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Therefore, special attention should be given for  severely wasted children in the prevention and control of malaria.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Male sex predicted lateral meniscal tears and management.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? TRIAL REGISTRATION: Clinicaltrials.gov NCT01546727.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Further research should focus on prevention of attrition in families with a lower educational background.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? The present study suggests a link between overweight/obesity and altered sleep quality due to compromised non-rapid eye movement sleep, an indirect marker of sleep quality.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? In this largest published cohort, secondary banding of failed RYGB provides only limited additional weight loss.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? \" The obesity paradox does exist in patients undergoing vascular surgery.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? The multifactorial nature of nocturia supports the delivered management and treatments being targeted to underlying etiologies in order to optimize womens symptom management.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Girls with T1DM were more prone to thyroid disease, particularly hypothyroidism.",
+        "gold_answer": "Direct causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Between 2005-2006 and 2013-2014, the prevalence of chronic conditions increased across all segments of the childbearing population.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Additional studies are needed to clarify the mechanisms and possible concomitant factors underlying the obesity paradox in NSCLC.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? A rate of SM up to 38% of the code stroke system confirms the difficulty to distinguish clinically a stroke from another diagnosis.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Being a simple, inexpensive, and reproducible marker of CVD risk, the TG/HDL-C ratio may emerge as a novel and reliable indicator among the many well-established markers of CVD risk in CKD.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Interventions in early life should focus on optimizing linear growth while minimizing excess weight gain and environmental enteric dysfunction.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Patients with older age, negative medication belief, polypharmacy, co-morbidities and those who were poorly involved in the therapeutic decision were more likely to experience DTP.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? \"Progression of small AAA seems to be more than 60% lower in patients with diabetes.\"",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? In the present study, almost one out of six beedi rollers displayed clinical signs of potential TON.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? More prospective data are needed to confirm these associations.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Use of anthracycline-containing chemotherapy regimens in eligible patients appears to vary with use of the RS assay, despite the lack of evidence supporting use of the assay to guide regimen selection.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? \"pCR is an independent predictor of favourable clinical outcomes in all molecular subtypes in a two-step multivariate analysis.\"",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Larger prospective studies are required before it can be concluded that this extra surgery should be advised in these patients.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? However, BMI and alcohol do not demonstrate significant interaction in this group.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? ClinicalTrials.gov Number: NCT00570102.\"",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Whey-protein supplementation also lowered 24-h ambulatory SBP and DBP.",
+        "gold_answer": "Direct causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Endothelial dysfunction is associated with high FGF21 in HD patients.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Surprisingly, UW patients are associated with higher mortality as well as respiratory events postoperatively.\"",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Cancer 2017;123:3825-34.\u00c2\u00a9 2017 American Cancer Society.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? There was evidence of neurological changes in the cortical location and in the bandwidth targeted by the intervention, and changes in EEG activity were predictive of symptom reduction.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? However, anemia of chronic inflammation cannot be discounted as being somewhat causal.",
+        "gold_answer": "Direct causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? A high proportion of breast cancer in young Pakistani females is alarming.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Therefore, from the epidemiological point of view, screening psoriatic patients, particularly those with severe psoriasis, is recommended.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Therefore, we recommend screening patients regularly for depression both before and after bariatric surgery and offering them adequate psychotherapeutic and/or psychopharmacologic support.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? More studies are needed for further exploration.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Based on three independent determinants, a prediction model is developed to identify non-adherent FH patients.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? These results suggest that predicted percent MD may be useful for research studies in which mammograms are unavailable.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? \" In a prospective study of patients with esophagitis or Barretts esophagus, we found belt compression increased acid reflux following a meal.",
+        "gold_answer": "Direct causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? These data support the potential for extrapolating analgesic efficacy to other neuropathic pain conditions.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Nutritional screening with validated tools in hospitalized patients remains poor.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Our findings add to the evidence of an increased risk of surgery for SIS in relation to occupational cumulative mechanical exposures, even when an increased risk in relation to BMI, smoking and diabetes mellitus is taken into account.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Adding an allowance for accumulation of thyroidal iodine stores would produce an EAR of 72 \u00ce\u00bcg and a recommended dietary allowance of 80 \u00ce\u00bcg.",
+        "gold_answer": "Conditional causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Further investigation into the molecular mechanisms through which HDL-3 is associated with protection from CAAD is warranted.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? \"Ultrasound measures of fetal size and growth used in this study are not sufficiently accurate to predict those infants likely to be at risk from the  adverse effects of fetal hyperinsulinaemia.\"",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? These findings warrant effective treatment modalities to reduce the occurrence of oropharyngeal candidiasis.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Prior to  publication of monitoring guidelines, patients initiating treatment with SGAs did not receive adequate metabolic monitoring routinely, nor did SGA treatment appear to trigger additional monitoring.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Symptoms develop earlier in patients with triple A syndrome, but the diagnosis is delayed and this has substantial nutritional impact.",
+        "gold_answer": "Direct causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? There were positive associations between lipid profile components and serum chemerin levels.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? These findings may be clinically relevant since they may lead to a change in management of AI-induced skeletal fragility.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? The prevalence of malnutrition is high among geriatric outpatients.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? \"These data show the importance of monitoring body weight in the course  of HIV/AIDS treatment, even in those individuals who present normal body weight.\"",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Findings suggest a need for individual, comprehensive survivorship care plans to effectively address symptoms that impact work ability and, ultimately, the quality of life of cancer  survivors.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? The measurement of serum lactate level was a better marker of oxidative stress among patients with OSAS.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Poor chronic nutritional status was associated with increased pathogen carriage in children <5 years of age.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? ACCHSs may need assistance to achieve desirable levels of testing.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Independent prognostic factors for MSS were SN status, Breslow thickness and ulceration.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Although further investigation of long-term and prospective studies  is needed, we identified four variables as predisposing factors for higher major  amputation in diabetic patients through meta-analysis.",
+        "gold_answer": "Direct causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Sequential compared with the concurrent administration of anthracyclines and taxanes is associated with a non-significant but possibly clinically meaningful improvement in DFS.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Interventions that increase screening uptake may also increase subsequent engagement with information.",
+        "gold_answer": "Conditional causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Luteal phase estradiol levels were suggestively associated with ER+/PR+  tumors but no other strong associations were observed with estrogens.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? The etiology of anemia appears to be iron-related and precipitated by the female sex.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Our results suggest a bidirectional relationship between information  satisfaction and symptoms of depression and anxiety.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Hence, it can be concluded that continued use of DMPA may predispose females to the risk of cardiovascular disease in the long run.",
+        "gold_answer": "Conditional causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? A working collaboration between disciplines and a specialized wound department are central in achieving better results.",
+        "gold_answer": "Direct causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? \"Additional reductions in myocardial infarction, revascularization, and the development of diabetes were observed during the follow-up phase despite similar rates of ACEI use in the 2 randomized groups.\"",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Lower plasma concentration of high-density lipoprotein cholesterol,  total antioxidant capacity, and \u00ce\u00b1-tocopherol levels, and a dietary pattern that is low in fish and high in red meat might contribute to the cognition impairment  in older Chinese adults.",
+        "gold_answer": "Conditional causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Overall, there was good agreement between the manual and automated feedback systems, giving promise to the use of automated systems for personalizing dietary advice.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Nonengagers and nonretainers share similar high-risk traits.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Despite high rates of cesarean delivery in women with superobesity, labor is associated with lower composite maternal and neonatal morbidity.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? The plasma UA levels in patients with OSAS did not show an overnight rise.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? DME demonstrated a convincing relationship between BCVA and CRT.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? This is the first prospective description of an IPC patient cohort on AS as part of an outcomes research study.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Although not significant, IR levels decreased over time, which could be indicative of a clinical improvement.",
+        "gold_answer": "Conditional causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? This trial  was registered at clinicaltrials.gov as NCT02045784.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Weight gain and growth equaled that of healthy peers at 9 to 12 years but was suboptimal at 5 to 8 years and dramatically declines at 13 to 16 years.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? TRIAL REGISTRATION NUMBER: Australian Clinical Trials Registry (ACTRN12610000049077).",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Obstetric care providers may use our findings in counseling this special population of prenatal patients.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Currently available evidence does not support negative pressure wound therapy use among obese women for cesarean wound complication prevention.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Visual and anatomic gains achieved at month 6 were largely maintained through month 24.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Children from different world regions clustered into groups of similar lifestyle behaviors.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Despite an overall detectable association in the meta-analysis, considerable heterogeneity existed between studies.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? The presence of PU is also related to adverse outcomes, such as MV duration and ICU and hospital mortality.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Flexible ureteroscopy has proven to be the most successful treatment option, and can avoid the need for more invasive procedures.",
+        "gold_answer": "Direct causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Therefore, there is a need to define standard dietary reference intake to determine inadequate iron intakes in the Spanish population.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? However, glucose metabolism and fat redistribution do not change over the short term.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Hypoperfusion appears to be the consequence of a decrease of neuronal functioning and metabolic needs.",
+        "gold_answer": "Conditional causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? \"C-reactive protein provided additive  prognostic information over standard lipid measures.\"",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? The high rate of text message usage makes it feasible to recruit YAMs for a prospective study in which personalized text messages are used to promote healthy behaviours.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? TRIAL REGISTRATION: German Clinical Trials Register (DRKS), Freiburg University,  Germany, DRKS-ID: DRKS00000494.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? There is CBC and biochemical evidence to support the concern that obesity influences laboratory values, even in dogs considered clinically healthy.",
+        "gold_answer": "Direct causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? \"To conclude, advice to follow LCD or LFD had similar effects on weight reduction while effects on inflammation differed.\"",
+        "gold_answer": "Direct causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? After total thyroidectomy, increases in weight and serum cholesterol  were observed in the eSCH group.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Serum fructosamine was increased in women with RPL compared with controls.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? It might be a first step in improving statin adherence in this extremely high risk group.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? \"In human, however, transdermal application to the breast skin provides  local delivery.\"",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Results suggest that two repair processes may be present in the area where RPE tears developed.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Elevated serum triglycerides were associated with increased risk of  prostate cancer recurrence.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Vitamin D-deficient and iron-replete children had longer duration of infection, although this association was lost with age adjustment.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Hypomotility of the esophageal body is the most common dysmotility, especially from the absence of significant waves.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? The short-term application of ZOL may not be sufficient to improve the outcome in postmenopausal patients.",
+        "gold_answer": "Conditional causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? In elderly hemodialysis patients, the impact of the BMI percent change on survival was stronger than that of the baseline BMI.",
+        "gold_answer": "Direct causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? A higher NSBB dose and dose titration were protective; yet most patients did not have the NSBB dose titrated to the recommended levels.",
+        "gold_answer": "Direct causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? More prospective cohort studies of longer durations, with more sophisticated methods that examine age-varying relationships, and that control for a comprehensive set of confounders, are needed.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Monitoring growth trajectories may improve chronic disease prevention.",
+        "gold_answer": "Conditional causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? For geriatrics, oncology, gastroenterology, and internal medicine, this ratio was even greater (1 out of 3\u00e2\u20ac\u201c4).",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? IMPACT: This study eliminates the previously suggested marker ApoD as a predictor of recurrence among tamoxifen-treated women.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? As part of the health strategy to maintain normal BMI values and achieve overall quality of life improvement in MWL patients, clinicians and health policy makers should positively consider recommending BCPS in multiple anatomical areas.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Social family support, emotional and financial difficulties should be investigated in all Moroccan breast cancer patients, especially among younger  ones, in order to detect those at risk of PD and offer them appropriate support.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? The results suggest that the IL-33 rs7044343 T allele could be a susceptibility marker for premature CAD and central obesity.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? The estimated cost per QALY gained was below the threshold recommended by English decision-makers.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? The use of herbal remedies was associated with educational level, time since diagnosis, type of surgery use, and use of endocrine therapy.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Although conventional echocardiography revealed no difference between patients with type 1 DM and healthy children, TDE showed dysfunctions of  both ventricles.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Presence of diabetes mellitus is the most important risk factor for retinopathy.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Patients with TNBC have adverse outcomes despite aggressive treatment.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Based on the results of this study, health coaching improved the QoL of T2D and CAD patients with moderate costs.",
+        "gold_answer": "Direct causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? We found an association between metabolic parameters and nocturnal blood pressure on the retinal microvasculature among the obese children with NAFLD.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? (Funded by F. Hoffmann-La Roche/Genentech; APHINITY ClinicalTrials.gov number, NCT01358877 .)",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Early detection and treatment of these two diseases need a better implication and motivation of patients and health care providers.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? The analysis was limited by the small patient numbers, but lipid results were consistent with randomized controlled trials and previous case series.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? The result shows metformin use is a protective agent against TB infection in diabetics.",
+        "gold_answer": "Direct causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? \"Regional fat distribution was related to lipid profile independently  of BMI.\"",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Refugee children may arrive in the United States with elevated blood lead levels.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? This paradox refers not only to 30-day overall mortality but also to 30-day cardiac and respiratory complications.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? A high prevalence of hyperlipidemia in patients infected with HCV is  observed.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Placement of a stent may decrease the likelihood of symptomatic recurrence.",
+        "gold_answer": "Conditional causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? This  work highlights the importance of several psychosocial factors in influencing patients surgical decisions.",
+        "gold_answer": "Direct causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? There is an urgent need for new strategies, including an understanding of why growth falters.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? The prevalence of caries in the permanent dentition was not associated with BMI or WC.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Lower vitamin D levels are associated with increased cardiovascular disease risk factors and in particular metabolic syndrome.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Cases of refractory diabetic macular edema that did not respond to previous treatment, such as anti-vascular endothelial growth factor injections and laser photocoagulation, exhibited improvements in visual acuity and decreases in retinal thickness after IVD implantation.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Protection from UFs by T2D exposure was observed regardless of medication type with slightly more protection among insulin users.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Among their associated factors, the haemoglobin level less than 10 g/dl is the one with strongest association.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Further studies with long term follow-up should evaluate the impact of Mets on PCa survival.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? \" Only one of the three methods allowed for the detection of changes from the normal capillary density as early as at the severe nonproliferative DR stage due to several refinements from the basic technique.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Our composite antenatal lifestyle intervention did not significantly reduce the risk of obesity in offspring up until age five.",
+        "gold_answer": "Direct causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Registered: 27 February 2017 (retrospectively registered).",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Low levels of IgM anti-PC may identify immune-deficient state and predict inferior therapy response.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? It can be used for axillary staging, but nevertheless the technique should be applied with attention to the tumor size and grade to avoid false negative results.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? In our establishment, it was decided to use prefilled syringes in operating rooms that used S1.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Key messages Sleep  duration was associated with diabetes, but whether it is a real cause of incident diabetes especially in Chinese still remains to be elucidated.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Thus, a large number of children had poor nutritional history or growth failure.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Increase opportunity of disease prevention can be obtained through better understanding of clinical presentation and risk factors important in the etiology of breast cancer.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? These findings demonstrate that disclosing genetic information for personalized nutrition results in greater changes in intake for some dietary components compared to general population-based dietary advice.",
+        "gold_answer": "Direct causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Omega-3 fatty acids supplementation could elevate serum irisin in male patients with CAD.",
+        "gold_answer": "Conditional causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? The available evidence is in favour of weight loss for overweight/obese gout patients, with low, moderate and low quality of evidence for effects on sUA, achieving sUA target and gout attacks, respectively.",
+        "gold_answer": "Conditional causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? A possible effect of pubertal tempo on density needs further investigation.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? \"The girls became overweight by the age of 5 years, whereas the boys only after 8 years of age.\"",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? MNA is a well-developed questionnaire which evaluates malnutrition in COPD patients.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? This study demonstrates the positive effects of state-wide, school-based health promotion on incidental abdominal obesity, at affordable costs and with proven cost-effectiveness.",
+        "gold_answer": "Direct causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? \"In contrast, the proportion of whole-grain rye to whole-grain wheat intake, indicated by the plasma C17:0-to-C21:0 ratio, was inversely associated with T2D.\"",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Although the effects were statistically significant, alterations were small.",
+        "gold_answer": "Direct causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? The findings of this study demonstrate the benefits of treating diabetic foot infections at a specialized wound department with a multi-disciplinary team.",
+        "gold_answer": "Direct causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? The results of this study indicate that CC genotype of rs2108552 and T-C-T-C haplotypes in Numb gene is a possible risk genetic marker and G allele and G-G-T-C haplotypes is a possible protective genetic marker for CAD in male Han Chinese.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? ABBREVIATIONS: ADA = American Diabetes Association CRP = C-reactive protein DD =  definite diabetes FPG = fasting plasma glucose HbA1c = glycosylated hemoglobin MENA = Middle-East North Africa ND = no diabetes PD = probable diabetes RD = at risk of diabetes T2D = type 2 diabetes mellitus TSH = thyroid-stimulating hormone.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? The benefits of exercise for reducing risk of chronic disease, including CVD, are well known.",
+        "gold_answer": "Direct causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? \\\\xa0Patients undergoing bariatric surgery were more likely to have fractures than were obese or non-obese controls, and this risk remained higher after surgery.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? The GENEVIEVE study showed no short-term effect of cabazitaxel in triple-negative or luminal B/HER2-negative primary BC, while there seemed to be no differences in drug exposure and patient compliance between the two arms.",
+        "gold_answer": "Direct causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Resveratrol supplementation increased PTX3 and TAS levels in a dose-dependent manner in T2DM patients.",
+        "gold_answer": "Direct causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? This could be accomplished by optimizing patients adherence, using more potent statins, titrating current statin therapy to higher doses, or using a combined lipid-lowering treatment.\"",
+        "gold_answer": "Conditional causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? TRIAL REGISTRATION: ISRCTN13981084 .",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? \" A sizeable minority of BRCA1/2 mutation noncarriers choose to undergo CPM after learning their mutation status through pre-surgical genetic testing.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Prompt diagnosis and  anticoagulation therapy led to favorable outcomes in most cases.",
+        "gold_answer": "Direct causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Physical activity is also associated with favorable HDL-C.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? However, combining the data of both groups, significant improvements in HbA1c and BMI from baseline were observed.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Health and eye-care practitioners need to expand diabetic health education and promotion among diabetic patients.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Also individually green tea consumption and abdominal obesity have failed to find an independent relationship with lacunar infarction after adjustment by all risk factors.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Long-term studies are required to determine whether these treatments have different cost-effectiveness  or impact on mortality.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Given that post-operative TSH levels were similar in the two groups, these observations are probably due to the correction  of eSCH, suggesting a direct effect of eSCH on body weight regulation and lipid metabolism.",
+        "gold_answer": "Direct causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? The direct association between Mediterranean diet and peripheral artery disease that we have found should be evaluated through a follow-up study under clinical practice conditions.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? It is possible that women already felt supported by their frequent attendance at specialist clinics for monitoring and advice.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? The determination of the failure criteria of NIMV and the expertise of the team is critical for treatment success.",
+        "gold_answer": "Direct causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Significant trends were observed for BMI, WC, body fat, visceral fat, and muscle mass for both genders with age.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Registered 15 March 2014.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? In the sample studied, no association was found between fetal growth restriction and changes in cardiovascular risk factors in adolescents.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? TG has significant correlation with the severity of hearing loss.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? These relations  are mediated in part by BMI.",
+        "gold_answer": "Conditional causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? SYSTEMATIC REVIEW REGISTRATION: PROSPERO, CRD42016037937.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Besides, the relationship between increase of dietary  diversity and risk of obesity should be treated circumspectly.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? \"These findings may help explain the associations observed between different fat distribution phenotypes and coronary heart disease.\"",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Identification of internal mammary metastases through IM-SLNB may provide more accurate staging  and guide the tailored internal mammary radiotherapy.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Closer follow-up with patients who evidence presurgical psychological factors, both before and after surgery, may help improve outcomes.",
+        "gold_answer": "Conditional causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Validation of these biomarkers and their potential treatment modulation may influence the clinical care of patients with CCM disease.",
+        "gold_answer": "Conditional causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Each macular retinal layer and CMT had a tendency to increase for one year after 577-nm PASCAL photocoagulation, whereas the average thickness of retinal pigment epithelium decreased at one-year follow-up compared to the baseline.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Further investigations should address the rationale for the early detection and control of glucose fluctuation in the era of universal statin use for CAD patients.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? SLNB is a viable technique in patients with breast cancer undergoing  NE/CT.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? A painless lump was the most frequent clinical presentation noted.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? A peak GH of 11.5 microg/liter or  less and IGF-I SDS -0.28 or less were highly predictive of delayed deterioration  of GH secretion.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Individual symptom resolution rates were highly variable.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Trials evaluating specific micronutrients are required in order to investigate specific nutrient-infection interactions in CSOM.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Pilates and walking positively impact quality of life, depression and anxiety.",
+        "gold_answer": "Direct causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? The findings of this study also indicated that interventions integrating household food insecurity in nutrition programs in the district might help to avert the burden of stunting.\"",
+        "gold_answer": "Conditional causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? At the best of our knowledge, this is the first case of male beast cancer treated with exemestane and everolimus combination.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? In virologically suppressed individuals with HIV infection, atorvastatin did not significantly decrease levels of soluble or cellular biomarkers of immune activation and inflammation but resulted in robust reductions in LDL cholesterol, oxLDL, and lipoprotein-associated phospholipase A2, biomarkers associated with cardiovascular risk.",
+        "gold_answer": "Direct causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Higher iron intakes were observed in adolescents and were highest for non-heme iron.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Nutritional risk was detected in 30% of ambulatory ADPKD patients with relatively good renal function.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Habitual consumption of sugar sweetened beverages was associated with a greater incidence of type 2 diabetes, independently of adiposity.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Future research could use qualitative methods to explore patients' reasons for choosing active symptom control, and to further elucidate the decision-making process.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? The most common medical problems are dermatological, rheumatological complications and minor trauma.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? If specific volitional skills are identified as predictors of adherence to physical activity and success in clinical weight loss maintenance, these can be trained in future intensive lifestyle interventions in order to optimize the success rate.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Hence, joint interventions, including counseling of mothers about benefits of colostrum feeding and use of appropriate feeding method, toilet utilization and mass media such as radio possession, are needed to address the problem in Dabat district.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Challenges exist in post-operative pain management as observed in previous surveys, especially for instrumented lumbar fusion surgery.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Simvastatin-related reductions in CSF p-tau181 concentrations may be modulated by LDL cholesterol.",
+        "gold_answer": "Conditional causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? High FGF21 values in our patients are correlated with atherosclerosis risk factors: hypercholesterolemia, hypertriglyceridemia, hypertension, increased TST and increased levels of sTWEAK.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? These findings show that patients with atherosclerotic cardiovascular disease benefit from lowering of LDL cholesterol levels below current targets.",
+        "gold_answer": "Direct causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Other studies should confirm these findings.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? The quality of life of these patients, after massive weight loss, is also highly improved by these procedures.",
+        "gold_answer": "Direct causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? High values of VEGF and CD34 are present in patients with cholesterol granulomas.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? These results are limited by the 32% response rate and potential for bias towards selection of those most careful with their health.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? It is also less common among  patients who received anti-TNF-\u00ce\u00b1 therapy.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Esophageal dysmotilities had a high prevalence in obese patients.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Although people with type 2 diabetes may have impaired neutrophil function, the study results revealed that having this condition was not associated with an increased risk of experiencing postoperative complications.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Addition of the pan-PI3K inhibitor buparlisib to taxane-trastuzumab-based therapy in HER2+ early breast cancer was not feasible.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Carefully adjusted and well-conducted cohort studies would be useful to identify  the relative effects of dietary cholesterol on CVD risk.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? The impact of these effects on future CVD events deserves further studies.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? The discrepancy between the adherence rates may point to gaps in the provision or uptake of screening services in Indigenous communities, or a lack of awareness of the guidelines.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Thus, in this population, BMI changes should be regularly assessed.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? \"Robotic procedure was feasible and could be implemented for treating  the first setting of mixed indications for gynecologic surgery.\"",
+        "gold_answer": "Direct causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? The presence and severity of ERM was not affected by RZB treatment.",
+        "gold_answer": "Direct causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? NT in control individuals without gallstones was significantly prolonged compared with the NT in patients with established gallstone disease.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? This study did not identify a significant DFS or MFS advantage for CT in subcentimetric, node-negative ductal TNBC.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Serum AMH is a relevant tool for ovarian reserve assessment and follow-up during treatment in premenopausal women with breast cancer.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Iron deficiency anemia and vitamin D deficiency improved with iron and vitamine D supplements.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Retirement offers a time to reassess lifestyle, and adopt positive health enhancing physical activity and dietary behaviours.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? A childhood obesity intervention with electronic decision support for clinicians and self-guided behavior-change support for parents may be more cost-effective than previous clinical interventions.",
+        "gold_answer": "Conditional causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Increasing the ezetimibe dose to 20 mg daily might be an interesting potential approach for patients who fail to reach lipid targets on ezetimibe 10 mg daily along with maximally tolerated doses of statin.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? \" A considerable number of patients treated with statins did not achieve the treatment goal values.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Both exenatide BID and prandial insulin lispro, each added to basal  insulin glargine, were effective at reducing HbA1c in Latin American patients.",
+        "gold_answer": "Direct causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? The observed associations between pre-diagnostic serum GGT and different breast cancer subtypes may indicate distinct underlying pathways and require further investigations to tease out their clinical implications.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? In summary, the burden of underweight was higher among prisoners in Tigray region who had respiratory tract infections.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? However, there were clinically promising trends in fitness, screen time, and caloric intake.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Appropriate nutrition education strategies should be developed for children with a history of EUGR to prevent later associated pathologies, as neonatal nutritional support and feeding during childhood are associated with an  increase in diseases in this risk group.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Repeat injections and frequent examination might be required for continued improvement.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? We did not find strong evidence for concordance between the few associations highlighted by previous GWAs of breast cancer survival and this study.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Correct and meticulous placement of the flap inside the cystic cavity is the most critical issue for the success of the procedure.",
+        "gold_answer": "Direct causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Moreover, optimizing vitamin D in early life may be critical for later health.",
+        "gold_answer": "Conditional causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Additional work is needed to understand decision-making and to standardize delivery of procedural sedation in children requiring I&D.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? In this multicenter, prospective study of bariatric surgery in adolescents, we found significant improvements in weight, cardiometabolic health, and weight-related quality of life at 3 years after the procedure.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? \" These results suggest that maternal eating and emotion responsiveness are important for understanding the interpersonal context of feeding behaviors, and child weight outcomes.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? \"RGPC did not appear to directly affect general risk-taking behaviors  or STIs, since it focuses on diabetes and reproductive health issues.\"",
+        "gold_answer": "Direct causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Patients on HIST had the lowest likelihood of presenting with STEMI.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? In women with early BC, AI therapy is associated with high prevalence of radiological VFs, which were shown to be independent of BMD values  during the adjuvant treatment.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Over time, these changes are likely to influence population nutrient intakes and reduce CVD risk factors.",
+        "gold_answer": "Conditional causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? \" HeRO catheters offer a reliable, and possibly the last, alternative  in hemodialysis access-challenged patients.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Physical breast  trauma, lower parity, a trend for less breast feeding had more significant associations with pre-menopausal than post-menopausal onset.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? \"Where observed, adverse events were not serious, and there was no evidence of a dose-relationship to frequency of adverse events.\"",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? This randomized clinical trial demonstrated better postoperative outcomes at 6\\\\xa0months when subjects received preoperative IVB 5-10\\\\xa0days before PPV compared to 1-3\\\\xa0days for the treatment of PDR-related complications.",
+        "gold_answer": "Direct causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Abbreviated behavioral counseling can produce clinically meaningful  weight loss regardless of whether self-monitoring is performed on paper or smartphone, but long-term superiority over standard of care self-guided treatment is challenging to maintain.",
+        "gold_answer": "Direct causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? \u00ce\u00b2-CTx had no significant association with DR. ",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? \"This point allowed patients, in non-surgical chronic critical ischaemia, to avoid being confined to bed and to access to benefits of a early physiotherapy, in association with local treatment.\"",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Definitively, patients preferred H-s.c. as reported in early stage by PrefHer study.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Thus, broadening the spectrum of empiric antibiotic therapy for recurrent episodes of DFI does not appear necessary.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Energy intakes increased with age in children with CF and exceeded that of healthy peers in all age groups.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Widening disparities were identified over time with key areas of concern including disproportionate, progressive increases in the burden of chronic conditions among women from rural and low-income communities and those with deliveries funded by Medicaid.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Some studies that have assessed the impact of monitoring guidelines on clinical practice show only limited impact.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Fetuin A showed a remarkable interaction with nutritional status in  evaluating the risks of CV morbidities in prevalent HD patients.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? These results add strength to the evidence showing that PALB2 is involved in BC risk for both sexes and indicate that consideration should be given to clinical testing of PALB2 for BRCA1/2 mutation-negative families with multiple MBC and FBC cases.",
+        "gold_answer": "Direct causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Elaboration of clinical models of inflammation-induced atherogenesis may further advance our knowledge of multiple inflammatory pathways implicated in atherogenesis and provide a useful tool for cardiovascular prevention.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Conversely, in view of the high false-positive rate of suspicious nodes detected  in luminal A tumors by MRI, proceeding straight to sentinel lymph node biopsy for all cases, except for those with highly suspicious findings, is suggested.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? These data are consistent with the hypothesis that exposure to air pollution is adversely associated with measures of HDL.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? LEVEL OF EVIDENCE: 3.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? In this pilot study, we found that the combination of SIRS criteria and PCT levels is useful for the early detection of sepsis in ED patients with suspected infection.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? The mechanisms responsible for these observations remain to be elucidated.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Although the significant association of B4a1a and E2b1 with T2D ceased when corrected for multiple testings, these haplogroups are seen only among Taiwan Aborigines, Southeast Asian and the Pacific Ocean islanders where T2D is predominant.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Inter-observer variability in contouring was low.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? However, intensive prenatal nutrition counseling offered in an urban community health setting may decrease LGA births among a group of overweight and obese women from culturally diverse backgrounds at risk for adverse maternal and neonatal outcomes.",
+        "gold_answer": "Conditional causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? CLINICAL RELEVANCE: Healthcare professionals should screen for nocturia and poor  sleep and offer appropriate nonpharmacological lifestyle management, behavioral interventions, or pharmacotherapy for women with diabetes.\"",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? \"PDT can be performed safely in obese patients.\"",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Topical insulin is safe for human ocular usage.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Given that no significant technical advantages exist between the two agents, surgeons should choose a radiopharmaceutical based on cost and side effect profile.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? They were more likely to have hypertension, high triglycerides, low high-density lipoprotein cholesterol, albuminuria and elevated alanine aminotransferase.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Higher intakes of cholesterol and monounsaturated fatty acids may reduce risk of PD in men and women, respectively.",
+        "gold_answer": "Conditional causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Despite the apparent growth response in HIV-infected children after initiation of HAART, moderate and severe underweight are both independent predictors of a positive shift.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Children with S-ECC appear to have relatively poor nutritional health compared to caries-free controls, and were significantly more likely to have low  vitamin D, calcium, and albumin concentrations and elevated PTH levels.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? In the present study, large tumour size and positive or uncertain margin status were associated with a higher risk of death from breast cancer after treatment for primary DCIS.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Participants in SNAP require greater focus to understand and further address their poor health outcomes.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? \"Thus, promoting social support for the IMSS diabetic patients could be a useful intervention.\"",
+        "gold_answer": "Conditional causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Although the incidence of BIS > 60 are very common in obese patients, true awareness during anaesthesia infrequent in this group of patients  despite the type of anaesthesia, whether intravenous or inhalation.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? The risk test appears to be a more effective screening tool in our population.",
+        "gold_answer": "Conditional causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? TRIAL REGISTRATION: Australia and New Zealand Clinical Trial Registry (ACTRN12612001168842) registered November 2, 2012.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Dietary diversity score is a valid indicator to evaluate micronutrient inadequacy in Chinese children, though there is still room for improvement of the method.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Androgens were associated with modestly increased risk of breast cancer in this population, with stronger associations for invasive and ER+/PR+ disease.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Fluid restrictive management of patients with aSAH decreases number of hypoxemic patients at day 3 and day 7.",
+        "gold_answer": "Direct causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? CLINICAL TRIAL REGISTRATION NUMBER: UMIN000001677.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Enteropathogens were found in only about half of the patients and the most common cause of PD was secondary lactase deficiency.",
+        "gold_answer": "Direct causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Despite an encouraging outcome based on anatomical data in advanced  PDR treated with vitrectomy and SO, the functional prognosis was not satisfying for patients.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? In long-term home PN patients, higher zinc and selenium doses may be necessary to maintain their normal serum concentrations.",
+        "gold_answer": "Conditional causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Once considered a high income country problem, result of this study  in urban city like Gondar reveals that overweight/obesity is on the rise in urban Ethiopia, which indicates the need for formulating preventive programs and policies during a childs early years.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? a high intake of fats, phosphorus, vitamin B5, vitamin E, and selenium intake and red meat appears to be related to the presence OSCC in Cordoba, Argentina.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Modified Mallampati test was better for predicting difficult laryngoscopy compared to other bedside screening tests.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? For clinicians and patients deciding to begin calcium+vitamin D supplementation, current use of hormone therapy should not influence that decision.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? These findings require further validation in the ongoing prospective ODYSSEY OUTCOMES trial.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? \"These results demonstrate that lipophilic drugs can be developed for LTT; although the nude rat is suitable for testing drug permeability, delivery is systemic.\"",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Work-related psychosocial stress may increase the risk of T2DM only amongst women in their early 60s.",
+        "gold_answer": "Conditional causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Further large-scale, prospective investigations are necessary for clarification.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Unsuspected cirrhosis is seen in 3.3% of young patients with CF, heterogeneous in 8.9%.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? The majority of fetuses are not acidemic even when the FHR trace is pathological and stimulation tests are only helpful when accelerations are provoked.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? The cost effectiveness of health coaching may vary substantially across patient groups, and thus interventions should be targeted at selected subgroups of chronically ill.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? LSG reduced calorie intake both through volume of food and the calorie density of the food consumed.",
+        "gold_answer": "Direct causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Ezetimibe 20 mg daily reduced total and LDL cholesterol further in patients receiving statin therapy compared with 10 mg daily.",
+        "gold_answer": "Direct causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Surgical, but not medical treatment, consistently led to clinically important improvements in HRQL  over two years.",
+        "gold_answer": "Direct causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Adherence to healthful dietary patterns is associated with favorable concentrations of many cardiometabolic and endocrine biomarkers.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Surgical weight loss resulted in the significant improvement of OSA  associated with obesity.",
+        "gold_answer": "Direct causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? High BMI and alcohol consumption and abstinence are risk factors for  CLD in post-menopausal women.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? A low dose of CC therapy was able to significantly increase serum T  levels in all participants with mild modifications of clinical and metabolic parameters.",
+        "gold_answer": "Direct causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Cancer 2018;124:192-202.\u00c2\u00a9 2017 American Cancer Society.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? From a practical perspective, the study provides insightful results for healthcare professionals.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? These findings have implications in the clinical availability of serum Hb as a predictor of MS and NAFLD.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Cell phone technology allows snoring to be evaluated in patients located in areas remote from a hospital.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Treatment of hyperlipidemia with medication though surprisingly common  could improve.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Our findings add to the available evidence that obesity might specifically be associated with the onset of multiple episodes of major depression (MDD-R).",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? This risk determination identifies a potentially modifiable risk factor for early readmission.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? These findings obtained in vitro and in vivo provide new insights into the adverse relation between blood transfusions and patient outcome.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Patients with pure MN with DM can frequently achieve remission.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? It improved all symptom domains, especially impulsive-behavioral dyscontrol and anger, and reduced levels of aggression and violence, especially at lower doses (serum levels <350 ng/m).",
+        "gold_answer": "Direct causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? We suggest early proactive consideration of PEG from age 8\\\\u2005years onwards to prevent  progressive growth failure.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? \"However, no predictive criterion of long-term results could be established, except initial clinical severity and clinical change one month after treatment.\"",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? LEVEL OF EVIDENCE: III, prospective case-control study.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? High HFIS prevalence was reported among urban Lebanese households.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? A history of a previous DFI episode did not predict a greater likelihood of any antibiotic-resistant isolate in subsequent episodes.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Women with GDM had a 10-fold higher risk of developing T2DM during a 10-year follow up period as compared to women with no GDM after controlling for other confounding variables.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? The impact of false-positive histological diagnoses of breast cancer on unnecessary treatment, as well as that of overdiagnosis, is not negligible and is of importance in clinical practice.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Given that the risk of lymphedema after ALND ranges between 20%-53%, the morbidity of ALND may far exceed the likelihood of detecting further nodal involvement in women with micrometastatic disease: 7.1% in this series.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? IMPLICATIONS FOR CANCER SURVIVORS: This promising pilot trial suggests a need for more research on preventive counseling to maintain sexual function during aromatase inhibitor treatment.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Despite routine oral VtD supplementation, most patients did not achieve satisfactory status.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Further prospective research with longer follow-up periods is needed to confirm or contrast the present results.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? IMPACT: These findings, coupled with evidence that statin use is associated with  reduced recurrence risk, suggest that lipid levels should be explored as a modifiable risk factor for prostate cancer recurrence.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Cancer 2017;123:1424-1433.\u00c2\u00a9 2016 American Cancer Society.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? The model, validated by means of logistic regression and bootstrap analysis, contains the variables AGE, TC, and CA 19.9 (three of the original six) and has a level 4 over 5 according to the criteria of Justice et al. (multiple independent validations) Ann. Intern.Med.1999; 130: 515.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? The present findings show a 5% upgrade rate to DCIS.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Adequate evidence-based public health strategies are needed to reduce the vulnerability of mothers to food insecurity in LMIC settings and alleviate their risk of a high burden of nutrient insecurity and obesity.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Children consumed multiple F/V; however, more whole grains and lean proteins could be provided.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Furthermore, FCR is frequent among women, particularly when closer in time to primary surgery.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Monitoring  of environmental metal levels and further studies are urgently needed.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Acceptance of the validity of such data may create the erroneous impression that  undernourishment is desirable.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? These results suggest that hyperlipidemia and alterations in corticosteroid metabolism  in the setting of HAART are a direct drug effect that reverses with drug withdrawal.",
+        "gold_answer": "Direct causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? \"In type 2 diabetes patients, leukocyte telomere length is significantly reduced, whereas the telomerase activity seems less influenced.\"",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Moreover, these biomarkers are predictors of T2DM subjects and should take more attention to measure levels of these as well as to target therapy/interventions.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Chronic kidney disease patients have increased cardiovascular event risk.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Based on the comparatively smaller observed differences associated with menopausal status than with chronological aging, the  significance of a more unfavorable lipid profile in a later reproductive stage may be less obvious than previously thought.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? In our nationwide case-control study, we found no association between statin use and risk of endometrial cancer.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? The safety was consistent with the known H-i.v. and H-s.c.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? GDM appears to influence fetoplacental apelin metabolism.",
+        "gold_answer": "Conditional causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? They must also determine whether TFA from ruminant fat in currently consumed amounts represent limited cardiovascular risk  that is balanced by the nutritional benefits of dairy products.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Data on common risk factors were not adjusted for in the analyses.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Thus, CETP gene variation may affect coronary risk apart from the level of HDL-C.",
+        "gold_answer": "Conditional causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? There was about a twofold increase in their risk of experiencing the symptom cluster and symptoms of depression and fatigue.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Combination of pertuzumab, trastuzumab and radiotherapy was well tolerated, which should be confirmed by the results of larger studies.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Our data-suggest the effectiveness of exercise supervised by a PT at the workplace of nurses conducting shift work for health promotion.",
+        "gold_answer": "Direct causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Future study comparing results pre and post intervention is needed.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Our study evaluated transcutaneous capnography as a continuous nocturnal measurement in hypercapnic subjects.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Nevertheless, these results should be confirmed with further studies.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Increased duration of beedi rolling, advancing age and presence of diabetes were the independent correlates of potential TON.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? \"These associations may be secondary to adiposity or insulin resistance.\"",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? While an objective measure of adherence exists, PAP usage does not allow for measure of sleep improvement.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? \"Because of founder effects, registry-based prevalence studies probably need to be very large and they should also include prospectively collected phenotypes  and extensive mutation screening to establish the true prevalence of MODY.\"",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Triglyceride was highly associated with suicidality in younger and middle-aged adults, but not in  elderly adults.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? The majority of patients did not comply with their contract and follow-up adherence was low in both groups.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Our findings support the notion that cardiovascular prevention should focus on sets of risk factors rather than individual levels alone, but may prioritize within clusters.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Whereas kitchen and nursing-related aspects of nutritional care seem  to be widely implemented in German NHs, management and quality assurance demands  are often not met.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? The relationships with local and locoregional recurrences were also present in women treated with mastectomy, indicating that they are not merely explained by density masking residual disease in women treated with breast-conserving surgery.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? However, as 97%  of cancers in our study showed interval change when a prior MR for comparison was available, new lesions or increasing size should lead to consideration of biopsy.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Further prospective studies are warranted to explore effective interventions to improve the poor outcomes of diabetic patients undergoing hepatectomy.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Both conbercept and ranibizumab are effective in the treatment of DME, achieving the similar clinical efficacy.",
+        "gold_answer": "Direct causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? \" Careful assessment of findings as BPE versus NME can improve PPVs, particularly in younger women.",
+        "gold_answer": "Direct causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? These results would aid surgeons in better patient selection and identification of patients requiring more careful follow-up.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Continued research defining the role of MT intervention in improving the patient experience by reducing anxiety is warranted.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Up to 43% of patients undergoing shoulder arthroscopy can be classified as obese, but early perioperative complications are uncommon.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Vitamin A status has a strong association with severity of infection.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Stosstherapy is a safe, cheap and effective method of treating nutritional rickets.",
+        "gold_answer": "Direct causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Ever consuming alcohol and ever smoking cigarette after starting ART, depression, not adhering to ART and being in the second lowest wealth quintile were significantly associated with malnutrition.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Nonetheless, the high mortality due to violence is a warning sign.",
+        "gold_answer": "No claim"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? The frequencies of CETP gene -629 genotype and allele in the Tianjin  Han Chinese population was significantly different from that in Other domestic and foreign populations.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Despite the fact that the present work shares some limitations mainly because of its cross-sectional design, the classification and regression tree approach has clearly demonstrated the interrelation between nutritional services and the health care system towards achieving benefits among the elders  quality of life.",
+        "gold_answer": "Direct causal"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Symptom-specific outcomes were better in patients managed surgically  for PACG.",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Genetic susceptibility appears to be more preponderant in individuals who meet both the modified 99WHO  and the IADPSG GDM diagnostic criteria.\"",
+        "gold_answer": "Correlational"
+    },
+    {
+        "question": "What is the causal relation in the following sentence? Medication and swallowing difficulties were not associated with change in BW.",
+        "gold_answer": "Correlational"
+    }
+]
