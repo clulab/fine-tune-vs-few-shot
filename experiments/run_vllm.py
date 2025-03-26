@@ -13,8 +13,13 @@ def main():
 
     # Prepare the data
     with open(args.test_data) as f:
-        test_data = json.load(f)
-
+        if args.test_data.endswith(".jsonl"):
+            test_data = []
+            for l in f:
+                test_data.append(json.loads(l))
+        else:
+            test_data = json.load(f)
+        
     print(f"Number of examples loaded: {len(test_data)}")
 
     prompts = []

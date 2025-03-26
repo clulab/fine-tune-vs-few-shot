@@ -11,17 +11,34 @@ def main():
 
     # Prepare the data
     with open(args.test_data) as f:
-        test_data = json.load(f)
+        if args.test_data.endswith(".jsonl"):
+            test_data = []
+            for l in f:
+                test_data.append(json.loads(l))
+        else:
+            test_data = json.load(f)
+        
     print(f"Number of examples loaded: {len(test_data)}")
 
+
     with open(args.prompt_data) as f:
-        prompt_data = json.load(f)
+        if args.prompt_data.endswith(".jsonl"):
+            prompt_data = []
+            for l in f:
+                prompt_data.append(json.loads(l))
+        else:
+            prompt_data = json.load(f)
+    if args.sample:
+        with open(args.sample) as f:
+            sample = set(json.load(f))
+        prompt_data = [i for i in prompt_data if i["id"] in sample]
     print(f"Number of prompt examples loaded: {len(prompt_data)}")
+
 
     # prepare the few-shot examples
     few_shot_examples = []
     for example in prompt_data:
-        few_shot_example = f"In: {example['question']} Out: {example['gold_answer']}"
+        few_shot_example = f"{example['question']}{example['gold_answer']}"
         few_shot_examples.append(few_shot_example)
     few_shot_examples = "\n".join(few_shot_examples)
 
@@ -32,8 +49,7 @@ def main():
 
     model_input_texts = []
     for example in test_data:
-        current_in = f"In: {example['question']} Out:"
-        current_in = f"{few_shot_examples}\n{current_in}"
+        current_in = f"{few_shot_examples}\n{example['question']}"
         # message = [{"role": "user", "content": current_in}]
         # prompt = tokenizer.apply_chat_template(message, add_generation_prompt=True, tokenize=False)
         model_input_texts.append(current_in)
@@ -82,6 +98,7 @@ if __name__ == "__main__":
     parser.add_argument("--tokenizer", type=str)
     parser.add_argument("--test_data", type=str)
     parser.add_argument("--prompt_data", type=str)
+    parser.add_argument("--sample", type=str)
     parser.add_argument("--output_dir", type=str)
     parser.add_argument("--tensor_parallel_size", type=int)
     args = parser.parse_args()

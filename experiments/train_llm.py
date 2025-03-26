@@ -23,6 +23,7 @@ class ModelArguments:
 @dataclass
 class DataArguments:
     data_path: str = field(default=None, metadata={"help": "Path to the training data."})
+    sample_path: str = field(default=None, metadata={"help": "Path to the sampled indexes."})
 
 
 @dataclass
@@ -149,7 +150,16 @@ def train():
 
     # Load data
     with open(data_args.data_path, "r") as f:
-        data = json.load(f)
+        if data_args.data_path.endswith(".jsonl"):
+            data = []
+            for l in f:
+                data.append(json.loads(l))
+        else:
+            data = json.load(f)
+    if data_args.sample_path:
+        with open(data_args.sample_path, "r") as f:
+            sample = set(json.load(f))
+        data = [i for i in data if i["id"] in sample]
     src_seqs = [i["question"] for i in data]
     tgt_seqs = [i["gold_answer"] for i in data]
 
