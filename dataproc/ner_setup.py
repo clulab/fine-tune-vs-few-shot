@@ -290,9 +290,15 @@ def build_dataset(dataset_name: str):
     for i in range(5):
         transformed_train_200_i = random.sample(transformed_train, 200)
         transformed_train_200_i_indices = [s['id'] for s in transformed_train_200_i]
-        # shots are 1, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 120, 140, 160, 180, 200
-        for shot in [1, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100, 120, 140, 160, 180, 200]:
-            indices = transformed_train_200_i_indices[:shot]
+        # shots are 2 20 40 60 80 100 120 140 160 180 200
+        for shot in [2, 20, 40, 60, 80, 100, 120, 140, 160, 180, 200]:
+            if shot == 2:
+                # get 1 example that has entities and get another that has no entities
+                entities_example = [s for s in transformed_train_200_i if s['gold_answer'] != "<output></output>"]
+                no_entities_example = [s for s in transformed_train_200_i if s['gold_answer'] == "<output></output>"]
+                indices = [entities_example[0]['id'], no_entities_example[0]['id']]
+            else:
+                indices = transformed_train_200_i_indices[:shot]
             # example json content: ["186876.txt_73", "100039.txt_269", "168936.txt_77", "112747.txt_12", "109527.txt_20", "106384.txt_86", "117745.txt_256"]
             with open(f'{output_prefix}/run_samples/train{i}_{shot}.json', 'w') as f:
                 json.dump(indices, f)

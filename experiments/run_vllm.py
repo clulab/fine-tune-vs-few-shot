@@ -36,7 +36,13 @@ def main():
         model=args.ckpt_dir,
         tensor_parallel_size=args.tensor_parallel_size, seed=42,
     )
-    sampling_params = SamplingParams(n=1, temperature=0, max_tokens=32)
+    
+    if args.gen_config_path:
+        with open(args.gen_config_path, "r") as f:
+            gen_config = json.load(f)
+        sampling_params = SamplingParams(**gen_config)
+    else:
+        sampling_params = SamplingParams(n=1, temperature=0, max_tokens=32)
 
     # Start the generation
     print("Prompt example")
@@ -73,6 +79,7 @@ if __name__ == "__main__":
     parser.add_argument("--tokenizer", type=str)
     parser.add_argument("--test_data",type=str)
     parser.add_argument("--output_dir",type=str)
+    parser.add_argument("--gen_config_path",type=str, default=None)
     parser.add_argument("--tensor_parallel_size", type=int, default=1)
     args = parser.parse_args()
     main()

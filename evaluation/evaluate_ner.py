@@ -1,4 +1,5 @@
 import argparse
+import csv
 from typing import List
 import json
 import re
@@ -83,8 +84,14 @@ if __name__ == "__main__":
                        help="Path to the JSON file with predictions (default: source_preds.json)")
     parser.add_argument("--model_name", type=str, required=True,
                        help="Name of the model being evaluated")
+    parser.add_argument("--dataset", type=str, required=True,
+                       help="Dataset being used (e.g., toy, dev, test)")
     parser.add_argument("--eval_set", type=str, required=True,
                        help="Evaluation set being used (e.g., toy, dev, test)")
+    parser.add_argument("--run_n", type=int, required=True,
+                       help="Run number")
+    parser.add_argument("--sample_n", type=int, required=True,
+                       help="number of samples used for training or few shot")
     args = parser.parse_args()
     
     # read json file
@@ -102,5 +109,35 @@ if __name__ == "__main__":
     directory = os.path.dirname(args.generated_file)
     with open(os.path.join(directory, "detailed_predictions.json"), "w") as f:
         json.dump(predictions, f, indent=2)
+        
+        # Update CSV fieldnames
+    fieldnames = [
+        'model_name', 'run_n', 'dataset', 'few_shot_n', 'eval_set',
+        'precision', 'recall', 'f1'
+    ]
+
+    # Update CSV writing
+    csv_file = 'output/scores.csv'
+    # if file does not exist, write header
+    if not os.path.exists(csv_file):
+        with open(csv_file, 'w', newline='') as f:
+            writer = csv.DictWriter(f, fieldnames=fieldnames)
+            writer.writeheader()
+    
+    print("Writing to CSV")
+
+    with open(csv_file, 'a', newline='') as f:
+        writer = csv.DictWriter(f, fieldnames=fieldnames)
+        
+        # Removed header writing completely
+        writer.writerow({
+            'model_name': args.model_name,
+            'run_n': args.run_n,
+            'dataset': args.dataset,
+            'few_shot_n': args.few_shot_n,
+            'eval_set': args.eval_set,
+            **metrics
+        })
+    print("Writing to CSV done")
     
     
