@@ -1,27 +1,28 @@
 #!/bin/bash
 
-# clear created directories
+# Clear created directories
 rm -rf fewshot_pbs_files
 rm -rf output
-# clear old jobs
+
+# Clear old jobs (if using PBS/qstat)
 qstat | awk 'NR>1 && ($1 ~ /^[rq]$/) && $5 == "bulut" {print $4}' | xargs -I {} qdel {}
 
-# clear old job log files that are stdout.txt and stderr.txt
+# Clear old job log files
 rm -rf job.*.stdout.txt
 rm -rf job.*.stderr.txt
 
-# create pbs file dir
+# Create PBS file dir
 mkdir -p fewshot_pbs_files
 
-echo "Starting experiments"
+echo "Starting classification few-shot experiments"
 
 # Define experiment parameters
 LOCAL_MODEL_PATH="/media/networkdisk/bulut2/local-models"
 GEN_CONFIG_PATH="/home/bulut/fine-tune-vs-few-shot/gen_config.json"
-MODELS=("deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B" "meta-llama/Llama-3.2-3B-Instruct" "Qwen/Qwen2.5-3-Instruct") #  "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B" "meta-llama/Llama-3.2-3B-Instruct" "Qwen/Qwen2.5-3-Instruct" "Qwen/Qwen2.5-7B-Instruct" "Qwen/Qwen2.5-14B-Instruct" "Qwen/Qwen2.5-32B-Instruct"
-SOURCE_DATASETS=("cdr") # "ehealth"
-TARGET_DATASETS=("ehealth") # "ehealth"
-
+MODELS=("deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B" "meta-llama/Llama-3.2-3B-Instruct" "Qwen/Qwen2.5-3-Instruct")
+# "ag_news" "snips"
+SOURCE_DATASETS=("ag_news")
+TARGET_DATASETS=("ag_news")
 FEW_SHOT_NS=(2 20 40 60 80 100 120 140 160 180 200)
 EVAL_SET="test"
 RUN_N=5
@@ -49,7 +50,7 @@ for i in $(seq 0 $((${#configs[@]} - 1))); do
         test_data_path="processed-data/${target_dataset}/${EVAL_SET}.jsonl"
         sample_path="processed-data/${source_dataset}/run_samples/train${run_n}_${few_shot}.json"
         prompt_data_path="processed-data/${source_dataset}/train.jsonl"
-        preds_path="output/ner/${source_dataset}_${target_dataset}/${model}_${run_n}_${few_shot}_shot"
+        preds_path="output/classification/${source_dataset}_${target_dataset}/${model}_${run_n}_${few_shot}_shot"
         # Create output directory if it doesn't exist, delete if it does
         if [ -d "$preds_path" ]; then
             rm -rf "$preds_path"
@@ -61,7 +62,7 @@ for i in $(seq 0 $((${#configs[@]} - 1))); do
 ### Job Name
 #PBS -N fewshot_${model}_${source_dataset}_${target_dataset}_${few_shot}_${EVAL_SET}_run${run_n}
 ### Project code
-#PBS -A ner_fewshot
+#PBS -A classification_fewshot
 ### Maximum time this job can run before being killed (here, 1 day)
 #PBS -l walltime=01:00:00:00
 ### Resource Request (must contain cpucore, memory, and gpu (even if requested amount is zero)
@@ -69,12 +70,9 @@ for i in $(seq 0 $((${#configs[@]} - 1))); do
 ### Output Options (default is stdout_and_stderr)
 #PBS -l outputMode=stdout_and_stderr
 
-
 . /home/bulut/miniconda3/etc/profile.d/conda.sh
 
 conda activate ft-vs-icl
-
-
 
 ### Run experiment
 CUDA_VISIBLE_DEVICES=\$CUDA_VISIBLE_DEVICES python experiments/run_vllm_prompting.py \
@@ -86,8 +84,9 @@ CUDA_VISIBLE_DEVICES=\$CUDA_VISIBLE_DEVICES python experiments/run_vllm_promptin
     --sample $sample_path \
     --gen_config_path $GEN_CONFIG_PATH \
     --tensor_parallel_size 4
+
 ### Run evaluation
-CUDA_VISIBLE_DEVICES=\$CUDA_VISIBLE_DEVICES python evaluation/evaluate_ner.py \
+CUDA_VISIBLE_DEVICES=\$CUDA_VISIBLE_DEVICES python evaluation/evaluate_classification.py \
     --generated_file $preds_path/source_preds.json \
     --model_name $model \
     --eval_set $EVAL_SET \
@@ -100,4 +99,4 @@ EOF
         # Submit job
         qsub "fewshot_pbs_files/${identifier}.pbs"
     done
-done
+done 

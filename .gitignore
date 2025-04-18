@@ -170,3 +170,15 @@ cython_debug/
 # PyPI configuration file
 .pypirc
 .DS_Store
+
+# bulut's ignored 
+job.*.stdout.txt
+job.*.stderr.txt
+output/
+raw-data/
+processed-data/
+fewshot_pbs_files/
+finetune_pbs_files/
+models.txt
+
+

@@ -84,8 +84,10 @@ if __name__ == "__main__":
                        help="Path to the JSON file with predictions (default: source_preds.json)")
     parser.add_argument("--model_name", type=str, required=True,
                        help="Name of the model being evaluated")
-    parser.add_argument("--dataset", type=str, required=True,
-                       help="Dataset being used (e.g., toy, dev, test)")
+    parser.add_argument("--source_dataset", type=str, required=True,
+                       help="Source dataset being used (e.g., toy, dev, test)")
+    parser.add_argument("--target_dataset", type=str, required=True,
+                       help="Target dataset being used (e.g., toy, dev, test)")
     parser.add_argument("--eval_set", type=str, required=True,
                        help="Evaluation set being used (e.g., toy, dev, test)")
     parser.add_argument("--run_n", type=int, required=True,
@@ -103,6 +105,8 @@ if __name__ == "__main__":
     
     # Print model name, evaluation set, and scores
     print(f"Model: {args.model_name}")
+    print(f"Source Dataset: {args.source_dataset}")
+    print(f"Target Dataset: {args.target_dataset}")
     print(f"Evaluation Set: {args.eval_set}")
     print(f"Scores: {metrics}")
     # get the directory from the generated file
@@ -112,7 +116,7 @@ if __name__ == "__main__":
         
         # Update CSV fieldnames
     fieldnames = [
-        'model_name', 'run_n', 'dataset', 'few_shot_n', 'eval_set',
+        'model_name', 'run_n', 'source_dataset', 'target_dataset', 'sample_n', 'eval_set',
         'precision', 'recall', 'f1'
     ]
 
@@ -133,8 +137,9 @@ if __name__ == "__main__":
         writer.writerow({
             'model_name': args.model_name,
             'run_n': args.run_n,
-            'dataset': args.dataset,
-            'few_shot_n': args.few_shot_n,
+            'source_dataset': args.source_dataset,
+            'target_dataset': args.target_dataset,
+            'sample_n': args.sample_n,
             'eval_set': args.eval_set,
             **metrics
         })
