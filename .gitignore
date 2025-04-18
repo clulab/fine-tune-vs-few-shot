@@ -175,7 +175,7 @@ cython_debug/
 job.*.stdout.txt
 job.*.stderr.txt
 output/
-raw-data/
+raw-data/ner
 processed-data/
 fewshot_pbs_files/
 finetune_pbs_files/
