@@ -98,10 +98,11 @@ if __name__ == "__main__":
         json.dump(predictions, f, indent=2, ensure_ascii=False)
         
     # CSV fieldnames
-    fieldnames = [
-        'model_name', 'run_n', 'source_dataset', 'target_dataset', 'sample_n', 'eval_set',
-        'accuracy'
-    ] + [f'per_class_{k}' for k in metrics['per_class_accuracy'].keys()]
+    fieldnames = (
+        [ 'model_name', 'run_n', 'source_dataset', 'target_dataset', 'sample_n', 'eval_set' ]
+        + [f'per_class_{k}' for k in metrics['per_class_accuracy'].keys()]
+        + ['accuracy']
+    )
 
     # Prepare row for CSV
     row = {
@@ -111,11 +112,10 @@ if __name__ == "__main__":
         'target_dataset': args.target_dataset,
         'sample_n': args.sample_n,
         'eval_set': args.eval_set,
-        'accuracy': metrics['accuracy'],
     }
     for k, v in metrics['per_class_accuracy'].items():
         row[f'per_class_{k}'] = v
-
+    row['accuracy'] = metrics['accuracy']
     csv_file = 'output/scores.csv'
     # if file does not exist, write header
     write_header = not os.path.exists(csv_file)

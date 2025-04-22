@@ -44,8 +44,7 @@ class AGNewsDataset:
             'test': []
         }
         self.instruction = (
-            "Given a news article, classify it into one of the following categories: World, Sports, Business, or Sci/Tech. "
-            "Predict the most appropriate category based on the content of the article. Output only the category name."
+            "Determine topic of the sentence using following options: World, Sports, Business, or Sci/Tech."
         )
         self.labels = list(self.label_map.values())
 
@@ -76,9 +75,7 @@ class SnipsDataset:
             'test': []
         }
         self.instruction = (
-            "Given a user utterance, classify the intent of the utterance into one of the following SNIPS intents: "
-            "AddToPlaylist, BookRestaurant, GetWeather, PlayMusic, RateBook, SearchCreativeWork, or SearchScreeningEvent. "
-            "Predict the most appropriate intent label for the input. Output only the intent label."
+            "Determine intent of the sentence using following options: AddToPlaylist, BookRestaurant, GetWeather, PlayMusic, RateBook, SearchCreativeWork, or SearchScreeningEvent."
         )
         self.labels = [
             "AddToPlaylist",

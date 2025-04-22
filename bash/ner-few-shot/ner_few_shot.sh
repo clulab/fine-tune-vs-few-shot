@@ -18,7 +18,7 @@ echo "Starting experiments"
 # Define experiment parameters
 LOCAL_MODEL_PATH="/media/networkdisk/bulut2/local-models"
 GEN_CONFIG_PATH="/home/bulut/fine-tune-vs-few-shot/gen_config.json"
-MODELS=("deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B" "meta-llama/Llama-3.2-3B-Instruct" "Qwen/Qwen2.5-3-Instruct") #  "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B" "meta-llama/Llama-3.2-3B-Instruct" "Qwen/Qwen2.5-3-Instruct" "Qwen/Qwen2.5-7B-Instruct" "Qwen/Qwen2.5-14B-Instruct" "Qwen/Qwen2.5-32B-Instruct"
+MODELS=("deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B" "meta-llama/Llama-3.2-3B-Instruct" "Qwen/Qwen2.5-3B-Instruct") #  "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B" "meta-llama/Llama-3.2-3B-Instruct" "Qwen/Qwen2.5-3B-Instruct" "Qwen/Qwen2.5-7B-Instruct" "Qwen/Qwen2.5-14B-Instruct" "Qwen/Qwen2.5-32B-Instruct"
 SOURCE_DATASETS=("cdr") # "ehealth"
 TARGET_DATASETS=("ehealth") # "ehealth"
 

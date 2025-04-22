@@ -1,11 +1,13 @@
 #!/bin/bash
 
+# Clear old jobs (if using PBS/qstat)
+qstat | awk 'NR>1 && ($1 ~ /^[rq]$/) && $5 == "bulut" {print $4}' | xargs -I {} qdel {}
+
 # Clear created directories
 rm -rf fewshot_pbs_files
 rm -rf output
 
-# Clear old jobs (if using PBS/qstat)
-qstat | awk 'NR>1 && ($1 ~ /^[rq]$/) && $5 == "bulut" {print $4}' | xargs -I {} qdel {}
+
 
 # Clear old job log files
 rm -rf job.*.stdout.txt
@@ -19,11 +21,14 @@ echo "Starting classification few-shot experiments"
 # Define experiment parameters
 LOCAL_MODEL_PATH="/media/networkdisk/bulut2/local-models"
 GEN_CONFIG_PATH="/home/bulut/fine-tune-vs-few-shot/gen_config.json"
-MODELS=("deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B" "meta-llama/Llama-3.2-3B-Instruct" "Qwen/Qwen2.5-3-Instruct")
+MODELS=("deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B" "meta-llama/Llama-3.2-3B-Instruct" "Qwen/Qwen2.5-3B-Instruct")
+# MODELS=("deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B" "meta-llama/Llama-3.2-3B-Instruct" "Qwen/Qwen2.5-3B-Instruct")
+
 # "ag_news" "snips"
 SOURCE_DATASETS=("ag_news")
 TARGET_DATASETS=("ag_news")
-FEW_SHOT_NS=(2 20 40 60 80 100 120 140 160 180 200)
+FEW_SHOT_NS=(4 20 40 60 80 100 120 140 160 180 200)
+# FEW_SHOT_NS=(7 20 40 60 80 100 120 140 160 180 200) for snips dataset
 EVAL_SET="test"
 RUN_N=5
 
