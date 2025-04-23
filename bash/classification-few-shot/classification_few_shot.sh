@@ -52,10 +52,11 @@ for i in $(seq 0 $((${#configs[@]} - 1))); do
         identifier="fewshot_$(date +%Y%m%d_%H%M%S)_config_${i}_run_${run_n}"
         read model source_dataset target_dataset few_shot <<< "${configs[$i]}"
         model_path="${model}"
+        model_name="${model##*/}"
         test_data_path="processed-data/${target_dataset}/${EVAL_SET}.jsonl"
         sample_path="processed-data/${source_dataset}/run_samples/train${run_n}_${few_shot}.json"
         prompt_data_path="processed-data/${source_dataset}/train.jsonl"
-        preds_path="output/classification/${source_dataset}_${target_dataset}/${model}_${run_n}_${few_shot}_shot"
+        preds_path="output/classification/${source_dataset}_${target_dataset}/${model_name}/${model_name}_${run_n}_${few_shot}_shot"
         # Create output directory if it doesn't exist, delete if it does
         if [ -d "$preds_path" ]; then
             rm -rf "$preds_path"
@@ -65,7 +66,7 @@ for i in $(seq 0 $((${#configs[@]} - 1))); do
         cat <<EOF > "fewshot_pbs_files/${identifier}.pbs"
 #!/bin/bash
 ### Job Name
-#PBS -N fewshot_${model}_${source_dataset}_${target_dataset}_${few_shot}_${EVAL_SET}_run${run_n}
+#PBS -N fewshot_${model_name}_${source_dataset}_${target_dataset}_${few_shot}_${EVAL_SET}_run${run_n}
 ### Project code
 #PBS -A classification_fewshot
 ### Maximum time this job can run before being killed (here, 1 day)

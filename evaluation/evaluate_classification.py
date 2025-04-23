@@ -79,6 +79,9 @@ if __name__ == "__main__":
                        help="Number of samples used for training or few shot")
     args = parser.parse_args()
     
+    # trim model name after the last /
+    args.model_name = args.model_name.split("/")[-1]
+    
     # read json file
     with open(args.generated_file, "r", encoding="utf-8") as f:
         data = json.load(f)
@@ -116,7 +119,7 @@ if __name__ == "__main__":
     for k, v in metrics['per_class_accuracy'].items():
         row[f'per_class_{k}'] = v
     row['accuracy'] = metrics['accuracy']
-    csv_file = 'output/scores.csv'
+    csv_file = f'output/{args.model_name}_{args.source_dataset}_{args.target_dataset}_all_run_scores.csv'
     # if file does not exist, write header
     write_header = not os.path.exists(csv_file)
     with open(csv_file, 'a', newline='', encoding='utf-8') as f:

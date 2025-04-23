@@ -1,28 +1,28 @@
 #!/bin/bash
 
-# clear created directories
+# Clear created directories
 rm -rf finetune_pbs_files
 rm -rf output
 rm -rf saved-models
-# clear old jobs
+# Clear old jobs
 qstat | awk 'NR>1 && ($1 ~ /^[rq]$/) && $5 == "bulut" {print $4}' | xargs -I {} qdel {}
 
-# clear old job log files that are stdout.txt and stderr.txt
+# Clear old job log files
 rm -rf job.*.stdout.txt
 rm -rf job.*.stderr.txt
 
-# create pbs file dir
+# Create pbs file dir
 mkdir -p finetune_pbs_files
 
-echo "Starting experiments"
+echo "Starting classification fine-tuning experiments"
 
 # Define experiment parameters
 LOCAL_MODEL_PATH="/media/networkdisk/bulut2/local-models"
 GEN_CONFIG_PATH="/home/bulut/fine-tune-vs-few-shot/gen_config.json"
-# MODELS=("deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B" "meta-llama/Llama-3.2-3B-Instruct" "Qwen/Qwen2.5-3B-Instruct")
 MODELS=("meta-llama/Llama-3.2-3B-Instruct" "Qwen/Qwen2.5-3B-Instruct")
-SOURCE_DATASETS=("cdr")
-TARGET_DATASETS=("cdr" "ehealth")
+#MODELS=("deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B" "meta-llama/Llama-3.2-3B-Instruct" "Qwen/Qwen2.5-3B-Instruct")
+SOURCE_DATASETS=("snips")
+TARGET_DATASETS=("snips")
 TRAIN_SET_NS=(20 40 60 80 100 120 140 160 180 200)
 EVAL_SET="test"
 RUN_N=5
@@ -51,9 +51,9 @@ for i in $(seq 0 $((${#configs[@]} - 1))); do
         test_data_path="processed-data/${target_dataset}/${EVAL_SET}.jsonl"
         sample_path="processed-data/${source_dataset}/run_samples/train${run_n}_${train_set_n}.json"
         prompt_data_path="processed-data/${source_dataset}/train.jsonl"
-        preds_path="output/ner/${source_dataset}_${target_dataset}/${model_name}/${model_name}_${run_n}_${train_set_n}_train_sample"
-        saved_adapter_path="saved-models/ner/${source_dataset}_${target_dataset}/${model_name}/${model_name}_${run_n}_${train_set_n}_train_sample"
-        # Create output directory if it doesn't exist, delete if it does
+        preds_path="output/classification/${source_dataset}_${target_dataset}/${model_name}/${model_name}_${run_n}_${train_set_n}_train_sample"
+        saved_adapter_path="saved-models/classification/${source_dataset}_${target_dataset}/${model_name}/${model_name}_${run_n}_${train_set_n}_train_sample"
+        # Create output directories
         if [ -d "$preds_path" ]; then
             rm -rf "$preds_path"
         fi
@@ -66,24 +66,18 @@ for i in $(seq 0 $((${#configs[@]} - 1))); do
         cat <<EOF > "finetune_pbs_files/${identifier}.pbs"
 #!/bin/bash
 ### Job Name
-#PBS -N finetune_${model}_${source_dataset}_${target_dataset}_${train_set_n}_${EVAL_SET}_run${run_n}
+#PBS -N finetune_${model_name}_${source_dataset}_${target_dataset}_${train_set_n}_${EVAL_SET}_run${run_n}
 ### Project code
-#PBS -A ner_fewshot
+#PBS -A classification_fewshot
 ### Maximum time this job can run before being killed (here, 1 day)
 #PBS -l walltime=01:00:00:00
-### Resource Request (must contain cpucore, memory, and gpu (even if requested amount is zero)
+### Resource Request
 #PBS -l cpucore=2:memory=50gb:gpu=1
-### Output Options (default is stdout_and_stderr)
-#PBS -l outputMode=stdout_and_stderr
-
 
 . /home/bulut/miniconda3/etc/profile.d/conda.sh
-
 conda activate ft-vs-icl
 
-
-
-### Run experiment
+### Run training
 CUDA_VISIBLE_DEVICES=\$CUDA_VISIBLE_DEVICES python experiments/train_llm_qlora.py \
     --model_name_or_path $model_path \
     --data_path $prompt_data_path \
@@ -107,16 +101,16 @@ CUDA_VISIBLE_DEVICES=\$CUDA_VISIBLE_DEVICES python experiments/train_llm_qlora.p
     
 ### Run inference
 CUDA_VISIBLE_DEVICES=\$CUDA_VISIBLE_DEVICES python experiments/run_vllm.py \
-            --ckpt_dir $model_path \
-            --tokenizer $model_path \
-            --test_data $test_data_path \
-            --gen_config_path $GEN_CONFIG_PATH \
-            --output_dir $preds_path/source_preds.json \
-            --enable_lora \
-            --lora_path $saved_adapter_path
+    --ckpt_dir $model_path \
+    --tokenizer $model_path \
+    --test_data $test_data_path \
+    --gen_config_path $GEN_CONFIG_PATH \
+    --output_dir $preds_path/source_preds.json \
+    --enable_lora \
+    --lora_path $saved_adapter_path
 
 ### Run evaluation
-CUDA_VISIBLE_DEVICES=\$CUDA_VISIBLE_DEVICES python evaluation/evaluate_ner.py \
+CUDA_VISIBLE_DEVICES=\$CUDA_VISIBLE_DEVICES python evaluation/evaluate_classification.py \
     --generated_file $preds_path/source_preds.json \
     --model_name $model \
     --eval_set $EVAL_SET \
@@ -130,7 +124,3 @@ EOF
         qsub "finetune_pbs_files/${identifier}.pbs"
     done
 done
-
-
-
-

@@ -99,6 +99,9 @@ if __name__ == "__main__":
     # read json file
     with open(args.generated_file, "r") as f:
         data = json.load(f)
+        
+    # trim model name after the last /
+    args.model_name = args.model_name.split("/")[-1]
     
     # evaluate
     metrics, predictions = calculate_scores(data)
@@ -121,7 +124,7 @@ if __name__ == "__main__":
     ]
 
     # Update CSV writing
-    csv_file = 'output/scores.csv'
+    csv_file = f'output/{args.model_name}_{args.source_dataset}_{args.target_dataset}_all_run_scores.csv'
     # if file does not exist, write header
     if not os.path.exists(csv_file):
         with open(csv_file, 'w', newline='') as f:

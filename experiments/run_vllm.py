@@ -5,6 +5,7 @@ import sys
 
 import transformers
 from vllm import LLM, SamplingParams
+from vllm.lora.request import LoRARequest
 
 logger = logging.getLogger(__name__)
 
@@ -34,7 +35,9 @@ def main():
     # Load the model
     model = LLM(
         model=args.ckpt_dir,
-        tensor_parallel_size=args.tensor_parallel_size, seed=42,
+        tensor_parallel_size=args.tensor_parallel_size, 
+        seed=42,
+        enable_lora=args.enable_lora,
     )
     
     if args.gen_config_path:
@@ -44,11 +47,20 @@ def main():
     else:
         sampling_params = SamplingParams(n=1, temperature=0, max_tokens=32)
 
+    # Setup LoRA request if needed
+    lora_request = None
+    if args.enable_lora and args.lora_path:
+        lora_request = LoRARequest(
+            "lora_adapter",  # default name
+            1,               # default ID
+            args.lora_path
+        )
+
     # Start the generation
     print("Prompt example")
     print(prompts[0])
     print("Generating...")
-    outputs = model.generate(prompts, sampling_params=sampling_params)
+    outputs = model.generate(prompts, sampling_params=sampling_params, lora_request=lora_request)
 
     # Prepare the results
     generated = []
@@ -81,5 +93,8 @@ if __name__ == "__main__":
     parser.add_argument("--output_dir",type=str)
     parser.add_argument("--gen_config_path",type=str, default=None)
     parser.add_argument("--tensor_parallel_size", type=int, default=1)
+    # LoRA related parameters
+    parser.add_argument("--enable_lora", action="store_true", help="Enable LoRA adapter")
+    parser.add_argument("--lora_path", type=str, default=None, help="Path to LoRA adapter")
     args = parser.parse_args()
     main()

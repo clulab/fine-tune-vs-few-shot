@@ -180,5 +180,6 @@ processed-data/
 fewshot_pbs_files/
 finetune_pbs_files/
 models.txt
+saved-models/
 
 
