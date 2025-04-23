@@ -20,12 +20,12 @@ echo "Starting experiments"
 LOCAL_MODEL_PATH="/media/networkdisk/bulut2/local-models"
 GEN_CONFIG_PATH="/home/bulut/fine-tune-vs-few-shot/gen_config.json"
 # MODELS=("deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B" "meta-llama/Llama-3.2-3B-Instruct" "Qwen/Qwen2.5-3B-Instruct")
-MODELS=("meta-llama/Llama-3.2-3B-Instruct" "Qwen/Qwen2.5-3B-Instruct")
+MODELS=("deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B")
 SOURCE_DATASETS=("cdr")
-TARGET_DATASETS=("cdr" "ehealth")
-TRAIN_SET_NS=(20 40 60 80 100 120 140 160 180 200)
-EVAL_SET="test"
-RUN_N=5
+TARGET_DATASETS=("cdr")
+TRAIN_SET_NS=(20)
+EVAL_SET="toy"
+RUN_N=1
 
 # Create array of all combinations
 declare -A configs

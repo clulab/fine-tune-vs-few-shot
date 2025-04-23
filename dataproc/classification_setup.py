@@ -127,6 +127,9 @@ def build_dataset(dataset_name: str):
     # Convert to IO samples
     train_samples = convert_to_io_samples(dataset.name, "train", dataset.data['train'], dataset.instruction)
     test_samples = convert_to_io_samples(dataset.name, "test", dataset.data['test'], dataset.instruction)
+    
+    # shuffle train_samples
+    random.shuffle(train_samples)
 
     # Save train.jsonl
     with open(f"{output_prefix}/train.jsonl", "w", encoding="utf-8") as f:

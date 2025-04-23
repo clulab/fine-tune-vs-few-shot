@@ -25,9 +25,9 @@ MODELS=("deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B" "meta-llama/Llama-3.2-3B-Ins
 # MODELS=("deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B" "meta-llama/Llama-3.2-3B-Instruct" "Qwen/Qwen2.5-3B-Instruct")
 
 # "ag_news" "snips"
-SOURCE_DATASETS=("ag_news")
-TARGET_DATASETS=("ag_news")
-FEW_SHOT_NS=(4 20 40 60 80 100 120 140 160 180 200)
+SOURCE_DATASETS=("snips")
+TARGET_DATASETS=("snips")
+FEW_SHOT_NS=(7 20 40 60 80 100 120 140 160 180 200)
 # FEW_SHOT_NS=(7 20 40 60 80 100 120 140 160 180 200) for snips dataset
 EVAL_SET="test"
 RUN_N=5
