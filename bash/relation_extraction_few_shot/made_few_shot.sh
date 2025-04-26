@@ -2,17 +2,16 @@
 
 export SOURCE=made
 export TARGET=n2c2
-export MODEL_NAME="meta-llama/Llama-3.2-3B"
+export MODEL_NAME="meta-llama/Llama-3.2-3B-Instruct"
 
-export CODE_HOME=/path/to/fine-tune-vs-few-shot/
-export HF_HOME=/path/to/cache/huggingface/
-export TRAIN_DATA=/path/to/${SOURCE}_train.jsonl
-export SRC_TEST_DATA=/path/to/${SOURCE}_toy.jsonl
-export TGT_TEST_DATA=/path/to/${TARGET}_toy.jsonl
-export MODEL_NAME=meta-llama/Llama-3.2-3B-Instruct
-export SAMPLE_DIR=/path/to/samples_dir/
-export OUTPUT_DIR=/path/to/output_dir/
-export NUM_GPUS=2
+export CODE_HOME=/path/to/code/
+export DATA_HOME=/path/to/data/
+export TRAIN_DATA=${DATA_HOME}/relation_extraction/${SOURCE}/${SOURCE}_train.jsonl
+export SRC_TEST_DATA=${DATA_HOME}/relation_extraction/${SOURCE}/${SOURCE}_toy.jsonl
+export TGT_TEST_DATA=${DATA_HOME}/relation_extraction/${TARGET}/${TARGET}_toy.jsonl
+export SAMPLE_DIR=${DATA_HOME}/relation_extraction/${SOURCE}/run_samples/
+export OUTPUT_DIR=${DATA_HOME}/relation_extraction/outputs/few_shot/
+export NUM_GPUS=1
 
 IFS='/' read -r -a array <<< "$MODEL_NAME"
 export MODEL_BASE_NAME=${array[1]}
@@ -30,10 +29,10 @@ printf "Number of GPUS: $NUM_GPUS\n"
 for RUN in {0..4}
 do
     # Loop through the values you want to test
-    for SHOT in 6 20 40 60 80 100 120 140 160 180 200
+    for SHOT in 7 20 40 60 80 100 120 140 160 180 200
     do
-        export SAMPLE=$SAMPLE_DIR/${SOURCE}_train_${RUN}_${NUM}.json
-        export PREDS_PATH=$OUTPUT_DIR/${MODEL_BASE_NAME}_${SOURCE}_${RUN}_${NUM}
+        export SAMPLE=$SAMPLE_DIR/${SOURCE}_train_${RUN}_${SHOT}.json
+        export PREDS_PATH=$OUTPUT_DIR/${MODEL_BASE_NAME}_${SOURCE}_${RUN}_${SHOT}
 
         # Ensure output directory exists
         if [ ! -d "$PREDS_PATH" ]; then
@@ -50,7 +49,7 @@ do
 
         # print the model name, prompt data path
         printf "\n\n*************************************************\n"
-        printf "Current run: %d\n" $NUM
+        printf "Current run: %d\n" $RUN
         printf "Current shot: %d\n" $SHOT
         printf "*************************************************\n"
 
@@ -60,7 +59,7 @@ do
         python $CODE_HOME/experiments/run_vllm_prompting.py \
             --ckpt_dir $MODEL_NAME \
             --tokenizer $MODEL_NAME \
-            --test_data $IN_TEST_DATA \
+            --test_data $SRC_TEST_DATA \
             --prompt_data $TRAIN_DATA \
             --sample $SAMPLE \
             --output_dir $PREDS_PATH/source_preds.json \
@@ -76,7 +75,7 @@ do
         python $CODE_HOME/experiments/run_vllm_prompting.py \
             --ckpt_dir $MODEL_NAME \
             --tokenizer $MODEL_NAME \
-            --test_data $IN_TEST_DATA \
+            --test_data $TGT_TEST_DATA \
             --prompt_data $TRAIN_DATA \
             --sample $SAMPLE \
             --output_dir $PREDS_PATH/target_preds.json \

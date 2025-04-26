@@ -4,10 +4,14 @@ from dataclasses import dataclass, field
 import json
 from typing import Dict, Optional, List, Any
 
+import torch
 from torch.utils.data import Dataset
 import transformers
-from transformers import Trainer, set_seed
+from transformers import Trainer, set_seed, BitsAndBytesConfig
 from transformers.trainer_pt_utils import LabelSmoother
+
+from peft import LoraConfig, get_peft_model
+
 
 IGNORE_TOKEN_ID = LabelSmoother.ignore_index
 
@@ -47,6 +51,7 @@ class SupervisedDataset(Dataset):
             src = self.tokenizer.apply_chat_template(src, add_generation_prompt=True, tokenize=False)
 
             tgt = f"{tgt}<|eot_id|><|start_header_id|>assistant<|end_header_id|>\n\n"
+
             self.src_seqs.append(src)
             self.tgt_seqs.append(tgt)
 
@@ -71,9 +76,10 @@ class SupervisedDataCollator(object):
 
     def __call__(self, features):
         prompts = []
+
         for feature in features:
             prompts.append(feature["src_seq"])
-
+            
         answers = []
         if "tgt_seq" in features[0]:
             for feature in features:
@@ -131,11 +137,20 @@ def train():
         cache_dir=training_args.cache_dir,
     )
 
+    # Set Quantization
+    nf4_config = BitsAndBytesConfig(
+       load_in_4bit=True,
+       bnb_4bit_quant_type="nf4",
+       bnb_4bit_use_double_quant=True,
+       bnb_4bit_compute_dtype=torch.bfloat16
+    )
+    
     # Load model and tokenizer
-    model = transformers.AutoModelForCausalLM.from_pretrained(
+    base_model = transformers.AutoModelForCausalLM.from_pretrained(
         model_args.model_name_or_path,
         config=config,
         cache_dir=training_args.cache_dir,
+        quantization_config=nf4_config
     )
     tokenizer = transformers.AutoTokenizer.from_pretrained(
         model_args.model_name_or_path,
@@ -148,6 +163,18 @@ def train():
     if tokenizer.pad_token is None:
         tokenizer.pad_token = tokenizer.eos_token
 
+    # Set LoRa
+    peft_parameters = LoraConfig(
+        r=16,
+        lora_alpha=32,
+        lora_dropout=0.05,
+        bias="none",
+        task_type="CAUSAL_LM"
+    )
+    base_model.enable_input_require_grads()
+    model = get_peft_model(base_model, peft_parameters)
+    model.print_trainable_parameters()
+        
     # Load data
     with open(data_args.data_path, "r") as f:
         if data_args.data_path.endswith(".jsonl"):
@@ -160,9 +187,10 @@ def train():
         with open(data_args.sample_path, "r") as f:
             sample = set(json.load(f))
         data = [i for i in data if i["id"] in sample]
-    src_seqs = [i["question"] for i in data]
+    src_seqs = [f"{i['instruction']}\n{i['question']}" for i in data]
     tgt_seqs = [i["gold_answer"] for i in data]
-
+    sd = SupervisedDataset(src_seqs, tgt_seqs, tokenizer)
+    
     # Start trainner
     trainer = Trainer(
         model=model,
@@ -174,6 +202,7 @@ def train():
             max_len=training_args.model_max_length,
         ),
     )
+
 
     trainer.train()
     logger.info("-" * 80)

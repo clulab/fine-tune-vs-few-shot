@@ -33,12 +33,11 @@ def main():
             sample = set(json.load(f))
         prompt_data = [i for i in prompt_data if i["id"] in sample]
     print(f"Number of prompt examples loaded: {len(prompt_data)}")
-
-
+        
     # prepare the few-shot examples
     few_shot_examples = []
     for example in prompt_data:
-        few_shot_example = f"{example['question']}{example['gold_answer']}"
+        few_shot_example = f"{example['question']}{example['gold_answer']}\n"
         few_shot_examples.append(few_shot_example)
     few_shot_examples = "\n".join(few_shot_examples)
 
@@ -49,16 +48,17 @@ def main():
 
     model_input_texts = []
     for example in test_data:
-        current_in = f"{few_shot_examples}\n{example['question']}"
+        current_in = f"{example['instruction']}\n{few_shot_examples}\n{example['question']}"
         # message = [{"role": "user", "content": current_in}]
         # prompt = tokenizer.apply_chat_template(message, add_generation_prompt=True, tokenize=False)
         model_input_texts.append(current_in)
 
     # Load the model
     model = LLM(
-        model=args.ckpt_dir, tensor_parallel_size=args.tensor_parallel_size, seed=42
+        model=args.ckpt_dir, tensor_parallel_size=args.tensor_parallel_size, seed=42,
+        max_model_len=32768
     )
-    sampling_params = SamplingParams(n=1, temperature=0, max_tokens=32, stop=["\n"])
+    sampling_params = SamplingParams(n=1, temperature=0, max_tokens=100, stop=["\n"])
 
     # Start the generation
     print("Model input example: ")

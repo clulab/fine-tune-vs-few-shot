@@ -5,6 +5,7 @@ import sys
 
 import transformers
 from vllm import LLM, SamplingParams
+from vllm.lora.request import LoRARequest
 
 logger = logging.getLogger(__name__)
 
@@ -26,24 +27,31 @@ def main():
 
     tokenizer = transformers.AutoTokenizer.from_pretrained(args.tokenizer)
     for example in test_data:
-        question = example["question"]
-        message = [{"role": "user", "content": question}]
-        prompt = tokenizer.apply_chat_template(message, add_generation_prompt=True, tokenize=False)
-        prompts.append(prompt)
-
+        question = f"{example['instruction']}\n{example['question']}"
+        # message = [{"role": "user", "content": question}]
+        # prompt = tokenizer.apply_chat_template(message, add_generation_prompt=True, tokenize=False)
+        prompts.append(question)
+        
     # Load the model
     model = LLM(
-        model=args.ckpt_dir,
+        model=args.base_model,
         tensor_parallel_size=args.tensor_parallel_size, seed=42,
+        max_model_len=1000,
+        max_num_seqs=50,
+        enable_lora=True,
+        trust_remote_code=True,
+        quantization="bitsandbytes",
+        enforce_eager=True
     )
-    sampling_params = SamplingParams(n=1, temperature=0, max_tokens=32)
-
+    sampling_params = SamplingParams(n=1, temperature=0, max_tokens=100, stop=["\n"])
+    
     # Start the generation
     print("Prompt example")
     print(prompts[0])
     print("Generating...")
-    outputs = model.generate(prompts, sampling_params=sampling_params)
-
+    outputs = model.generate(prompts, sampling_params=sampling_params,
+                             lora_request=LoRARequest("adapter", 1, args.ckpt_dir))
+    
     # Prepare the results
     generated = []
     request_ids = []
@@ -65,10 +73,11 @@ def main():
     print(sorted_generated[0])
     with open(args.output_dir, "w") as f:
         json.dump(test_data, f, ensure_ascii=False, indent=4)
-
+          
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
+    parser.add_argument("--base_model", type=str)
     parser.add_argument("--ckpt_dir", type=str)
     parser.add_argument("--tokenizer", type=str)
     parser.add_argument("--test_data",type=str)
