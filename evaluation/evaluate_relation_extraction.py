@@ -3,6 +3,9 @@ import json
 import os
 import csv
 
+
+TEMPLATE_RGX = re.compile(r"<\|.*")
+
 def update_source_preds(data, generated_file):
     # write to json file overwrite if exist
     os.makedirs(os.path.dirname(generated_file), exist_ok=True)
@@ -23,6 +26,7 @@ def evaluate(gold, pred):
 
 def post_process(predicted_answer, input_text):
     predicted_answer = predicted_answer.strip()
+    predicted_answer = TEMPLATE_RGX.sub('', predicted_answer)    
     if not predicted_answer.startswith("["):
         return []
     predicted_array = []
