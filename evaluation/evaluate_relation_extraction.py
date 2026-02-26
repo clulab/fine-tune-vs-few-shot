@@ -1,7 +1,8 @@
 import argparse
+import csv
 import json
 import os
-import csv
+import re
 
 
 TEMPLATE_RGX = re.compile(r"<\|.*")

@@ -176,6 +176,8 @@ job.*.stdout.txt
 job.*.stderr.txt
 output/
 raw-data/ner
+raw-data/n2c2/
+raw-data/made/
 processed-data/
 fewshot_pbs_files/
 finetune_pbs_files/
