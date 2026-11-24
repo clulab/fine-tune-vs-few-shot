@@ -1,0 +1,154 @@
+{
+  "causal/press/pool": {
+    "n": 847,
+    "labels": {
+      "Conditional causal": 119,
+      "Correlational": 305,
+      "Direct causal": 233,
+      "No claim": 190
+    },
+    "sha256": "e61a0d0a206466555c9267ea74af61b84f6564c72d0f23ab055ff40687d0aa94"
+  },
+  "causal/press/dev": {
+    "n": 150,
+    "labels": {
+      "Conditional causal": 22,
+      "Correlational": 48,
+      "Direct causal": 42,
+      "No claim": 38
+    },
+    "sha256": "a5d154bf6cf35a3584713e8769aa0f34c2d51e6447136b648108e44ffea83bfe"
+  },
+  "causal/press/test": {
+    "n": 1076,
+    "labels": {
+      "Conditional causal": 143,
+      "Correlational": 385,
+      "Direct causal": 292,
+      "No claim": 256
+    },
+    "sha256": "438b05ec70c5bd76c689a4027d671db840364cd02a4ad07123e775d83774a1a4"
+  },
+  "causal/pubmed/test": {
+    "n": 2061,
+    "labels": {
+      "Conditional causal": 150,
+      "Correlational": 670,
+      "Direct causal": 342,
+      "No claim": 899
+    },
+    "sha256": "64eb1e65f9038a6f2732c9ebec7260505f68443f5c5bfc6772a23a56d29adb54"
+  },
+  "negation/i2b2/pool": {
+    "n": 945,
+    "labels": {
+      "No": 778,
+      "Yes": 167
+    },
+    "sha256": "536beec0ff4a6b28aebd677acfc62bdea37e7f6c139b8723f259b275ef215401"
+  },
+  "negation/i2b2/dev": {
+    "n": 150,
+    "labels": {
+      "No": 117,
+      "Yes": 33
+    },
+    "sha256": "37a91c8ad1a7f1f36aa8a79f714be83fe178a26321d68a88f6123330764e0794"
+  },
+  "negation/i2b2/test": {
+    "n": 4436,
+    "labels": {
+      "No": 3531,
+      "Yes": 905
+    },
+    "sha256": "beaa66108056cf6d6599e080e51966e8f1dedc6f2a86958e501b1a68aca7078d"
+  },
+  "negation/mimic/test": {
+    "n": 7664,
+    "labels": {
+      "No": 6911,
+      "Yes": 753
+    },
+    "sha256": "940b888857ccfec967cdfde2e113a468eabbb70ee44a60f7c6d704c1a9486978"
+  },
+  "disease/cdr/pool": {
+    "n": 4698,
+    "labels": {
+      "empty": 2039,
+      "nonempty": 2659
+    },
+    "sha256": "5f1486e45ec2bf6a7802bd9dc8eb49dd0b611edce9628c80f6e49439deac3967"
+  },
+  "disease/cdr/dev": {
+    "n": 100,
+    "labels": {
+      "empty": 46,
+      "nonempty": 54
+    },
+    "sha256": "65a621f0514b0f36b49994a8b2b14ba28e88df2f4b19af009b9c434d938b707d"
+  },
+  "disease/cdr/test": {
+    "n": 4902,
+    "labels": {
+      "empty": 2057,
+      "nonempty": 2845
+    },
+    "sha256": "494805a6c260567de3e80ae6fd9deeb754aee91b4db13280158af4641051993f"
+  },
+  "disease/ehealth/test": {
+    "n": 7448,
+    "labels": {
+      "empty": 4639,
+      "nonempty": 2809
+    },
+    "sha256": "f8dd495e3455d2e17119a4ded0c0ac88058e86c6726e75b1271da93cb6489de7"
+  },
+  "ade/n2c2/pool": {
+    "n": 22281,
+    "labels": {
+      "empty": 18463,
+      "nonempty": 3818
+    },
+    "sha256": "4a4905945e8e4eb0a29284a30cf56b98a31ce28977423cdf3bcbaab945189d4d"
+  },
+  "ade/n2c2/dev": {
+    "n": 500,
+    "labels": {
+      "empty": 409,
+      "nonempty": 91
+    },
+    "sha256": "45dfbb4e9c6d27fb01fc936e3a5201719048ea4bb0cb7424fc136d07b85a3ea0"
+  },
+  "ade/n2c2/test": {
+    "n": 27963,
+    "labels": {
+      "empty": 23358,
+      "nonempty": 4605
+    },
+    "sha256": "68ffd4570747fb57418e430797d72f886b6914bdfd6f943c3725b3824a5963d4"
+  },
+  "ade/n2c2/test5k": {
+    "n": 5000,
+    "labels": {
+      "empty": 4172,
+      "nonempty": 828
+    },
+    "sha256": "ff691b63198ebcadb4f92d921625fae714539bf1d998bc4fd9359adce8a11372"
+  },
+  "ade/made/test": {
+    "n": 10175,
+    "labels": {
+      "empty": 9178,
+      "nonempty": 997
+    },
+    "sha256": "83143898708575a45e74c528e19b66b9ce38072543e167a85c7bed0468db85b7"
+  },
+  "ade/made/test5k": {
+    "n": 5000,
+    "labels": {
+      "empty": 4514,
+      "nonempty": 486
+    },
+    "sha256": "d54cb4474155bec95fade0d70b8313ab245497531171936f7bf1256ece256786"
+  }
+}

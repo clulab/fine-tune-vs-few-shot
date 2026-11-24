@@ -1,0 +1,27 @@
+# training recipes selected on dev
+llm:
+  lr: 2.0e-4
+  epochs: 10
+  batch_size: 2
+  warmup_ratio: 0.1
+  max_grad_norm: 1.0
+  weight_decay: 0.0
+  max_train_tokens: 4096
+  quantization: {type: nf4, double_quant: true, compute_dtype: bfloat16}
+  lora:
+    r: 16
+    alpha: 32
+    dropout: 0.05
+    target_modules: [q_proj, k_proj, v_proj, o_proj, gate_proj, up_proj, down_proj]
+
+qwen2.5-72b:
+  lr: 5.0e-5
+  sizes: [20, 40, 60, 80, 100, 200]
+
+encoder:
+  lr: 1.0e-4
+  epochs: 10
+  batch_size: 8
+  warmup_ratio: 0.1
+  weight_decay: 0.01
+  max_len: 1024

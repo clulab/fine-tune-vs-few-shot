@@ -1,0 +1,70 @@
+# task prompts and scoring settings
+prompt_version: 1
+fewshot_format: multiturn
+
+tasks:
+  causal:
+    kind: classification
+    source: press
+    target: pubmed
+    labels: [No claim, Correlational, Conditional causal, Direct causal]
+    min_set: one_per_label
+    metric: macro_f1
+    max_tokens: 16
+    instruction: |-
+      You are an expert classifier specialized in extracting causal relationships from text. You can accurately identify the type of causal relation in sentences.
+      Possible classification results include:
+      - Direct causal: A direct cause-effect relationship
+      - No claim: No causal claim is made
+      - Correlational: A correlation relationship, but not causation
+      - Conditional causal: A conditional causal relationship
+      Answer with only the label.
+
+  negation:
+    kind: classification
+    source: i2b2
+    target: mimic
+    labels: ["Yes", "No"]  # quote these so yaml reads them as strings
+    positive_label: "Yes"
+    min_set: one_per_label
+    metric: f1_positive
+    max_tokens: 8
+    instruction: |-
+      You are an expert in negation detection in natural language. Your task is to determine whether the event marked between <e> and </e> is negated in its surrounding context.
+      Answer Yes if the event is negated in context, or No if the event is not negated.
+      Answer with only Yes or No.
+
+  disease:
+    kind: ner
+    source: cdr
+    target: ehealth
+    min_set: one_with_one_without
+    metric: entity_f1
+    max_tokens: 256
+    instruction: |-
+      List the entities (single word or multi-word) that are diseases or disorders in the given input. Copy each entity exactly as it appears in the input.
+      Return a JSON list of strings, for example ["seizure", "AIDS"]. Return [] if there are no disease or disorder entities.
+
+  ade:
+    kind: relation
+    source: n2c2
+    target: made
+    relation_types: [DOSAGE, ROUTE, FREQUENCY, DURATION, ADE, REASON]
+    min_set: one_per_type_plus_empty
+    metric: triple_f1
+    max_tokens: 512
+    instruction: |-
+      List the relations between a drug and an entity in the given text. Use the following entity types:
+      DOSAGE: The specific amount of the drug administered to a patient.
+      ROUTE: The path by which a drug is taken into the body.
+      FREQUENCY: How often the drug is administered.
+      DURATION: The length of time a drug is administered.
+      ADE: Adverse Drug Event, a harmful or unintended effect resulting from the use of a drug.
+      REASON: The medical condition or diagnosis for which the drug is prescribed.
+      Return a JSON list of relations, where each relation is a list [drug, entity type, entity] with the drug and entity copied exactly from the text, for example [["Fosamax", "REASON", "osteoporosis"]]. Return [] if there are no relations.
+
+# example budgets after the minimum set
+grid:
+  n_samples: 5
+  sizes: [20, 40, 60, 80, 100, 120, 140, 160, 180, 200]
+  pool_draw: 200
