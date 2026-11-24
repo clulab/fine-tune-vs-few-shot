@@ -5,7 +5,8 @@ code and results for our jamia paper on medical tasks and domain adaptation. we 
 ## results
 
 - [main scores](results/04_main_experiments/main_scores.csv) has one row per model, task, method, example count, test split, and metric.
-- [results guide](results/README.md) links to the parsed predictions and run index for all 651 runs on each of the eurekalert and pubmed test sets.
+- [results guide](results/README.md) links to the plain csv files and run index for all 651 runs on each of the eurekalert and pubmed test sets.
+- [results.zip](results.zip) contains the full `results/` folder, including the guide and index.
 
 in the scores file, `score` is macro-f1 for causal classification, negated-class f1 for negation, and strict micro-f1 for the two extraction tasks. the extraction tasks also have a `lenient` score based on word overlap. `mean` and `sd_samples` summarize the training draws. `ci2_lo` and `ci2_hi` give the 95% percentile interval from 2,000 bootstrap replicates over test items and training draws. zero-shot resamples test items only.
 
