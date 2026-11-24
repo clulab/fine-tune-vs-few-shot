@@ -10,6 +10,12 @@ code and results for our jamia paper on medical tasks and domain adaptation. we 
 
 in the scores file, `score` is macro-f1 for causal classification, negated-class f1 for negation, and strict micro-f1 for the two extraction tasks. the extraction tasks also have a `lenient` score based on word overlap. `mean` and `sd_samples` summarize the training draws. `ci2_lo` and `ci2_hi` give the 95% percentile interval from 2,000 bootstrap replicates over test items and training draws. zero-shot resamples test items only.
 
+## prediction availability
+
+we share parsed, item-level predictions for two publicly available datasets, eurekalert press releases and pubmed causal claims. for the other datasets, we share aggregate scores. outputs for the clinical benchmarks can reproduce text from notes covered by the providers' data-use terms. bc5cdr is also publicly downloadable, and its predictions can contain verbatim spans from pubmed abstracts whose reuse terms vary.
+
+to reproduce predictions for another dataset, first obtain the data from the [original provider](#datasets-and-access) and follow its access and use terms. then follow the [data preparation guide](DATA.md) and the [rerun instructions](#rerunning-the-experiments).
+
 ## datasets and access
 
 | task | dataset | role | access | original source |

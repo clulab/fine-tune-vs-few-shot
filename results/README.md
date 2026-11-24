@@ -1,6 +1,6 @@
 # results
 
-start with [main scores](04_main_experiments/main_scores.csv) for the aggregate results across all four tasks. use [index.csv](index.csv) to find item-level causal predictions for the eurekalert and pubmed test sets. the two test sets have 1,076 and 2,061 items, respectively. [dataset sources](https://github.com/clulab/fine-tune-vs-few-shot/blob/main/README.md#datasets-and-access)
+start with [main scores](04_main_experiments/main_scores.csv) for the aggregate results across all four tasks. use [index.csv](index.csv) to find item-level causal predictions for the eurekalert and pubmed test sets. the two test sets have 1,076 and 2,061 items, respectively. [prediction availability and dataset access](https://github.com/clulab/fine-tune-vs-few-shot/blob/main/README.md#prediction-availability)
 
 ## layout
 
