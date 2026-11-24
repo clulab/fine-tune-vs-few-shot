@@ -4,15 +4,17 @@ start with [main scores](04_main_experiments/main_scores.csv) for the aggregate 
 
 ## layout
 
-the folder numbers follow the experiment phases in the generation archive. the scores, run index, and predictions are plain csv files. `results.zip` extracts to this same `results/` directory.
+the scores, run index, and predictions are plain csv files. `results.zip` extracts to this same `results/` directory.
 
 | folder | what it contains | causal runs per dataset |
 |---|---|---:|
-| [03_hyperparameter_selection](03_hyperparameter_selection/) | test runs from the initial qwen2.5-72b fine-tuning grid at learning rate 2e-4 | 15 |
+| [03_superseded_lr2e-4_qwen2.5-72b](03_superseded_lr2e-4_qwen2.5-72b/) | causal test predictions from the initial qwen2.5-72b fine-tuning grid at learning rate 2e-4 | 15 |
 | [04_main_experiments](04_main_experiments/) | aggregate scores for all tasks, plus causal predictions for the small llms, qwen2.5-72b, and the encoder | 585 |
 | [05_sensitivity_checks](05_sensitivity_checks/) | serving-weight checks and cross-cluster replications | 27 |
 | [06_medgemma_reasoning_probe](06_medgemma_reasoning_probe/) | parsed final answers from the gemma-3 and medgemma reasoning runs, with a separate stop-at-user-turn rescoring file | 24 |
 | **total** | | **651** |
+
+the main qwen2.5-72b fine-tuning runs use a learning rate of 5e-5, selected on the negation development set. the initial 2e-4 test predictions are included for reference.
 
 the reasoning runs used the same fixed subset of 1,000 items per dataset. all other indexed runs used the full test sets. the stop-at-user-turn file is a replacement row for an existing run.
 
@@ -33,7 +35,7 @@ each file contains one model and one test dataset. the llm files include zero-sh
 
 | experiment | eurekalert | pubmed |
 |---|---|---|
-| initial learning rate, qwen2.5-72b | [csv](03_hyperparameter_selection/qwen2.5-72b_initial_learning_rate/eurekalert.csv) | [csv](03_hyperparameter_selection/qwen2.5-72b_initial_learning_rate/pubmed.csv) |
+| superseded 2e-4 grid, qwen2.5-72b | [csv](03_superseded_lr2e-4_qwen2.5-72b/qwen2.5-72b_initial_learning_rate/eurekalert.csv) | [csv](03_superseded_lr2e-4_qwen2.5-72b/qwen2.5-72b_initial_learning_rate/pubmed.csv) |
 | serving weights, 3–4b llms | [csv](05_sensitivity_checks/serving_weights_small_llms/eurekalert.csv) | [csv](05_sensitivity_checks/serving_weights_small_llms/pubmed.csv) |
 | serving weights, qwen2.5-72b | [csv](05_sensitivity_checks/serving_weights_qwen2.5-72b/eurekalert.csv) | [csv](05_sensitivity_checks/serving_weights_qwen2.5-72b/pubmed.csv) |
 | prompting hardware check, qwen2.5-72b on aces | [csv](05_sensitivity_checks/cluster_check_qwen2.5-72b_aces_side/eurekalert.csv) | [csv](05_sensitivity_checks/cluster_check_qwen2.5-72b_aces_side/pubmed.csv) |

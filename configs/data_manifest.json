@@ -127,14 +127,6 @@
     },
     "sha256": "68ffd4570747fb57418e430797d72f886b6914bdfd6f943c3725b3824a5963d4"
   },
-  "ade/n2c2/test5k": {
-    "n": 5000,
-    "labels": {
-      "empty": 4172,
-      "nonempty": 828
-    },
-    "sha256": "ff691b63198ebcadb4f92d921625fae714539bf1d998bc4fd9359adce8a11372"
-  },
   "ade/made/test": {
     "n": 10175,
     "labels": {
@@ -142,13 +134,5 @@
       "nonempty": 997
     },
     "sha256": "83143898708575a45e74c528e19b66b9ce38072543e167a85c7bed0468db85b7"
-  },
-  "ade/made/test5k": {
-    "n": 5000,
-    "labels": {
-      "empty": 4514,
-      "nonempty": 486
-    },
-    "sha256": "d54cb4474155bec95fade0d70b8313ab245497531171936f7bf1256ece256786"
   }
 }

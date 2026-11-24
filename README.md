@@ -27,7 +27,7 @@ to reproduce predictions for another dataset, first obtain the data from the [or
 | disease mention detection | biocreative v cdr (bc5cdr) | source | public download | [corpus download](https://sourceforge.net/projects/bioc/files/CDR_Data.zip/download) |
 | disease mention detection | share/clef ehealth | target | credentialed access | [physionet, 2014 task 2](https://physionet.org/content/shareclefehealth2014task2/1.0/) |
 | ade relation extraction | n2c2 2018 ade and medication extraction | source | approval and data-use agreement | [harvard dbmi data portal](https://n2c2.dbmi.hms.harvard.edu/data-sets) |
-| ade relation extraction | made 1.0 | target | clinical corpus. current access route unverified | [challenge paper](https://pmc.ncbi.nlm.nih.gov/articles/PMC6860017/) |
+| ade relation extraction | made 1.0 | target | clinical corpus. current access route unverified | [challenge paper](https://pubmed.ncbi.nlm.nih.gov/30649735/) |
 
 the negation experiments use the [semeval 2021 task 10 resources](https://zenodo.org/records/5132956). check the original providers' terms before sharing source text.
 
@@ -75,3 +75,7 @@ this writes the aggregate scores under `$FTFS_OUT/scores/`.
 run the manifest command without filters to set up the full main test grid. qwen2.5-72b uses one gpu for training and nf4 preparation, then four gpus for inference with `--tp 4`. run the encoder with `python -m ftfs.gpu.encoder --specs "$SPEC"`.
 
 use `uv run python scripts/bootstrap_ci.py --B 2000` on completed runs for intervals and paired comparisons. use runs from the same hardware and software environment for direct comparisons. see the paper's supplement for the sensitivity analyses.
+
+## license
+
+the code is released under the [Apache License 2.0](LICENSE). see [dataset access](#datasets-and-access) for the original data sources.
