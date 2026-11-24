@@ -1,6 +1,6 @@
 # data preparation
 
-get the datasets from the [original providers](README.md#datasets-and-access) and follow their data-use terms. keep source data, prepared records, run specs, and raw outputs outside the repo. the [causal predictions](results/causal-predictions/README.md) contain parsed labels and scoring flags.
+get the datasets from the [original providers](README.md#datasets-and-access) and follow their data-use terms. keep source data, prepared records, run specs, and raw outputs outside the repo. the [causal predictions](results/README.md#main-prediction-files) contain parsed labels and scoring flags.
 
 ## prepared files
 
